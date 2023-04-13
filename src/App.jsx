@@ -1,8 +1,7 @@
 import { Box, Button, Container, IconButton, LinearProgress, Link, Slider, Stack, Typography } from '@mui/material'
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import { useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
-import { Download, Pause, Shuffle } from '@mui/icons-material';
+import { Download, PauseCircle, PlayCircle, Shuffle } from '@mui/icons-material';
 
 
 function App() {
@@ -35,21 +34,22 @@ function App() {
   }, [currentTime, duration])
 
   const downloadMp3 = (url) => {
-    fetch(url).then(response => response.blob()).then(blob => {
-      const blobUrl = window.URL.createObjectURL(new Blob([blob]))
-      const fileName = url.split('/').pop();
-      const aTag = document.createElement('a');
-      aTag.href = blobUrl;
-      aTag.setAttribute('download', fileName);
-      document.body.appendChild(aTag);
-      aTag.click();
-      aTag.remove();
-    })
+    fetch(url).then(response => response.blob())
+      .then(blob => {
+        const blobUrl = window.URL.createObjectURL(new Blob([blob]))
+        const fileName = url.split('/').pop();
+        const aTag = document.createElement('a');
+        aTag.href = blobUrl;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      })
   }
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.floor(Math.random() * 20) + 1)
+    setCount(Math.floor(Math.random() * 52) + 1)
   }
 
 
@@ -79,7 +79,7 @@ function App() {
         <Box mb={5}>
           {count > 0 &&
             <IconButton onClick={playButton}>
-              {isPlaying ? <Pause sx={{ fontSize: 50, color: '#fff' }} /> : <PlayArrowIcon sx={{ fontSize: 50, color: '#fff' }} />}
+              {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
             </IconButton>}
         </Box>
         <Box>
@@ -87,7 +87,7 @@ function App() {
         </Box>
         <Box mb={5}>
           <Stack className='artist' direction='row' spacing={3}>
-            {count === 0 ? <Button className='random-btn' color='inherit' variant='contained' size='medium' onClick={randomBtn} startIcon={<PlayArrowIcon />}>
+            {count === 0 ? <Button className='random-btn' color='inherit' variant='contained' size='medium' onClick={randomBtn} startIcon={<PlayCircle />}>
               iniciar
             </Button> :
               <>

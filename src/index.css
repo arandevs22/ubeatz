@@ -1,12 +1,7 @@
 html {
   background-color: #121212;
+  font-family: 'Poppins', sans-serif !important;
 }
-
-
-audio::-webkit-media-controls-enclosure {
-  background-color: #BB86FC !important;
-}
-
 
 .MuiContainer-root.main {
   text-align: center;
