@@ -672,6 +672,248 @@ const tracks = [
             }
         ]
     },
+    {
+        id: '53',
+        title: 'A La Antigüita',
+        URL: 'https://aranstorage.blob.core.windows.net/music/A%20La%20Antig%C3%BCita.mp3',
+        artists: [
+            {
+                name: 'Calibre 50'
+            }
+        ]
+    },
+    {
+        id: '54',
+        title: 'AMG',
+        URL: 'https://aranstorage.blob.core.windows.net/music/AMG.mp3',
+        artists: [
+            {
+                name: 'Natanael Cano'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '55',
+        title: 'As It Was',
+        URL: 'https://aranstorage.blob.core.windows.net/music/As%20It%20Was.mp3',
+        artists: [
+            {
+                name: 'Harry Styles'
+            }
+        ]
+    },
+    {
+        id: '56',
+        title: 'Bebe Dame',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Bebe%20Dame.mp3',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '57',
+        title: 'Billete Grande',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Billete%20Grande.mp3',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Edgardo Nuñez'
+            }
+        ]
+    },
+    {
+        id: '58',
+        title: 'El Azul',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Azul.mp3',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '59',
+        title: 'Botella Tras Botella',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Botella%20Tras%20Botella.mp3',
+        artists: [
+            {
+                name: 'Gera Mx'
+            },
+            {
+                name: 'Christian Nodal'
+            }
+        ]
+    },
+    {
+        id: '60',
+        title: 'Ch y la Pizza',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ch%20y%20la%20Pizza.mp3',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Natanael Cano'
+            }
+        ]
+    },
+    {
+        id: '61',
+        title: 'Chale',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Chale.mp3',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '62',
+        title: 'COLOGNE',
+        URL: 'https://aranstorage.blob.core.windows.net/music/COLOGNE.mp3',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+            {
+                name: 'Ovi'
+            }
+        ]
+    },
+    {
+        id: '63',
+        title: 'Efecto',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Efecto.mp3',
+        artists: [
+            {
+                name: 'Bad Bunny'
+            },
+        ]
+    },
+    {
+        id: '64',
+        title: 'El Gavilán',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Gavil%C3%A1n.mp3',
+        artists: [
+            {
+                name: 'Luis R Conriquez'
+            },
+            {
+                name: 'Tony Aguirre'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '65',
+        title: 'El Hijo Mayor',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Hijo%20Mayor.mp3',
+        artists: [
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
+    {
+        id: '66',
+        title: 'El Rescate',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Rescate.mp3',
+        artists: [
+            {
+                name: 'Grupo Marca Registrada'
+            },
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
+    {
+        id: '67',
+        title: 'El Tóxico',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20T%C3%B3xico.mp3',
+        artists: [
+            {
+                name: 'Grupo Firme'
+            },
+            {
+                name: 'Carin Leon'
+            }
+        ]
+    },
+    {
+        id: '68',
+        title: 'Fin de Semana',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Fin%20de%20Semana.mp3',
+        artists: [
+            {
+                name: 'Óscar Maydon'
+            },
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
+    {
+        id: '69',
+        title: 'Flowers',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Flowers.mp3',
+        artists: [
+            {
+                name: 'Miley Cyrus'
+            }
+        ]
+    },
+    {
+        id: '70',
+        title: 'Gatita',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Gatita.mp3',
+        artists: [
+            {
+                name: 'Bellakath'
+            }
+        ]
+    },
+    {
+        id: '71',
+        title: 'JGL',
+        URL: 'https://aranstorage.blob.core.windows.net/music/JGL.mp3',
+        artists: [
+            {
+                name: 'La Adictiva'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '72',
+        title: 'La Jumpa',
+        URL: 'https://aranstorage.blob.core.windows.net/music/La%20Jumpa.mp3',
+        artists: [
+            {
+                name: 'Arcangel'
+            },
+            {
+                name: 'Bad Bunny'
+            }
+        ]
+    },
 ]
 
 export default tracks;
