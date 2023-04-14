@@ -26,12 +26,26 @@ html {
   font-weight: 600;
 }
 
+.MuiTypography-root.logo-name {
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
 .MuiPaper-root.controls {
-  background-color: #232323;
+  background-color: #121212;
   border-radius: 10px;
+}
+
+.MuiPaper-root.MuiAppBar-root {
+  background-color: #121212 !important;
+  padding: 10px;
 }
 
 .cover {
   width: 100%;
   border-radius: 16px;
+}
+
+.logo {
+  width: 35px;
 }
