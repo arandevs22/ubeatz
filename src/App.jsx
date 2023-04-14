@@ -58,7 +58,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.floor(Math.random() * 72) + 1)
+    setCount(Math.floor(Math.random() * 151) + 1)
   }
 
   return (
@@ -118,7 +118,7 @@ function App() {
           </Box>
         </Paper>
 
-        <Box mt={20}>
+        <Box mt={12}>
           <Stack className='artist' direction='row' spacing={3}>
             {count === 0 &&
               <Button className='random-btn' color='inherit' variant='contained' size='large' onClick={randomBtn} startIcon={<Shuffle />}>

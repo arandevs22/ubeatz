@@ -914,6 +914,952 @@ const tracks = [
             }
         ]
     },
+    {
+        id: '73',
+        title: 'Los Botones Azules',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Los%20Botones%20Azules.mp3',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '74',
+        title: 'Neverita',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Neverita.mp3',
+        artists: [
+            {
+                name: 'Bad Bunny'
+            }
+        ]
+    },
+    {
+        id: '75',
+        title: 'No Se Va (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/No%20Se%20Va%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '76',
+        title: 'Ojos Marrones',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ojos%20Marrones.mp3',
+        artists: [
+            {
+                name: 'Lasso'
+            }
+        ]
+    },
+    {
+        id: '77',
+        title: 'Party',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Party.mp3',
+        artists: [
+            {
+                name: 'Bad Bunny'
+            },
+            {
+                name: 'Rauw Alejandro'
+            }
+        ]
+    },
+    {
+        id: '78',
+        title: 'Qué Agonía',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Qu%C3%A9%20Agon%C3%ADa.mp3',
+        artists: [
+            {
+                name: 'Yuridia'
+            },
+            {
+                name: 'Angela Aguilar'
+            }
+        ]
+    },
+    {
+        id: '79',
+        title: 'Que Vuelvas',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Que%20Vuelvas.mp3',
+        artists: [
+            {
+                name: 'Carin Leon'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '80',
+        title: 'Si Fuera Fácil',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Si%20Fuera%20F%C3%A1cil.mp3',
+        artists: [
+            {
+                name: 'Grupo Marca Registrada'
+            }
+        ]
+    },
+    {
+        id: '81',
+        title: 'Si Te Pudiera Mentir',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Si%20Te%20Pudiera%20Mentir.mp3',
+        artists: [
+            {
+                name: 'Calibre 50'
+            }
+        ]
+    },
+    {
+        id: '82',
+        title: 'Siempre Pendientes',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Siempre%20Pendientes.mp3',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '83',
+        title: 'Ya No Somos Ni Seremos',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ya%20No%20Somos%20Ni%20Seremos.mp3',
+        artists: [
+            {
+                name: 'Christian Nodal'
+            }
+        ]
+    },
+    {
+        id: '84',
+        title: 'Peaches',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Peaches.mp3',
+        artists: [
+            {
+                name: 'Jack Black'
+            }
+        ]
+    },
+    {
+        id: '85',
+        title: '¿Cómo Se Supera?',
+        URL: 'https://aranstorage.blob.core.windows.net/music/%C2%BFC%C3%B3mo%20Se%20Supera_.mp3',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            },
+            {
+                name: 'MC Davo'
+            }
+        ]
+    },
+    {
+        id: '86',
+        title: 'A Mí Me Gustas Tú',
+        URL: 'https://aranstorage.blob.core.windows.net/music/A%20M%C3%AD%20Me%20Gustas%20T%C3%BA.mp3',
+        artists: [
+            {
+                name: 'Los Rojos'
+            },
+            {
+                name: 'Duelo'
+            },
+            {
+                name: 'Oscar Iván Treviño'
+            }
+        ]
+    },
+    {
+        id: '87',
+        title: 'Ando Enfocado',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ando%20Enfocado.mp3',
+        artists: [
+            {
+                name: 'Jaziel Aviléz'
+            },
+            {
+                name: 'codiciado'
+            },
+            {
+                name: 'Oscar Iván Treviño'
+            }
+        ]
+    },
+    {
+        id: '88',
+        title: 'Asi Me Encula',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Asi%20Me%20Encula.mp3',
+        artists: [
+            {
+                name: 'Sandro Malandro'
+            }
+        ]
+    },
+    {
+        id: '89',
+        title: 'Bélico y Cholo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/B%C3%A9lico%20y%20Cholo.mp3',
+        artists: [
+            {
+                name: 'Sebastian Esquivel'
+            },
+            {
+                name: 'Yerai R'
+            }
+        ]
+    },
+    {
+        id: '90',
+        title: 'Calidad',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Calidad.mp3',
+        artists: [
+            {
+                name: 'Grupo Firme'
+            },
+            {
+                name: 'Luis Mexia'
+            }
+        ]
+    },
+    {
+        id: '91',
+        title: 'Chanel',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Chanel.mp3',
+        artists: [
+            {
+                name: 'Becky G'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '92',
+        title: 'Chorumbo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Chorumbo.mp3',
+        artists: [
+            {
+                name: 'Edicion Especial'
+            },
+            {
+                name: 'Hans el Oso'
+            }
+        ]
+    },
+    {
+        id: '93',
+        title: 'Consejos Gratis',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Consejos%20Gratis.mp3',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '94',
+        title: 'Dame un Beso y Dime Adios (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Dame%20un%20Beso%20y%20Dime%20Adios%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Carin Leon'
+            },
+            {
+                name: 'Grupo Yndio'
+            }
+        ]
+    },
+    {
+        id: '95',
+        title: 'Dame Un Chance (La Cumbia Bélica)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Dame%20Un%20Chance%20(La%20Cumbia%20B%C3%A9lica).mp3',
+        artists: [
+            {
+                name: 'Luis R Conriquez'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '96',
+        title: 'Desvelado',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Desvelado.mp3',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            }
+        ]
+    },
+    {
+        id: '97',
+        title: 'Di Que Si',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Di%20Que%20Si.mp3',
+        artists: [
+            {
+                name: 'Grupo Marca Registrada'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '98',
+        title: 'Dijeron Que No La Iba Lograr',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Dijeron%20Que%20No%20La%20Iba%20Lograr.mp3',
+        artists: [
+            {
+                name: 'Chinos Pacas'
+            },
+            {
+                name: 'Fuerza Regida'
+            }
+        ]
+    },
+    {
+        id: '99',
+        title: 'Don Chon',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Don%20Chon.mp3',
+        artists: [
+            {
+                name: 'Juanpa Salazar'
+            },
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Natanael Cano'
+            }
+        ]
+    },
+    {
+        id: '100',
+        title: 'El Deportivo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Deportivo.mp3',
+        artists: [
+            {
+                name: 'Enigma Norteño'
+            },
+            {
+                name: 'Fuerza Regida'
+            }
+        ]
+    },
+    {
+        id: '101',
+        title: 'El lugar correcto',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20lugar%20correcto.mp3',
+        artists: [
+            {
+                name: 'Natalia Lafourcade'
+            }
+        ]
+    },
+    {
+        id: '102',
+        title: 'Ella Baila Sola',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ella%20Baila%20Sola.mp3',
+        artists: [
+            {
+                name: 'Eslabon Armado'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '103',
+        title: 'En Paris',
+        URL: 'https://aranstorage.blob.core.windows.net/music/En%20Paris.mp3',
+        artists: [
+            {
+                name: 'El Chachito'
+            },
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
+    {
+        id: '104',
+        title: 'Eres Ese Algo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Eres%20Ese%20Algo.mp3',
+        artists: [
+            {
+                name: 'La Maquinaria Norteña'
+            }
+        ]
+    },
+    {
+        id: '105',
+        title: 'Fuentes De Ortiz',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Fuentes%20De%20Ortiz.mp3',
+        artists: [
+            {
+                name: 'Julión Alvarez'
+            }
+        ]
+    },
+    {
+        id: '106',
+        title: 'Gente Corriente',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Gente%20Corriente.mp3',
+        artists: [
+            {
+                name: 'La Adictiva'
+            }
+        ]
+    },
+    {
+        id: '107',
+        title: 'Hoy la Vi Con Él (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Hoy%20la%20Vi%20Con%20%C3%89l%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Virlán García'
+            }
+        ]
+    },
+    {
+        id: '108',
+        title: 'Inexperto En Olvidarte',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Inexperto%20En%20Olvidarte.mp3',
+        artists: [
+            {
+                name: 'Alejandro Fernandez'
+            }
+        ]
+    },
+    {
+        id: '109',
+        title: 'Infieles',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Infieles.mp3',
+        artists: [
+            {
+                name: 'Kim Loaiza'
+            }
+        ]
+    },
+    {
+        id: '110',
+        title: 'La Bebe (Remix)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/La%20Bebe%20(Remix).mp3',
+        artists: [
+            {
+                name: 'Yng Lvcas'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '111',
+        title: 'La Bolsa Gucci',
+        URL: 'https://aranstorage.blob.core.windows.net/music/La%20Bolsa%20Gucci.mp3',
+        artists: [
+            {
+                name: 'Miguel Cornejo'
+            },
+            {
+                name: 'Gabito Ballesteros'
+            }
+        ]
+    },
+    {
+        id: '112',
+        title: 'La Niña del Volcán (Polocorp Remix)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/La%20Ni%C3%B1a%20del%20Volc%C3%A1n%20(Polocorp%20Remix).mp3',
+        artists: [
+            {
+                name: 'YoSoyMatt'
+            },
+            {
+                name: 'Polocorp'
+            },
+            {
+                name: 'Eva de Marce'
+            }
+        ]
+    },
+    {
+        id: '113',
+        title: 'La Octava Maravilla (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/La%20Octava%20Maravilla%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Alfredo Montaño'
+            }
+        ]
+    },
+    {
+        id: '114',
+        title: 'LUNA',
+        URL: 'https://aranstorage.blob.core.windows.net/music/LUNA.mp3',
+        artists: [
+            {
+                name: 'Jd Pantoja'
+            },
+            {
+                name: 'Kim Loaiza'
+            }
+        ]
+    },
+    {
+        id: '115',
+        title: 'Malas Decisiones',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Malas%20Decisiones.mp3',
+        artists: [
+            {
+                name: 'Kenia Os'
+            }
+        ]
+    },
+    {
+        id: '116',
+        title: 'Mamita Santa',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Mamita%20Santa.mp3',
+        artists: [
+            {
+                name: 'Porter'
+            },
+            {
+                name: 'Ximena Sarinana'
+            }
+        ]
+    },
+    {
+        id: '117',
+        title: 'Máscara de Niña',
+        URL: 'https://aranstorage.blob.core.windows.net/music/M%C3%A1scara%20de%20Ni%C3%B1a.mp3',
+        artists: [
+            {
+                name: 'Valgur'
+            }
+        ]
+    },
+    {
+        id: '118',
+        title: 'Me Dejé Ir Con Todo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Me%20Dej%C3%A9%20Ir%20Con%20Todo.mp3',
+        artists: [
+            {
+                name: 'Banda MS de Sergio Lizárraga'
+            }
+        ]
+    },
+    {
+        id: '119',
+        title: 'Mientes Tan Bien',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Mientes%20Tan%20Bien.mp3',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '120',
+        title: 'Mil Maneras De Morir',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Mil%20Maneras%20De%20Morir.mp3',
+        artists: [
+            {
+                name: 'Carin Leon'
+            },
+            {
+                name: 'Kakalo'
+            }
+        ]
+    },
+    {
+        id: '121',
+        title: 'No Es Por Acá',
+        URL: 'https://aranstorage.blob.core.windows.net/music/No%20Es%20Por%20Ac%C3%A1.mp3',
+        artists: [
+            {
+                name: 'Carin Leon'
+            }
+        ]
+    },
+    {
+        id: '122',
+        title: 'No Se Vuelve A Repetir',
+        URL: 'https://aranstorage.blob.core.windows.net/music/No%20Se%20Vuelve%20A%20Repetir.mp3',
+        artists: [
+            {
+                name: 'Intocable'
+            }
+        ]
+    },
+    {
+        id: '123',
+        title: 'Nunca Tristes (Me Vale Madre)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Nunca%20Tristes%20(Me%20Vale%20Madre).mp3',
+        artists: [
+            {
+                name: 'RENEE'
+            }
+        ]
+    },
+    {
+        id: '124',
+        title: 'Para No Verte Más',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Para%20No%20Verte%20M%C3%A1s.mp3',
+        artists: [
+            {
+                name: 'Thalia'
+            },
+            {
+                name: 'Kenia Os'
+            }
+        ]
+    },
+    {
+        id: '125',
+        title: 'Pedazo De Tonto',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Pedazo%20De%20Tonto.mp3',
+        artists: [
+            {
+                name: 'Carin Leon'
+            },
+            {
+                name: 'Luis Mexia'
+            }
+        ]
+    },
+    {
+        id: '126',
+        title: 'Por Clave Caiman',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Por%20Clave%20Caiman.mp3',
+        artists: [
+            {
+                name: 'LEGADO 7'
+            },
+            {
+                name: 'Tomas Ballardo'
+            }
+        ]
+    },
+    {
+        id: '127',
+        title: 'Por el Resto de Tu Vida',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Por%20el%20Resto%20de%20Tu%20Vida.mp3',
+        artists: [
+            {
+                name: 'Christian Nodal'
+            },
+            {
+                name: 'TINI'
+            }
+        ]
+    },
+    {
+        id: '128',
+        title: 'Por las Noches (Remix)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Por%20las%20Noches%20(Remix).mp3',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+            {
+                name: 'Nicki Nicole'
+            }
+        ]
+    },
+    {
+        id: '129',
+        title: 'PRC',
+        URL: 'https://aranstorage.blob.core.windows.net/music/PRC.mp3',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+            {
+                name: 'Natanael Cano'
+            }
+        ]
+    },
+    {
+        id: '130',
+        title: 'Puro Campeón',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Puro%20Campe%C3%B3n.mp3',
+        artists: [
+            {
+                name: 'Grupo Marca Registrada'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '131',
+        title: 'Qué Onda Perdida',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Qu%C3%A9%20Onda%20Perdida.mp3',
+        artists: [
+            {
+                name: 'Gerardo Coronel'
+            }
+        ]
+    },
+    {
+        id: '132',
+        title: 'S.H.E.A',
+        URL: 'https://aranstorage.blob.core.windows.net/music/S.H.E.A.mp3',
+        artists: [
+            {
+                name: 'RBD'
+            }
+        ]
+    },
+    {
+        id: '133',
+        title: 'sanvalentín:(',
+        URL: 'https://aranstorage.blob.core.windows.net/music/sanvalent%C3%ADn_(.mp3',
+        artists: [
+            {
+                name: 'Humbe'
+            }
+        ]
+    },
+    {
+        id: '134',
+        title: 'Se Me Soltó El Hocico',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Se%20Me%20Solt%C3%B3%20El%20Hocico.mp3',
+        artists: [
+            {
+                name: 'Los Dos Carnales'
+            }
+        ]
+    },
+    {
+        id: '135',
+        title: 'Shorty Party',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Shorty%20Party.mp3',
+        artists: [
+            {
+                name: 'Cartel De Santa'
+            },
+            {
+                name: 'La Kelly'
+            }
+        ]
+    },
+    {
+        id: '136',
+        title: 'Sin Rencores',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Sin%20Rencores.mp3',
+        artists: [
+            {
+                name: 'Marca MP'
+            },
+            {
+                name: 'Marca Registrada'
+            }
+        ]
+    },
+    {
+        id: '137',
+        title: 'Sincerándome',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Sincer%C3%A1ndome.mp3',
+        artists: [
+            {
+                name: 'Carlos Rivera'
+            }
+        ]
+    },
+    {
+        id: '138',
+        title: 'Sobran Motivos',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Sobran%20Motivos.mp3',
+        artists: [
+            {
+                name: 'Conjunto Rienda Real'
+            },
+            {
+                name: 'La Pocima Norteña'
+            }
+        ]
+    },
+    {
+        id: '139',
+        title: 'Solita (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Solita%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Lenin Ramírez'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '140',
+        title: 'Te Amo',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Te%20Amo.mp3',
+        artists: [
+            {
+                name: 'Edgardo Nunez'
+            }
+        ]
+    },
+    {
+        id: '141',
+        title: 'Te Invito a Ser Feliz',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Te%20Invito%20a%20Ser%20Feliz.mp3',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '142',
+        title: 'Te Vale Madre',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Te%20Vale%20Madre.mp3',
+        artists: [
+            {
+                name: 'Matisse'
+            },
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '143',
+        title: 'Tronando Ligas',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Tronando%20Ligas.mp3',
+        artists: [
+            {
+                name: 'Grupo Firme'
+            },
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
+    {
+        id: '144',
+        title: 'Tu Me Enseñaste',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Tu%20Me%20Ense%C3%B1aste.mp3',
+        artists: [
+            {
+                name: 'Grupo Marca Registrada'
+            },
+            {
+                name: 'Edén Muñoz'
+            }
+        ]
+    },
+    {
+        id: '145',
+        title: 'Tú y Tú',
+        URL: 'https://aranstorage.blob.core.windows.net/music/T%C3%BA%20y%20T%C3%BA.mp3',
+        artists: [
+            {
+                name: 'Los Angeles Azules'
+            },
+            {
+                name: 'Cazzu'
+            },
+            {
+                name: 'Santa Fe Klan'
+            }
+        ]
+    },
+    {
+        id: '146',
+        title: 'Un Amor Como Este',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Un%20Amor%20Como%20Este.mp3',
+        artists: [
+            {
+                name: 'Grupo Firme'
+            },
+            {
+                name: 'Luis R Conriquez'
+            }
+        ]
+    },
+    {
+        id: '147',
+        title: 'Un Chingo de Tequila',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Un%20Chingo%20de%20Tequila.mp3',
+        artists: [
+            {
+                name: 'Banda MS'
+            },
+            {
+                name: 'Mario Domm'
+            }
+        ]
+    },
+    {
+        id: '148',
+        title: 'Un Viaje a Todas Partes',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Un%20Viaje%20a%20Todas%20Partes.mp3',
+        artists: [
+            {
+                name: 'Carlos Rivera'
+            },
+            {
+                name: 'Melissa Robles'
+            }
+        ]
+    },
+    {
+        id: '149',
+        title: 'Una 45',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Una%2045.mp3',
+        artists: [
+            {
+                name: 'Dan Sanchez'
+            },
+            {
+                name: 'Natanael Cano'
+            }
+        ]
+    },
+    {
+        id: '150',
+        title: 'Uno mas Uno Igual a Zero',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Uno%20mas%20Uno%20Igual%20a%20Zero.mp3',
+        artists: [
+            {
+                name: 'Abraham Vazquez'
+            },
+            {
+                name: 'Tony Aguirre'
+            }
+        ]
+    },
+    {
+        id: '151',
+        title: 'Ya Corazón',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Ya%20Coraz%C3%B3n.mp3',
+        artists: [
+            {
+                name: 'Gabito Ballesteros'
+            },
+            {
+                name: 'Junior H'
+            }
+        ]
+    },
 ]
 
 export default tracks;
