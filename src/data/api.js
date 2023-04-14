@@ -1,1 +1,0 @@
-const SECRET_KEY = '444016d74da84ed4b05580977e0fb35f'

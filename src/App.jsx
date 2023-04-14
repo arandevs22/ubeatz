@@ -59,7 +59,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.floor(Math.random() * 151) + 1)
+    setCount(Math.ceil(Math.random() * tracks.length))
   }
 
   return (
