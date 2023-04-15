@@ -65,16 +65,16 @@ function App() {
   return (
     <div className="App">
       <Container className='main'>
-        <Box mt={3} sx={{ display: 'flex', justifyContent: 'space-between' }} >
+        {/* <Box mt={3} sx={{ display: 'flex', justifyContent: 'space-between' }} >
           <Typography className='logo-name' variant='h5' color="#fff">
             Ubeatz
           </Typography>
           <img className="logo" src="../logo.svg" alt="logo" />
-        </Box>
+        </Box> */}
 
         <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} />
 
-        <Box mt={3} mb={3}>
+        <Box mt={5} mb={3}>
           <img className='cover' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} alt={`cover ${count}`} />
         </Box>
 
@@ -125,7 +125,7 @@ function App() {
           </Box>
         </Paper>
 
-        <Box mt={12}>
+        <Box mt={8}>
           <Stack className='artist' direction='row' spacing={3}>
             {count === 0 &&
               <Button className='random-btn' color='inherit' variant='contained' size='large' onClick={randomBtn} startIcon={<Shuffle />}>
