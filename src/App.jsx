@@ -29,6 +29,11 @@ function App() {
     }
   }
 
+  const randomBtn = () => {
+    setPlaying(true)
+    setCount(Math.ceil(Math.random() * 25))
+  }
+
   useEffect(() => {
     setProgress(duration > 0 ? (currentTime / duration) * 100 : 0)
   }, [currentTime, duration])
@@ -58,28 +63,22 @@ function App() {
   }
 
 
-  const randomBtn = () => {
-    setPlaying(true)
-    setCount(Math.ceil(Math.random() * tracks.length))
-  }
 
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
+
+    document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
+
   })
 
+
   return (
-    <div className="App">
+    <div>
       <Container className='main'>
-        {/* <Box mt={3} sx={{ display: 'flex', justifyContent: 'space-between' }} >
-          <Typography className='logo-name' variant='h5' color="#fff">
-            Ubeatz
-          </Typography>
-          <img className="logo" src="../logo.svg" alt="logo" />
-        </Box> */}
 
         <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} />
 
-        <Box mt={5} mb={3}>
+        <Box sx={{ paddingTop: 3 }} mb={3}>
           <img className='cover' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} alt={`cover ${count}`} />
         </Box>
 
@@ -112,33 +111,29 @@ function App() {
           </Box>
         }
 
-        <Paper className='controls' elevation={3}>
-          <Box mt={5} >
-            {count > 0 &&
-              <Stack className="artist" direction="row" spacing={3}>
-                <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
-                  <Download sx={{ fontSize: 40, color: '#fff' }} />
-                </IconButton>
-                <IconButton onClick={playButton}>
-                  {isPlaying ? <PauseCircle sx={{ fontSize: 85, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 85, color: '#fff' }} />}
-                </IconButton>
-                <IconButton onClick={randomBtn}>
-                  <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
-                </IconButton>
-              </Stack>
-            }
-          </Box>
-        </Paper>
-
-        <Box mt={8}>
-          <Stack className='artist' direction='row' spacing={3}>
-            {count === 0 &&
+        {count === 0 ?
+          <Box mt={8}>
+            <Stack className='artist' direction='row' spacing={3}>
               <Button className='random-btn' color='inherit' variant='contained' size='large' onClick={randomBtn} startIcon={<Shuffle />}>
                 iniciar
               </Button>
-            }
-          </Stack>
-        </Box>
+            </Stack>
+          </Box> :
+          <Box mt={5} mb={3} >
+            <Stack className="artist" direction="row" spacing={3}>
+              <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
+                <Download sx={{ fontSize: 40, color: '#fff' }} />
+              </IconButton>
+              <IconButton onClick={playButton}>
+                {isPlaying ? <PauseCircle sx={{ fontSize: 85, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 85, color: '#fff' }} />}
+              </IconButton>
+              <IconButton onClick={randomBtn}>
+                <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
+              </IconButton>
+            </Stack>
+          </Box>
+        }
+
       </Container>
     </div>
   )

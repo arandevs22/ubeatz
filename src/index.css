@@ -1,6 +1,10 @@
 html {
-  background-color: #121212;
+  background: #121212;
   font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  margin: 0 !important;
 }
 
 .MuiContainer-root.main {

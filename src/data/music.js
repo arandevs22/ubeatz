@@ -6,7 +6,8 @@ const tracks = [
             {
                 name: 'Toca Iniciar'
             }
-        ]
+        ],
+        primaryColor: '#d32f86'
     },
     {
         id: 1,
@@ -19,7 +20,8 @@ const tracks = [
             {
                 name: 'Feid',
             }
-        ]
+        ],
+        primaryColor: '#ac2611'
     },
     {
         id: 2,
@@ -38,7 +40,8 @@ const tracks = [
             {
                 name: 'Standly'
             }
-        ]
+        ],
+        primaryColor: '#c76f16'
     },
     {
         id: 3,
@@ -48,7 +51,8 @@ const tracks = [
             {
                 name: 'Daddy Yankke'
             }
-        ]
+        ],
+        primaryColor: '#8e6e41'
     },
     {
         id: 4,
@@ -61,7 +65,8 @@ const tracks = [
             {
                 name: 'Ovy on the drums'
             }
-        ]
+        ],
+        primaryColor: '#786557'
     },
     {
         id: '5',
@@ -71,7 +76,8 @@ const tracks = [
             {
                 name: 'Karol G'
             }
-        ]
+        ],
+        primaryColor: '#2e3e21'
     },
     {
         id: '6',
@@ -84,7 +90,8 @@ const tracks = [
             {
                 name: 'Chencho Corleone'
             }
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '7',
@@ -97,7 +104,8 @@ const tracks = [
             {
                 name: 'Shakira'
             }
-        ]
+        ],
+        primaryColor: '#e2aa84'
     },
     {
         id: '8',
@@ -107,7 +115,8 @@ const tracks = [
             {
                 name: 'Annita'
             },
-        ]
+        ],
+        primaryColor: '#663cfc'
     },
     {
         id: '9',
@@ -117,7 +126,8 @@ const tracks = [
             {
                 name: 'ROSALÍA'
             },
-        ]
+        ],
+        primaryColor: '#0c89cc'
     },
     {
         id: '10',
@@ -130,7 +140,8 @@ const tracks = [
             {
                 name: 'Shakira'
             }
-        ]
+        ],
+        primaryColor: '#747474'
     },
     {
         id: '11',
@@ -140,7 +151,8 @@ const tracks = [
             {
                 name: 'Ozuna'
             },
-        ]
+        ],
+        primaryColor: '#cfdc2c'
     },
     {
         id: '12',
@@ -153,7 +165,8 @@ const tracks = [
             {
                 name: 'Tainy'
             }
-        ]
+        ],
+        primaryColor: '#475c89'
     },
     {
         id: '13',
@@ -166,7 +179,8 @@ const tracks = [
             {
                 name: 'Maluma'
             }
-        ]
+        ],
+        primaryColor: '#bfa961'
     },
     {
         id: '14',
@@ -182,7 +196,8 @@ const tracks = [
             {
                 name: 'El Guincho'
             }
-        ]
+        ],
+        primaryColor: '#3399c6'
     },
     {
         id: '15',
@@ -195,7 +210,8 @@ const tracks = [
             {
                 name: 'Jhayco'
             },
-        ]
+        ],
+        primaryColor: '#82533c'
     },
     {
         id: '16',
@@ -208,7 +224,8 @@ const tracks = [
             {
                 name: 'Chencho Corleone'
             },
-        ]
+        ],
+        primaryColor: '#330076'
     },
     {
         id: '17',
@@ -221,7 +238,8 @@ const tracks = [
             {
                 name: 'Mariah Angeliq'
             },
-        ]
+        ],
+        primaryColor: '#15cbc6'
     },
     {
         id: '18',
@@ -237,7 +255,8 @@ const tracks = [
             {
                 name: 'Jhayco'
             },
-        ]
+        ],
+        primaryColor: '#680500'
     },
     {
         id: '19',
@@ -247,7 +266,8 @@ const tracks = [
             {
                 name: 'Daddy Yankee'
             },
-        ]
+        ],
+        primaryColor: '#181818'
     },
     {
         id: '20',
@@ -260,7 +280,8 @@ const tracks = [
             {
                 name: 'Maldy'
             }
-        ]
+        ],
+        primaryColor: '#6b2e2a'
     },
     {
         id: '21',
@@ -273,7 +294,8 @@ const tracks = [
             {
                 name: 'Shakira'
             }
-        ]
+        ],
+        primaryColor: '#218f90'
     },
     {
         id: '22',
@@ -283,7 +305,8 @@ const tracks = [
             {
                 name: 'Maluma'
             }
-        ]
+        ],
+        primaryColor: '#a43471'
     },
     {
         id: '23',
@@ -293,7 +316,8 @@ const tracks = [
             {
                 name: 'Manuel Turizo'
             }
-        ]
+        ],
+        primaryColor: '#59a3c7'
     },
     {
         id: '24',
@@ -306,7 +330,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#020305'
     },
     {
         id: '25',
@@ -322,7 +347,8 @@ const tracks = [
             {
                 name: 'Myke Towers'
             }
-        ]
+        ],
+        primaryColor: '#f3bb3c'
     },
     {
         id: '26',
