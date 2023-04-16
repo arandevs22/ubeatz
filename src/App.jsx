@@ -44,14 +44,18 @@ function App() {
 
   const downloadMp3 = (url) => {
     const fileName = url.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href = url;
-    aTag.setAttribute('download', fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
+    fetch(url)
+      .then(response => response.blob())
+      .then(blob => {
+        const blobUrl = URL.createObjectURL(blob);
+        const aTag = document.createElement('a');
+        aTag.href = blobUrl;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      });
   }
-
 
 
   const randomBtn = () => {
@@ -112,7 +116,7 @@ function App() {
           <Box mt={5} >
             {count > 0 &&
               <Stack className="artist" direction="row" spacing={3}>
-                <IconButton onClick={() => { downloadMp3(tracks[count].URL) }}>
+                <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
                   <Download sx={{ fontSize: 40, color: '#fff' }} />
                 </IconButton>
                 <IconButton onClick={playButton}>
