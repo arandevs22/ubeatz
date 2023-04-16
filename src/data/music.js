@@ -2308,6 +2308,228 @@ const tracks = [
             }
         ]
     },
+    {
+        id: '189',
+        title: '1Trago',
+        URL: 'https://aranstorage.blob.core.windows.net/music/1Trago.mp3',
+        artists: [
+            {
+                name: 'Danna Paola'
+            }
+        ]
+    },
+    {
+        id: '190',
+        title: '911 (En Vivo)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/911%20(En%20Vivo).mp3',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '191',
+        title: 'Arcángel: Bzrp Music Sessions, Vol. 54',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Arc%C3%A1ngel_%20Bzrp%20Music%20Sessions,%20Vol.%2054.mp3',
+        artists: [
+            {
+                name: 'Bizarrap'
+            },
+            {
+                name: 'Arcangel'
+            }
+        ]
+    },
+    {
+        id: '192',
+        title: 'Coco Chanel',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Coco%20Chanel.mp3',
+        artists: [
+            {
+                name: 'Eladio Carrión'
+            },
+            {
+                name: 'Bad Bunny'
+            }
+        ]
+    },
+    {
+        id: '193',
+        title: 'Cupido',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Cupido.mp3',
+        artists: [
+            {
+                name: 'TINI'
+            }
+        ]
+    },
+    {
+        id: '194',
+        title: 'Die For You (Remix)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Die%20For%20You%20(Remix).mp3',
+        artists: [
+            {
+                name: 'The Weekend'
+            },
+            {
+                name: 'Ariana Grande'
+            }
+        ]
+    },
+    {
+        id: '195',
+        title: 'El Gordo Trae El Mando',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Gordo%20Trae%20El%20Mando.mp3',
+        artists: [
+            {
+                name: 'The Weekend'
+            },
+            {
+                name: 'Ariana Grande'
+            }
+        ]
+    },
+    {
+        id: '196',
+        title: 'EL HECHIZO',
+        URL: 'https://aranstorage.blob.core.windows.net/music/EL%20HECHIZO.mp3',
+        artists: [
+            {
+                name: 'Ovy On The Drums'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '197',
+        title: 'El Merengue',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Merengue.mp3',
+        artists: [
+            {
+                name: 'Marshmello'
+            },
+            {
+                name: 'Manuel Turizo'
+            }
+        ]
+    },
+    {
+        id: '198',
+        title: 'El Tsurito',
+        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Tsurito.mp3',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+            {
+                name: 'Peso Pluma'
+            }
+        ]
+    },
+    {
+        id: '199',
+        title: 'Frágil',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Fr%C3%A1gil.mp3',
+        artists: [
+            {
+                name: 'Yahritza Y Su Esencia'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ]
+    },
+    {
+        id: '200',
+        title: 'Lisa',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Lisa.mp3',
+        artists: [
+            {
+                name: 'Young Miko'
+            }
+        ]
+    },
+    {
+        id: '201',
+        title: 'lo que hay x aquí',
+        URL: 'https://aranstorage.blob.core.windows.net/music/lo%20que%20hay%20x%20aqu%C3%AD.mp3',
+        artists: [
+            {
+                name: 'Rels B'
+            }
+        ]
+    },
+    {
+        id: '202',
+        title: 'Los Collares',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Los%20Collares.mp3',
+        artists: [
+            {
+                name: 'Óscar Maydon'
+            },
+            {
+                name: 'El Padrinito Toys'
+            }
+        ]
+    },
+    {
+        id: '203',
+        title: 'MERCHO (feat. Nico Valdi)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/MERCHO%20(feat.%20Nico%20Valdi).mp3',
+        artists: [
+            {
+                name: 'Lil Cake'
+            },
+            {
+                name: 'Migrantes'
+            },
+            {
+                name: 'Nico Valdi'
+            }
+        ]
+    },
+    {
+        id: '204',
+        title: 'MIENTRAS ME CURO DEL CORA',
+        URL: 'https://aranstorage.blob.core.windows.net/music/MIENTRAS%20ME%20CURO%20DEL%20CORA.mp3',
+        artists: [
+            {
+                name: 'Karol G'
+            }
+        ]
+    },
+    {
+        id: '205',
+        title: 'Rara Vez',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Rara%20Vez.mp3',
+        artists: [
+            {
+                name: 'Taui'
+            },
+            {
+                name: 'Milo j'
+            }
+        ]
+    },
+    {
+        id: '206',
+        title: 'Tormenta (feat. Bad Bunny)',
+        URL: 'https://aranstorage.blob.core.windows.net/music/Tormenta%20(feat.%20Bad%20Bunny).mp3',
+        artists: [
+            {
+                name: 'Gorillaz'
+            },
+            {
+                name: 'Bad Bunny'
+            }
+        ]
+    },
 ]
 
 export default tracks;

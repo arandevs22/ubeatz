@@ -2,10 +2,9 @@ import { Box, Button, Container, IconButton, LinearProgress, Paper, Stack, Typog
 import { useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
 import { Download, PauseCircle, PlayCircle, Shuffle, SkipNext } from '@mui/icons-material';
-import NavBar from './components/NavBar';
-
 
 function App() {
+
   const [count, setCount] = useState(0)
 
   const [isPlaying, setPlaying] = useState(true)
@@ -61,6 +60,10 @@ function App() {
     setPlaying(true)
     setCount(Math.ceil(Math.random() * tracks.length))
   }
+
+  useEffect(() => {
+    document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
+  })
 
   return (
     <div className="App">
