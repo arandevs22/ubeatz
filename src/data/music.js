@@ -669,7 +669,8 @@ const tracks = [
             {
                 name: 'Chencho Corleone'
             }
-        ]
+        ],
+        primaryColor: '#bae9e5'
     },
     {
         id: '49',
@@ -679,7 +680,8 @@ const tracks = [
             {
                 name: 'Chris MJ'
             }
-        ]
+        ],
+        primaryColor: '#003b3d'
     },
     {
         id: '50',
@@ -695,7 +697,8 @@ const tracks = [
             {
                 name: 'DUKI'
             }
-        ]
+        ],
+        primaryColor: '#bae140'
     },
     {
         id: '51',
@@ -708,7 +711,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#fb0d0e'
     },
     {
         id: '52',
@@ -718,7 +722,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#e6dfdc'
     },
     {
         id: '53',
@@ -728,7 +733,8 @@ const tracks = [
             {
                 name: 'Calibre 50'
             }
-        ]
+        ],
+        primaryColor: '#b0b1ad'
     },
     {
         id: '54',
@@ -741,7 +747,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#671e3d'
     },
     {
         id: '55',
@@ -751,7 +758,8 @@ const tracks = [
             {
                 name: 'Harry Styles'
             }
-        ]
+        ],
+        primaryColor: '#caa677'
     },
     {
         id: '56',
@@ -764,7 +772,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#debb95'
     },
     {
         id: '57',
@@ -777,7 +786,8 @@ const tracks = [
             {
                 name: 'Edgardo Nuñez'
             }
-        ]
+        ],
+        primaryColor: '#ed6c4b'
     },
     {
         id: '58',
@@ -790,7 +800,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#0a1f5d'
     },
     {
         id: '59',
@@ -803,7 +814,8 @@ const tracks = [
             {
                 name: 'Christian Nodal'
             }
-        ]
+        ],
+        primaryColor: '#729ead'
     },
     {
         id: '60',
@@ -816,7 +828,8 @@ const tracks = [
             {
                 name: 'Natanael Cano'
             }
-        ]
+        ],
+        primaryColor: '#e73135'
     },
     {
         id: '61',
@@ -826,7 +839,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#444444'
     },
     {
         id: '62',
@@ -839,7 +853,8 @@ const tracks = [
             {
                 name: 'Ovi'
             }
-        ]
+        ],
+        primaryColor: '#78612f'
     },
     {
         id: '63',
@@ -849,7 +864,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             },
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '64',
@@ -865,7 +881,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#39336f'
     },
     {
         id: '65',
@@ -875,7 +892,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#9f1714'
     },
     {
         id: '66',
@@ -888,7 +906,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#d32814'
     },
     {
         id: '67',
@@ -901,7 +920,8 @@ const tracks = [
             {
                 name: 'Carin Leon'
             }
-        ]
+        ],
+        primaryColor: '#cdc9b1'
     },
     {
         id: '68',
@@ -914,7 +934,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#057c3e'
     },
     {
         id: '69',
@@ -924,7 +945,8 @@ const tracks = [
             {
                 name: 'Miley Cyrus'
             }
-        ]
+        ],
+        primaryColor: '#005b84'
     },
     {
         id: '70',
@@ -934,7 +956,8 @@ const tracks = [
             {
                 name: 'Bellakath'
             }
-        ]
+        ],
+        primaryColor: '#be8514'
     },
     {
         id: '71',
@@ -947,7 +970,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#422925'
     },
     {
         id: '72',
@@ -960,7 +984,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#c2c3bb'
     },
     {
         id: '73',
@@ -973,7 +998,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#568496'
     },
     {
         id: '74',
@@ -983,7 +1009,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '75',
@@ -993,7 +1020,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#000000'
     },
     {
         id: '76',
@@ -1003,7 +1031,8 @@ const tracks = [
             {
                 name: 'Lasso'
             }
-        ]
+        ],
+        primaryColor: '#d1c4aa'
     },
     {
         id: '77',
@@ -1016,7 +1045,8 @@ const tracks = [
             {
                 name: 'Rauw Alejandro'
             }
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '78',
@@ -1029,7 +1059,8 @@ const tracks = [
             {
                 name: 'Angela Aguilar'
             }
-        ]
+        ],
+        primaryColor: '#934921'
     },
     {
         id: '79',
@@ -1042,7 +1073,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#846944'
     },
     {
         id: '80',
@@ -1052,7 +1084,8 @@ const tracks = [
             {
                 name: 'Grupo Marca Registrada'
             }
-        ]
+        ],
+        primaryColor: '#1e2341'
     },
     {
         id: '81',
@@ -1062,7 +1095,8 @@ const tracks = [
             {
                 name: 'Calibre 50'
             }
-        ]
+        ],
+        primaryColor: '#f37024'
     },
     {
         id: '82',
@@ -1075,7 +1109,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#3d0b0a'
     },
     {
         id: '83',
@@ -1085,7 +1120,8 @@ const tracks = [
             {
                 name: 'Christian Nodal'
             }
-        ]
+        ],
+        primaryColor: '#9a9899'
     },
     {
         id: '84',
@@ -1095,7 +1131,8 @@ const tracks = [
             {
                 name: 'Jack Black'
             }
-        ]
+        ],
+        primaryColor: '#a506cd'
     },
     {
         id: '85',
@@ -1108,7 +1145,8 @@ const tracks = [
             {
                 name: 'MC Davo'
             }
-        ]
+        ],
+        primaryColor: '#98620e'
     },
     {
         id: '86',
@@ -1124,7 +1162,8 @@ const tracks = [
             {
                 name: 'Oscar Iván Treviño'
             }
-        ]
+        ],
+        primaryColor: '#2d1756'
     },
     {
         id: '87',
@@ -1140,7 +1179,8 @@ const tracks = [
             {
                 name: 'Oscar Iván Treviño'
             }
-        ]
+        ],
+        primaryColor: '#222222'
     },
     {
         id: '88',
@@ -1150,7 +1190,8 @@ const tracks = [
             {
                 name: 'Sandro Malandro'
             }
-        ]
+        ],
+        primaryColor: '#1b313b'
     },
     {
         id: '89',
@@ -1163,7 +1204,8 @@ const tracks = [
             {
                 name: 'Yerai R'
             }
-        ]
+        ],
+        primaryColor: '#f0262f'
     },
     {
         id: '90',
@@ -1176,7 +1218,8 @@ const tracks = [
             {
                 name: 'Luis Mexia'
             }
-        ]
+        ],
+        primaryColor: '#c16a13'
     },
     {
         id: '91',
@@ -1189,7 +1232,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#bf84bc'
     },
     {
         id: '92',
@@ -1202,7 +1246,8 @@ const tracks = [
             {
                 name: 'Hans el Oso'
             }
-        ]
+        ],
+        primaryColor: '#c22cb0'
     },
     {
         id: '93',
@@ -1212,7 +1257,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#4d5c46'
     },
     {
         id: '94',
@@ -1225,7 +1271,8 @@ const tracks = [
             {
                 name: 'Grupo Yndio'
             }
-        ]
+        ],
+        primaryColor: '#5a1b03'
     },
     {
         id: '95',
@@ -1238,7 +1285,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#be3937'
     },
     {
         id: '96',
@@ -1248,7 +1296,8 @@ const tracks = [
             {
                 name: 'Fuerza Regida'
             }
-        ]
+        ],
+        primaryColor: '#f2ddb6'
     },
     {
         id: '97',
@@ -1261,7 +1310,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#c6b2a7'
     },
     {
         id: '98',
@@ -1274,7 +1324,8 @@ const tracks = [
             {
                 name: 'Fuerza Regida'
             }
-        ]
+        ],
+        primaryColor: '#1a393e'
     },
     {
         id: '99',
@@ -1290,7 +1341,8 @@ const tracks = [
             {
                 name: 'Natanael Cano'
             }
-        ]
+        ],
+        primaryColor: '#09478d'
     },
     {
         id: '100',
@@ -1303,7 +1355,8 @@ const tracks = [
             {
                 name: 'Fuerza Regida'
             }
-        ]
+        ],
+        primaryColor: '#020ccc'
     },
     {
         id: '101',
@@ -1313,7 +1366,8 @@ const tracks = [
             {
                 name: 'Natalia Lafourcade'
             }
-        ]
+        ],
+        primaryColor: '#7b7b7b'
     },
     {
         id: '102',
@@ -1326,7 +1380,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#0b0b14'
     },
     {
         id: '103',
@@ -1339,7 +1394,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#262621'
     },
     {
         id: '104',
@@ -1349,7 +1405,8 @@ const tracks = [
             {
                 name: 'La Maquinaria Norteña'
             }
-        ]
+        ],
+        primaryColor: '#f0f8fa'
     },
     {
         id: '105',
@@ -1359,7 +1416,8 @@ const tracks = [
             {
                 name: 'Julión Alvarez'
             }
-        ]
+        ],
+        primaryColor: '#5a8ac1'
     },
     {
         id: '106',
@@ -1369,7 +1427,8 @@ const tracks = [
             {
                 name: 'La Adictiva'
             }
-        ]
+        ],
+        primaryColor: '#39271b'
     },
     {
         id: '107',
@@ -1379,7 +1438,8 @@ const tracks = [
             {
                 name: 'Virlán García'
             }
-        ]
+        ],
+        primaryColor: '#7d2522'
     },
     {
         id: '108',
@@ -1389,7 +1449,8 @@ const tracks = [
             {
                 name: 'Alejandro Fernandez'
             }
-        ]
+        ],
+        primaryColor: '#e5cfad'
     },
     {
         id: '109',
@@ -1399,7 +1460,8 @@ const tracks = [
             {
                 name: 'Kim Loaiza'
             }
-        ]
+        ],
+        primaryColor: '#222322'
     },
     {
         id: '110',
@@ -1412,7 +1474,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#bebfb7'
     },
     {
         id: '111',
@@ -1425,7 +1488,8 @@ const tracks = [
             {
                 name: 'Gabito Ballesteros'
             }
-        ]
+        ],
+        primaryColor: '#7f090a'
     },
     {
         id: '112',
@@ -1441,7 +1505,8 @@ const tracks = [
             {
                 name: 'Eva de Marce'
             }
-        ]
+        ],
+        primaryColor: '#272919'
     },
     {
         id: '113',
@@ -1451,7 +1516,8 @@ const tracks = [
             {
                 name: 'Alfredo Montaño'
             }
-        ]
+        ],
+        primaryColor: '#006056'
     },
     {
         id: '114',
@@ -1464,7 +1530,8 @@ const tracks = [
             {
                 name: 'Kim Loaiza'
             }
-        ]
+        ],
+        primaryColor: '#4b7379'
     },
     {
         id: '115',
@@ -1474,7 +1541,8 @@ const tracks = [
             {
                 name: 'Kenia Os'
             }
-        ]
+        ],
+        primaryColor: '#9b3d3d'
     },
     {
         id: '116',
@@ -1487,7 +1555,8 @@ const tracks = [
             {
                 name: 'Ximena Sarinana'
             }
-        ]
+        ],
+        primaryColor: '#2d5378'
     },
     {
         id: '117',
@@ -1497,7 +1566,8 @@ const tracks = [
             {
                 name: 'Valgur'
             }
-        ]
+        ],
+        primaryColor: '#fba4a9'
     },
     {
         id: '118',
@@ -1507,7 +1577,8 @@ const tracks = [
             {
                 name: 'Banda MS de Sergio Lizárraga'
             }
-        ]
+        ],
+        primaryColor: '#e4e8e9'
     },
     {
         id: '119',
@@ -1517,7 +1588,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#373E37'
     },
     {
         id: '120',
@@ -1530,7 +1602,8 @@ const tracks = [
             {
                 name: 'Kakalo'
             }
-        ]
+        ],
+        primaryColor: '#B43C35'
     },
     {
         id: '121',
@@ -1540,7 +1613,8 @@ const tracks = [
             {
                 name: 'Carin Leon'
             }
-        ]
+        ],
+        primaryColor: '#B19155'
     },
     {
         id: '122',
@@ -1550,7 +1624,8 @@ const tracks = [
             {
                 name: 'Intocable'
             }
-        ]
+        ],
+        primaryColor: '#01445E'
     },
     {
         id: '123',
@@ -1560,7 +1635,8 @@ const tracks = [
             {
                 name: 'RENEE'
             }
-        ]
+        ],
+        primaryColor: '#F04F23'
     },
     {
         id: '124',
@@ -1573,7 +1649,8 @@ const tracks = [
             {
                 name: 'Kenia Os'
             }
-        ]
+        ],
+        primaryColor: '#4C2B82'
     },
     {
         id: '125',
@@ -1586,7 +1663,8 @@ const tracks = [
             {
                 name: 'Luis Mexia'
             }
-        ]
+        ],
+        primaryColor: '#DDB84B'
     },
     {
         id: '126',
@@ -1599,7 +1677,8 @@ const tracks = [
             {
                 name: 'Tomas Ballardo'
             }
-        ]
+        ],
+        primaryColor: '#D50D2A'
     },
     {
         id: '127',
@@ -1612,7 +1691,8 @@ const tracks = [
             {
                 name: 'TINI'
             }
-        ]
+        ],
+        primaryColor: '#999589'
     },
     {
         id: '128',
@@ -1625,7 +1705,8 @@ const tracks = [
             {
                 name: 'Nicki Nicole'
             }
-        ]
+        ],
+        primaryColor: '#0B5367'
     },
     {
         id: '129',
@@ -1638,7 +1719,8 @@ const tracks = [
             {
                 name: 'Natanael Cano'
             }
-        ]
+        ],
+        primaryColor: '#8C5B0E'
     },
     {
         id: '130',
@@ -1651,7 +1733,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#B28870'
     },
     {
         id: '131',
@@ -1661,7 +1744,8 @@ const tracks = [
             {
                 name: 'Gerardo Coronel'
             }
-        ]
+        ],
+        primaryColor: '#1B5F71'
     },
     {
         id: '132',
@@ -1671,7 +1755,8 @@ const tracks = [
             {
                 name: 'RBD'
             }
-        ]
+        ],
+        primaryColor: '#0278B5'
     },
     {
         id: '133',
@@ -1681,7 +1766,8 @@ const tracks = [
             {
                 name: 'Humbe'
             }
-        ]
+        ],
+        primaryColor: '#494923'
     },
     {
         id: '134',
@@ -1691,7 +1777,8 @@ const tracks = [
             {
                 name: 'Los Dos Carnales'
             }
-        ]
+        ],
+        primaryColor: '#643858'
     },
     {
         id: '135',
@@ -1704,7 +1791,8 @@ const tracks = [
             {
                 name: 'La Kelly'
             }
-        ]
+        ],
+        primaryColor: '#D90D09'
     },
     {
         id: '136',
@@ -1717,7 +1805,8 @@ const tracks = [
             {
                 name: 'Marca Registrada'
             }
-        ]
+        ],
+        primaryColor: '#FA1D1E'
     },
     {
         id: '137',
@@ -1727,7 +1816,8 @@ const tracks = [
             {
                 name: 'Carlos Rivera'
             }
-        ]
+        ],
+        primaryColor: '#273367'
     },
     {
         id: '138',
@@ -1740,7 +1830,8 @@ const tracks = [
             {
                 name: 'La Pocima Norteña'
             }
-        ]
+        ],
+        primaryColor: '#9D4E26'
     },
     {
         id: '139',
@@ -1753,7 +1844,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#334C32'
     },
     {
         id: '140',
@@ -1763,7 +1855,8 @@ const tracks = [
             {
                 name: 'Edgardo Nunez'
             }
-        ]
+        ],
+        primaryColor: '#677784'
     },
     {
         id: '141',
@@ -1773,7 +1866,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#F7ECAC'
     },
     {
         id: '142',
@@ -1786,7 +1880,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#8D6A46'
     },
     {
         id: '143',
@@ -1799,7 +1894,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#DD9331'
     },
     {
         id: '144',
@@ -1812,7 +1908,8 @@ const tracks = [
             {
                 name: 'Edén Muñoz'
             }
-        ]
+        ],
+        primaryColor: '#A06B3F'
     },
     {
         id: '145',
@@ -1828,7 +1925,8 @@ const tracks = [
             {
                 name: 'Santa Fe Klan'
             }
-        ]
+        ],
+        primaryColor: '#297E8F'
     },
     {
         id: '146',
@@ -1841,7 +1939,8 @@ const tracks = [
             {
                 name: 'Luis R Conriquez'
             }
-        ]
+        ],
+        primaryColor: '#7A6D5C'
     },
     {
         id: '147',
@@ -1854,7 +1953,8 @@ const tracks = [
             {
                 name: 'Mario Domm'
             }
-        ]
+        ],
+        primaryColor: '#AE0B00'
     },
     {
         id: '148',
@@ -1867,7 +1967,8 @@ const tracks = [
             {
                 name: 'Melissa Robles'
             }
-        ]
+        ],
+        primaryColor: '#0F949D'
     },
     {
         id: '149',
@@ -1880,7 +1981,8 @@ const tracks = [
             {
                 name: 'Natanael Cano'
             }
-        ]
+        ],
+        primaryColor: '#C40B09'
     },
     {
         id: '150',
@@ -1893,7 +1995,8 @@ const tracks = [
             {
                 name: 'Tony Aguirre'
             }
-        ]
+        ],
+        primaryColor: '#BCA26A'
     },
     {
         id: '151',
@@ -1906,7 +2009,8 @@ const tracks = [
             {
                 name: 'Junior H'
             }
-        ]
+        ],
+        primaryColor: '#7573BF'
     },
     {
         id: '152',
@@ -1916,7 +2020,8 @@ const tracks = [
             {
                 name: 'Myke Towers'
             }
-        ]
+        ],
+        primaryColor: '#334125'
     },
     {
         id: '153',
@@ -1929,7 +2034,8 @@ const tracks = [
             {
                 name: 'Rauw Alejandro'
             }
-        ]
+        ],
+        primaryColor: '#83141B'
     },
     {
         id: '154',
@@ -1942,7 +2048,8 @@ const tracks = [
             {
                 name: 'ROSALÍA'
             }
-        ]
+        ],
+        primaryColor: '#F00003'
     },
     {
         id: '155',
@@ -1952,7 +2059,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#57A95C'
     },
     {
         id: '156',
@@ -1965,7 +2073,8 @@ const tracks = [
             {
                 name: 'Young Miko'
             }
-        ]
+        ],
+        primaryColor: '#64A041'
     },
     {
         id: '157',
@@ -1975,7 +2084,8 @@ const tracks = [
             {
                 name: 'Jhayco'
             }
-        ]
+        ],
+        primaryColor: '#EFDCED'
     },
     {
         id: '158',
@@ -1988,7 +2098,8 @@ const tracks = [
             {
                 name: 'Anuel AA'
             }
-        ]
+        ],
+        primaryColor: '#DE0510'
     },
     {
         id: '159',
@@ -1998,7 +2109,8 @@ const tracks = [
             {
                 name: 'Don Omar'
             }
-        ]
+        ],
+        primaryColor: '#2F2624'
     },
     {
         id: '160',
@@ -2011,7 +2123,8 @@ const tracks = [
             {
                 name: 'Fran C'
             }
-        ]
+        ],
+        primaryColor: '#09A5B6'
     },
     {
         id: '161',
@@ -2024,7 +2137,8 @@ const tracks = [
             {
                 name: 'Don Omar'
             }
-        ]
+        ],
+        primaryColor: '#AEA9A5'
     },
     {
         id: '162',
@@ -2034,7 +2148,8 @@ const tracks = [
             {
                 name: 'Plan B'
             }
-        ]
+        ],
+        primaryColor: '#5D3033'
     },
     {
         id: '163',
@@ -2044,7 +2159,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#00A768'
     },
     {
         id: '164',
@@ -2054,7 +2170,8 @@ const tracks = [
             {
                 name: 'Sech'
             }
-        ]
+        ],
+        primaryColor: '#56C3EE'
     },
     {
         id: '165',
@@ -2067,7 +2184,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#262626'
     },
     {
         id: '166',
@@ -2080,7 +2198,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#9D8B7F'
     },
     {
         id: '167',
@@ -2093,7 +2212,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#2B3737'
     },
     {
         id: '168',
@@ -2106,7 +2226,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#D9B1B9'
     },
     {
         id: '169',
@@ -2125,7 +2246,8 @@ const tracks = [
             {
                 name: 'Ñengo Flow'
             }
-        ]
+        ],
+        primaryColor: '#D72C72'
     },
     {
         id: '170',
@@ -2135,7 +2257,8 @@ const tracks = [
             {
                 name: 'J Alvarez'
             }
-        ]
+        ],
+        primaryColor: '#6B3945'
     },
     {
         id: '171',
@@ -2145,7 +2268,8 @@ const tracks = [
             {
                 name: 'Daddy Yankee'
             }
-        ]
+        ],
+        primaryColor: '#3E3E3E'
     },
     {
         id: '172',
@@ -2161,7 +2285,8 @@ const tracks = [
             {
                 name: 'Brray'
             }
-        ]
+        ],
+        primaryColor: '#FB60E3'
     },
     {
         id: '173',
@@ -2177,7 +2302,8 @@ const tracks = [
             {
                 name: 'Dj Luian'
             }
-        ]
+        ],
+        primaryColor: '#DD1E25'
     },
     {
         id: '174',
@@ -2187,7 +2313,8 @@ const tracks = [
             {
                 name: 'Mike Towers'
             }
-        ]
+        ],
+        primaryColor: '#5C8C9E'
     },
     {
         id: '175',
@@ -2203,7 +2330,8 @@ const tracks = [
             {
                 name: 'Blessd'
             }
-        ]
+        ],
+        primaryColor: '#CC0E10'
     },
     {
         id: '176',
@@ -2216,7 +2344,8 @@ const tracks = [
             {
                 name: 'Marcianeke'
             }
-        ]
+        ],
+        primaryColor: '#017FC6'
     },
     {
         id: '177',
@@ -2232,7 +2361,8 @@ const tracks = [
             {
                 name: 'Ken-Y'
             }
-        ]
+        ],
+        primaryColor: '#9EA9A1'
     },
     {
         id: '178',
@@ -2242,7 +2372,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#60BD4D'
     },
     {
         id: '179',
@@ -2252,7 +2383,8 @@ const tracks = [
             {
                 name: 'Tego Calderón'
             }
-        ]
+        ],
+        primaryColor: '#F50101'
     },
     {
         id: '180',
@@ -2265,7 +2397,8 @@ const tracks = [
             {
                 name: 'Daddy Yankee'
             }
-        ]
+        ],
+        primaryColor: '#3A5282'
     },
     {
         id: '181',
@@ -2275,7 +2408,8 @@ const tracks = [
             {
                 name: 'Quevedo'
             }
-        ]
+        ],
+        primaryColor: '#8559D5'
     },
     {
         id: '182',
@@ -2285,7 +2419,8 @@ const tracks = [
             {
                 name: 'Feid'
             }
-        ]
+        ],
+        primaryColor: '#07823A'
     },
     {
         id: '183',
@@ -2295,7 +2430,8 @@ const tracks = [
             {
                 name: 'El Jordan 23'
             }
-        ]
+        ],
+        primaryColor: '#AB0201'
     },
     {
         id: '184',
@@ -2308,7 +2444,8 @@ const tracks = [
             {
                 name: 'Hamlit Shorty'
             }
-        ]
+        ],
+        primaryColor: '#3A7BB3'
     },
     {
         id: '185',
@@ -2318,7 +2455,8 @@ const tracks = [
             {
                 name: 'Quevedo'
             }
-        ]
+        ],
+        primaryColor: '#3D3D3D'
     },
     {
         id: '186',
@@ -2328,7 +2466,8 @@ const tracks = [
             {
                 name: 'Quevedo'
             }
-        ]
+        ],
+        primaryColor: '#2584BA'
     },
     {
         id: '187',
@@ -2341,7 +2480,8 @@ const tracks = [
             {
                 name: 'De La Ghetto'
             }
-        ]
+        ],
+        primaryColor: '#BD3A15'
     },
     {
         id: '188',
@@ -2354,7 +2494,8 @@ const tracks = [
             {
                 name: 'Romeo Santos'
             }
-        ]
+        ],
+        primaryColor: '#9E1517'
     },
     {
         id: '189',
@@ -2364,7 +2505,8 @@ const tracks = [
             {
                 name: 'Danna Paola'
             }
-        ]
+        ],
+        primaryColor: '#021821'
     },
     {
         id: '190',
@@ -2377,7 +2519,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#854039'
     },
     {
         id: '191',
@@ -2390,7 +2533,8 @@ const tracks = [
             {
                 name: 'Arcangel'
             }
-        ]
+        ],
+        primaryColor: '#777777'
     },
     {
         id: '192',
@@ -2403,7 +2547,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#3C6972'
     },
     {
         id: '193',
@@ -2413,7 +2558,8 @@ const tracks = [
             {
                 name: 'TINI'
             }
-        ]
+        ],
+        primaryColor: '#DAC7CB'
     },
     {
         id: '194',
@@ -2426,7 +2572,8 @@ const tracks = [
             {
                 name: 'Ariana Grande'
             }
-        ]
+        ],
+        primaryColor: '#EC0201'
     },
     {
         id: '195',
@@ -2434,12 +2581,10 @@ const tracks = [
         URL: 'https://aranstorage.blob.core.windows.net/music/El%20Gordo%20Trae%20El%20Mando.mp3',
         artists: [
             {
-                name: 'The Weekend'
-            },
-            {
-                name: 'Ariana Grande'
+                name: 'Chino Pacas'
             }
-        ]
+        ],
+        primaryColor: '#204049'
     },
     {
         id: '196',
@@ -2452,7 +2597,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#280F51'
     },
     {
         id: '197',
@@ -2465,7 +2611,8 @@ const tracks = [
             {
                 name: 'Manuel Turizo'
             }
-        ]
+        ],
+        primaryColor: '#D0AB7F'
     },
     {
         id: '198',
@@ -2478,7 +2625,8 @@ const tracks = [
             {
                 name: 'Peso Pluma'
             }
-        ]
+        ],
+        primaryColor: '#FE9E05'
     },
     {
         id: '199',
@@ -2491,7 +2639,8 @@ const tracks = [
             {
                 name: 'Grupo Frontera'
             }
-        ]
+        ],
+        primaryColor: '#764524'
     },
     {
         id: '200',
@@ -2501,7 +2650,8 @@ const tracks = [
             {
                 name: 'Young Miko'
             }
-        ]
+        ],
+        primaryColor: '#F789A0'
     },
     {
         id: '201',
@@ -2511,7 +2661,8 @@ const tracks = [
             {
                 name: 'Rels B'
             }
-        ]
+        ],
+        primaryColor: '#968B77'
     },
     {
         id: '202',
@@ -2524,7 +2675,8 @@ const tracks = [
             {
                 name: 'El Padrinito Toys'
             }
-        ]
+        ],
+        primaryColor: '#2CC4FB'
     },
     {
         id: '203',
@@ -2540,7 +2692,8 @@ const tracks = [
             {
                 name: 'Nico Valdi'
             }
-        ]
+        ],
+        primaryColor: '#8C2C4E'
     },
     {
         id: '204',
@@ -2550,7 +2703,8 @@ const tracks = [
             {
                 name: 'Karol G'
             }
-        ]
+        ],
+        primaryColor: '#9E151'
     },
     {
         id: '205',
@@ -2563,7 +2717,8 @@ const tracks = [
             {
                 name: 'Milo j'
             }
-        ]
+        ],
+        primaryColor: '#E63A36'
     },
     {
         id: '206',
@@ -2576,7 +2731,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#973f6f'
     },
 ]
 

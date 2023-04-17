@@ -33,7 +33,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * 47))
+    setCount(Math.ceil(Math.random() * tracks.length))
   }
 
   const toggleLoop = () => {
@@ -104,7 +104,7 @@ function App() {
         </Box>
 
         {count > 0 &&
-          <Box mt={5} sx={{ color: '#d32f87' }}>
+          <Box mt={5} sx={{ color: `${tracks[count].primaryColor}` }}>
             <LinearProgress color='inherit' variant='determinate' value={progress} />
             <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
               <Typography variant="body1" color="#fff">
@@ -126,7 +126,7 @@ function App() {
             </Stack>
           </Box> :
           <Box mt={5} mb={3} >
-            <Stack className="artist" direction="row" spacing={2}>
+            <Box className="controls-btn" >
               <IconButton onClick={toggleLoop}>
                 {isLoop ? <Loop sx={{ fontSize: 30, color: '#d32f86' }} />
                   : <Loop sx={{ fontSize: 30, color: '#fff' }} />
@@ -144,7 +144,7 @@ function App() {
               <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
                 <Download sx={{ fontSize: 30, color: '#fff' }} />
               </IconButton>
-            </Stack>
+            </Box>
           </Box>
         }
 
