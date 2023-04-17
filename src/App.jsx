@@ -1,7 +1,7 @@
 import { Box, Button, Container, IconButton, LinearProgress, Paper, Stack, Typography } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
-import { Download, PauseCircle, PlayCircle, Shuffle, SkipNext } from '@mui/icons-material';
+import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, SkipPrevious } from '@mui/icons-material';
 
 function App() {
 
@@ -14,6 +14,8 @@ function App() {
   const [duration, setDuration] = useState(0)
 
   const [progress, setProgress] = useState(0)
+
+  const [isLoop, setIsLoop] = useState(false)
 
   const audioPlayer = useRef();
 
@@ -31,7 +33,11 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * 25))
+    setCount(Math.ceil(Math.random() * 47))
+  }
+
+  const toggleLoop = () => {
+    setIsLoop(!isLoop)
   }
 
   useEffect(() => {
@@ -76,7 +82,7 @@ function App() {
     <div>
       <Container className='main'>
 
-        <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} />
+        <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
 
         <Box sx={{ paddingTop: 3 }} mb={3}>
           <img className='cover' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} alt={`cover ${count}`} />
@@ -112,7 +118,7 @@ function App() {
         }
 
         {count === 0 ?
-          <Box mt={8}>
+          <Box mt={8} mb={3}>
             <Stack className='artist' direction='row' spacing={3}>
               <Button className='random-btn' color='inherit' variant='contained' size='large' onClick={randomBtn} startIcon={<Shuffle />}>
                 iniciar
@@ -120,15 +126,23 @@ function App() {
             </Stack>
           </Box> :
           <Box mt={5} mb={3} >
-            <Stack className="artist" direction="row" spacing={3}>
-              <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
-                <Download sx={{ fontSize: 40, color: '#fff' }} />
+            <Stack className="artist" direction="row" spacing={2}>
+              <IconButton onClick={toggleLoop}>
+                {isLoop ? <Loop sx={{ fontSize: 30, color: '#d32f86' }} />
+                  : <Loop sx={{ fontSize: 30, color: '#fff' }} />
+                }
+              </IconButton>
+              <IconButton onClick={randomBtn}>
+                <SkipPrevious sx={{ fontSize: 40, color: '#fff' }} />
               </IconButton>
               <IconButton onClick={playButton}>
                 {isPlaying ? <PauseCircle sx={{ fontSize: 85, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 85, color: '#fff' }} />}
               </IconButton>
               <IconButton onClick={randomBtn}>
                 <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
+              </IconButton>
+              <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
+                <Download sx={{ fontSize: 30, color: '#fff' }} />
               </IconButton>
             </Stack>
           </Box>

@@ -361,7 +361,8 @@ const tracks = [
             {
                 name: 'ROSALÍA'
             },
-        ]
+        ],
+        primaryColor: '#bf3224'
     },
     {
         id: '27',
@@ -374,7 +375,8 @@ const tracks = [
             {
                 name: 'El Alfa'
             },
-        ]
+        ],
+        primaryColor: '#1e1e1e'
     },
     {
         id: '28',
@@ -390,7 +392,8 @@ const tracks = [
             {
                 name: 'Tyga'
             }
-        ]
+        ],
+        primaryColor: '#134b96'
     },
     {
         id: '29',
@@ -403,7 +406,8 @@ const tracks = [
             {
                 name: 'Karol G'
             },
-        ]
+        ],
+        primaryColor: '#7685a4'
     },
     {
         id: '30',
@@ -416,7 +420,8 @@ const tracks = [
             {
                 name: 'Ozuna'
             },
-        ]
+        ],
+        primaryColor: '#9f9f9f'
     },
     {
         id: '31',
@@ -426,7 +431,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             },
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '32',
@@ -436,7 +442,8 @@ const tracks = [
             {
                 name: 'Maria Becerra'
             },
-        ]
+        ],
+        primaryColor: '#1b212f'
     },
     {
         id: '33',
@@ -449,7 +456,8 @@ const tracks = [
             {
                 name: 'Bomba Estéreo'
             }
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '34',
@@ -459,7 +467,8 @@ const tracks = [
             {
                 name: 'Camilo'
             }
-        ]
+        ],
+        primaryColor: '#6f500b'
     },
     {
         id: '35',
@@ -469,7 +478,8 @@ const tracks = [
             {
                 name: 'Farruko'
             }
-        ]
+        ],
+        primaryColor: '#fce702'
     },
     {
         id: '36',
@@ -482,7 +492,8 @@ const tracks = [
             {
                 name: 'Eddy Lover'
             }
-        ]
+        ],
+        primaryColor: '#f7f3f0'
     },
     {
         id: '37',
@@ -495,7 +506,8 @@ const tracks = [
             {
                 name: 'Baby Rasta'
             }
-        ]
+        ],
+        primaryColor: '#4f938a'
     },
     {
         id: '38',
@@ -508,7 +520,8 @@ const tracks = [
             {
                 name: 'Maria Becerra'
             }
-        ]
+        ],
+        primaryColor: '#b8a44c'
     },
     {
         id: '39',
@@ -521,7 +534,8 @@ const tracks = [
             {
                 name: 'Quevedo'
             }
-        ]
+        ],
+        primaryColor: '#7c7c7c'
     },
     {
         id: '40',
@@ -531,7 +545,8 @@ const tracks = [
             {
                 name: 'Wisin & Yandel'
             },
-        ]
+        ],
+        primaryColor: '#6b1514'
     },
     {
         id: '41',
@@ -553,7 +568,8 @@ const tracks = [
             {
                 name: 'Farruko'
             }
-        ]
+        ],
+        primaryColor: '#1c2522'
     },
     {
         id: '42',
@@ -563,7 +579,8 @@ const tracks = [
             {
                 name: 'Sebastian Yatra'
             },
-        ]
+        ],
+        primaryColor: '#e82d30'
     },
     {
         id: '43',
@@ -582,7 +599,8 @@ const tracks = [
             {
                 name: 'Cardi B'
             }
-        ]
+        ],
+        primaryColor: '#1661ad'
     },
     {
         id: '44',
@@ -595,7 +613,8 @@ const tracks = [
             {
                 name: 'Rauw Alejandro'
             }
-        ]
+        ],
+        primaryColor: '#8b4782'
     },
     {
         id: '45',
@@ -605,7 +624,8 @@ const tracks = [
             {
                 name: 'Bad Bunny'
             }
-        ]
+        ],
+        primaryColor: '#df1707'
     },
     {
         id: '46',
@@ -615,7 +635,8 @@ const tracks = [
             {
                 name: 'Rauw Alejandro'
             }
-        ]
+        ],
+        primaryColor: '#235b51'
     },
     {
         id: '47',
@@ -631,7 +652,8 @@ const tracks = [
             {
                 name: 'La Hungara'
             }
-        ]
+        ],
+        primaryColor: '#3d2222'
     },
     {
         id: '48',
