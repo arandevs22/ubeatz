@@ -51,28 +51,12 @@ function App() {
     setProgress(duration > 0 ? (currentTime / duration) * 100 : 0)
   }, [currentTime, duration])
 
-
   const calculateTime = (secs) => {
     const minutes = Math.floor(secs / 60);
     const returnMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
     const seconds = Math.floor(secs % 60);
     const returnSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
     return `${returnMinutes}:${returnSeconds}`;
-  }
-
-  const downloadMp3 = (url) => {
-    const fileName = url.split('/').pop();
-    fetch(url)
-      .then(response => response.blob())
-      .then(blob => {
-        const blobUrl = URL.createObjectURL(blob);
-        const aTag = document.createElement('a');
-        aTag.href = blobUrl;
-        aTag.setAttribute('download', fileName);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-      });
   }
 
   useEffect(() => {
@@ -84,13 +68,13 @@ function App() {
   return (
     <div>
       <Container className='main'>
-
+        {/* Audio Loader */}
         <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
-
+        {/* Cover Image */}
         <Box sx={{ paddingTop: 4, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
-
+        {/* Title & Artist Text */}
         {count === 0 ?
           <Box mt={3}>
             <Typography mb={1} className='title2' variant='h6' color='#fff'>
@@ -120,7 +104,7 @@ function App() {
             </Box>
           </Box>
         }
-
+        {/* Time Progress Bar */}
         {count > 0 &&
           <Box mt={3} sx={{ color: '#fff' }}>
             <Box mb={1}>
@@ -136,7 +120,7 @@ function App() {
             </Box>
           </Box>
         }
-
+        {/* Control Buttons */}
         {count === 0 ?
           <Box mt={8} mb={3}>
             <Stack className='artist' direction='row' spacing={3}>
@@ -153,7 +137,7 @@ function App() {
                 }
               </IconButton>
               <IconButton onClick={playButton}>
-                {isPlaying ? <PauseCircle sx={{ fontSize: 80, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 80, color: '#fff' }} />}
+                {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
               </IconButton>
               <IconButton onClick={randomBtn}>
                 <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
