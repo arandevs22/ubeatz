@@ -19,7 +19,7 @@ body {
 .MuiButtonBase-root.MuiButton-root.random-btn {
   background-color: #232323 !important;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .MuiLinearProgress-root {
@@ -28,6 +28,15 @@ body {
 
 .MuiTypography-root.title {
   font-weight: 600;
+  text-align: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MuiTypography-root.artist {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: start;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -54,5 +63,9 @@ body {
 
 .controls-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.cover {
+  border-radius: 16px;
 }

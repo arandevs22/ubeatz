@@ -1,8 +1,14 @@
-import { Box, Button, Container, IconButton, LinearProgress, Paper, Stack, Typography, styled } from '@mui/material'
+import { Box, Button, Container, Grid, IconButton, LinearProgress, Paper, Stack, Typography, makeStyles, styled } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
 import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, SkipPrevious } from '@mui/icons-material';
 import { Image } from 'mui-image'
+
+const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
+  height: 10,
+  borderRadius: 5,
+  backgroundColor: 'rgba(255, 255, 255, 0.2)'
+}))
 
 function App() {
 
@@ -70,21 +76,11 @@ function App() {
   }
 
 
-
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
-
     document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
 
   })
-
-
-  const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
-    height: 10,
-    borderRadius: 5,
-    backgroundColor: 'rgba(255, 255, 255, 0.2)'
-  }))
-
 
   return (
     <div>
@@ -93,26 +89,43 @@ function App() {
         <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
 
         <Box sx={{ paddingTop: 4, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
-          <Image fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} bgColor={`${tracks[count].primaryColor}`} easing='ease' />
+          <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
 
-        <Box mt={3} mb={1}>
-          <Typography className='title' variant="h5" color="#fff">
-            {tracks[count].title}
-          </Typography>
-        </Box>
-        <Box>
-          <Stack className='artist' direction="row" spacing={2}>
-            {tracks[count].artists.map((artist) => (
-              <Typography variant='subtitle1' color="rgba(255, 255, 255, 0.6)" key={artist.name}>
-                {artist.name}
+        {count === 0 ?
+          <Box mt={3}>
+            <Typography mb={1} className='title2' variant='h6' color='#fff'>
+              Welcome to Ubeatz Radio App
+            </Typography>
+            <Typography variant='subtitle1' color={'rgba(255, 255, 255, 0.5)'}>
+              Toca Iniciar
+            </Typography>
+          </Box> :
+          <Grid container mt={3}>
+            <Grid item xs={10} >
+              <Typography className='title' variant='h6' color='#fff'>
+                {tracks[count].title}
               </Typography>
-            ))}
-          </Stack>
-        </Box>
+              <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+                {tracks[count].artists.map((artist) => (
+                  <Typography key={artist.name} className='artist' variant='subtitle1'>
+                    {`${artist.name}`} &nbsp;
+                  </Typography>
+                ))}
+              </Box>
+            </Grid>
+            {count > 0 &&
+              <Grid item xs={2}>
+                <IconButton aria-label="download" onClick={() => { downloadMp3 }}>
+                  <Download sx={{ fontSize: 35, color: '#fff' }} />
+                </IconButton>
+              </Grid>
+            }
+          </Grid>
+        }
 
         {count > 0 &&
-          <Box mt={3} sx={{ color: `${tracks[count].primaryColor}` }}>
+          <Box mt={3} sx={{ color: '#fff' }}>
             <Box mb={1}>
               <TimeLinearProgress color='inherit' variant='determinate' value={progress} />
             </Box>
@@ -138,21 +151,15 @@ function App() {
           <Box mt={1} mb={3}>
             <Box className="controls-btn" >
               <IconButton onClick={toggleLoop}>
-                {isLoop ? <Loop sx={{ fontSize: 30, color: '#fff' }} />
-                  : <Loop sx={{ fontSize: 30, color: 'rgba(255, 255, 255, 0.3)' }} />
+                {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
+                  : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
                 }
               </IconButton>
-              <IconButton onClick={randomBtn}>
-                <SkipPrevious sx={{ fontSize: 40, color: '#fff' }} />
-              </IconButton>
               <IconButton onClick={playButton}>
-                {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
+                {isPlaying ? <PauseCircle sx={{ fontSize: 80, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 80, color: '#fff' }} />}
               </IconButton>
               <IconButton onClick={randomBtn}>
                 <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
-              </IconButton>
-              <IconButton onClick={() => { downloadMp3(audioPlayer.current.currentSrc) }}>
-                <Download sx={{ fontSize: 30, color: '#fff' }} />
               </IconButton>
             </Box>
           </Box>
