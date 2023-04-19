@@ -1,5 +1,5 @@
 import { Box, Button, Container, Grid, IconButton, LinearProgress, Paper, Stack, Typography, makeStyles, styled } from '@mui/material'
-import { useEffect, useRef, useState } from 'react'
+import { Fragment, useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
 import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, SkipPrevious } from '@mui/icons-material';
 import { Image } from 'mui-image'
@@ -82,6 +82,7 @@ function App() {
 
   })
 
+
   return (
     <div>
       <Container className='main'>
@@ -107,16 +108,23 @@ function App() {
                 {tracks[count].title}
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-                {tracks[count].artists.map((artist) => (
-                  <Typography key={artist.name} className='artist' variant='subtitle1'>
-                    {`${artist.name}`} &nbsp;
-                  </Typography>
+                {tracks[count].artists.map((artist, index) => (
+                  <Fragment key={artist.name}>
+                    <Typography className='artist' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
+                      {artist.name}
+                    </Typography>
+                    {index !== tracks[count].artists.length - 1 && (
+                      <Typography className='comma' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
+                        , &nbsp;
+                      </Typography>
+                    )}
+                  </Fragment>
                 ))}
               </Box>
             </Grid>
             {count > 0 &&
               <Grid item xs={2}>
-                <IconButton aria-label="download" onClick={() => { downloadMp3 }}>
+                <IconButton aria-label="download" onClick={() => { downloadMp3(tracks[count].URL) }}>
                   <Download sx={{ fontSize: 35, color: '#fff' }} />
                 </IconButton>
               </Grid>
@@ -149,7 +157,7 @@ function App() {
             </Stack>
           </Box> :
           <Box mt={1} mb={3}>
-            <Box className="controls-btn" >
+            <Stack justifyContent='center' direction='row' spacing={3}>
               <IconButton onClick={toggleLoop}>
                 {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
                   : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
@@ -161,7 +169,7 @@ function App() {
               <IconButton onClick={randomBtn}>
                 <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
               </IconButton>
-            </Box>
+            </Stack>
           </Box>
         }
 
