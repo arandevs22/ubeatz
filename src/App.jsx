@@ -100,34 +100,25 @@ function App() {
               Toca Iniciar
             </Typography>
           </Box> :
-          <Grid container mt={3}>
-            <Grid item xs={10} >
-              <Typography className='title' variant='h6' color='#fff'>
-                {tracks[count].title}
-              </Typography>
-              <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-                {tracks[count].artists.map((artist, index) => (
-                  <Fragment key={artist.name}>
-                    <Typography className='artist' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
-                      {artist.name}
+          <Box mt={3}>
+            <Typography className='title' variant='h6' color='#fff'>
+              {tracks[count].title}
+            </Typography>
+            <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+              {tracks[count].artists.map((artist, index) => (
+                <Fragment key={artist.name}>
+                  <Typography className='artist' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
+                    {artist.name}
+                  </Typography>
+                  {index !== tracks[count].artists.length - 1 && (
+                    <Typography className='comma' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
+                      , &nbsp;
                     </Typography>
-                    {index !== tracks[count].artists.length - 1 && (
-                      <Typography className='comma' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
-                        , &nbsp;
-                      </Typography>
-                    )}
-                  </Fragment>
-                ))}
-              </Box>
-            </Grid>
-            {count > 0 &&
-              <Grid className='download-btn' item xs={2}>
-                <IconButton aria-label="download" onClick={() => downloadMp3(audioPlayer.current.currentSrc)}>
-                  <Downloading sx={{ fontSize: 35, color: '#fff' }} />
-                </IconButton>
-              </Grid>
-            }
-          </Grid>
+                  )}
+                </Fragment>
+              ))}
+            </Box>
+          </Box>
         }
 
         {count > 0 &&

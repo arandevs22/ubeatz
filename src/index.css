@@ -32,7 +32,7 @@ body {
 
 .MuiTypography-root.title {
   font-weight: 600;
-  text-align: start;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -48,7 +48,6 @@ body {
 
 .MuiTypography-root.artist {
   color: rgba(255, 255, 255, 0.5);
-  text-align: start;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -56,7 +55,6 @@ body {
 
 .MuiTypography-root.comma {
   color: rgba(255, 255, 255, 0.5);
-  text-align: start;
   white-space: nowrap;
   overflow: hidden;
 }
