@@ -1,13 +1,13 @@
-import { Box, Button, Container, Grid, IconButton, LinearProgress, Paper, Stack, Typography, makeStyles, styled } from '@mui/material'
+import { Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
-import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, SkipPrevious } from '@mui/icons-material';
+import { Download, DownloadForOffline, Downloading, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, } from '@mui/icons-material'
 import { Image } from 'mui-image'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
   borderRadius: 5,
-  backgroundColor: 'rgba(255, 255, 255, 0.2)'
+  backgroundColor: 'rgba(255, 255, 255, 0.1)'
 }))
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
   const [isLoop, setIsLoop] = useState(false)
 
-  const audioPlayer = useRef();
+  const audioPlayer = useRef()
 
   const playButton = () => {
 
@@ -75,13 +75,11 @@ function App() {
       });
   }
 
-
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
     document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
 
   })
-
 
   return (
     <div>
@@ -96,7 +94,7 @@ function App() {
         {count === 0 ?
           <Box mt={3}>
             <Typography mb={1} className='title2' variant='h6' color='#fff'>
-              Welcome to Ubeatz Radio App
+              Welcome to Ubeatz Radio
             </Typography>
             <Typography variant='subtitle1' color={'rgba(255, 255, 255, 0.5)'}>
               Toca Iniciar
@@ -123,9 +121,9 @@ function App() {
               </Box>
             </Grid>
             {count > 0 &&
-              <Grid item xs={2}>
-                <IconButton aria-label="download" onClick={() => { downloadMp3(tracks[count].URL) }}>
-                  <Download sx={{ fontSize: 35, color: '#fff' }} />
+              <Grid className='download-btn' item xs={2}>
+                <IconButton aria-label="download" onClick={() => downloadMp3(audioPlayer.current.currentSrc)}>
+                  <Downloading sx={{ fontSize: 35, color: '#fff' }} />
                 </IconButton>
               </Grid>
             }

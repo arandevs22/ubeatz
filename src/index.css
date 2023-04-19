@@ -76,6 +76,12 @@ body {
   padding: 10px;
 }
 
+.MuiGrid-root.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   width: 35px;
 }
