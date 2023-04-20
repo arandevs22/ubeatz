@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
-import { Download, DownloadForOffline, Downloading, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, } from '@mui/icons-material'
+import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, } from '@mui/icons-material'
 import { Image } from 'mui-image'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
@@ -68,10 +68,11 @@ function App() {
   return (
     <div>
       <Container className='main'>
-        {/* Audio Loader */}
-        <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
+        <Box>
+          <audio controls onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
+        </Box>
         {/* Cover Image */}
-        <Box sx={{ paddingTop: 4, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
+        <Box sx={{ width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
@@ -84,7 +85,7 @@ function App() {
               Toca Iniciar
             </Typography>
           </Box> :
-          <Box mt={3}>
+          <Box mt={3} mb={3}>
             <Typography className='title' variant='h6' color='#fff'>
               {tracks[count].title}
             </Typography>
@@ -106,8 +107,8 @@ function App() {
         }
         {/* Time Progress Bar */}
         {count > 0 &&
-          <Box mt={3} sx={{ color: '#fff' }}>
-            <Box mb={1}>
+          <Box sx={{ margin: 'auto', color: '#fff', width: '90%' }}>
+            <Box>
               <TimeLinearProgress color='inherit' variant='determinate' value={progress} />
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -129,8 +130,8 @@ function App() {
               </Button>
             </Stack>
           </Box> :
-          <Box mt={1} mb={3}>
-            <Stack justifyContent='center' direction='row' spacing={3}>
+          <Box mb={2}>
+            <Stack mb={2} justifyContent='center' direction='row' spacing={3}>
               <IconButton onClick={toggleLoop}>
                 {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
                   : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
