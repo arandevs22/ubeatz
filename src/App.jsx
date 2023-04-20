@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
-import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, } from '@mui/icons-material'
+import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, } from '@mui/icons-material'
 import { Image } from 'mui-image'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
@@ -24,6 +24,8 @@ function App() {
 
   const [isLoop, setIsLoop] = useState(false)
 
+  const [isMuted, setIsMuted] = useState(false)
+
   const audioPlayer = useRef()
 
   const playButton = () => {
@@ -40,11 +42,15 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * tracks.length))
+    setCount(Math.ceil(Math.random() * 172))
   }
 
   const toggleLoop = () => {
     setIsLoop(!isLoop)
+  }
+
+  const toggleMuted = () => {
+    setIsMuted(!isMuted)
   }
 
   useEffect(() => {
@@ -69,7 +75,7 @@ function App() {
     <div>
       <Container className='main'>
         <Box>
-          <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
+          <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
         {/* Cover Image */}
         <Box sx={{ paddingTop: 5, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
@@ -130,20 +136,28 @@ function App() {
               </Button>
             </Stack>
           </Box> :
-          <Box mb={2}>
-            <Stack mb={2} justifyContent='center' direction='row' spacing={3}>
-              <IconButton onClick={toggleLoop}>
-                {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
-                  : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
-                }
-              </IconButton>
-              <IconButton onClick={playButton}>
-                {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
-              </IconButton>
-              <IconButton onClick={randomBtn}>
-                <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
-              </IconButton>
-            </Stack>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '90%', margin: 'auto' }} mb={2}>
+            <IconButton onClick={toggleMuted}>
+              {isMuted ? <VolumeOff sx={{ fontSize: 30, color: '#fff' }} /> :
+                <VolumeUp sx={{ fontSize: 30, color: '#fff' }} />
+              }
+            </IconButton>
+            <IconButton onClick={toggleLoop}>
+              {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
+                : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
+              }
+            </IconButton>
+            <IconButton onClick={playButton}>
+              {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
+            </IconButton>
+            <IconButton onClick={randomBtn}>
+              <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
+            </IconButton>
+            <Box>
+              <a href={`https://drive.google.com/uc?id=${tracks[count].mp3}&export=download`} download={tracks[count].title}>
+                <Download sx={{ fontSize: 30, color: '#fff' }} />
+              </a>
+            </Box>
           </Box>
         }
 
