@@ -3,6 +3,7 @@ import { Fragment, useEffect, useRef, useState } from 'react'
 import tracks from './data/music'
 import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, } from '@mui/icons-material'
 import { Image } from 'mui-image'
+import DownloadButton from './components/DownloadButton'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -153,11 +154,7 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
             </IconButton>
-            <Box>
-              <a href={`https://drive.google.com/uc?id=${tracks[count].mp3}&export=download`} download={tracks[count].title}>
-                <Download sx={{ fontSize: 30, color: '#fff' }} />
-              </a>
-            </Box>
+            <DownloadButton filename={tracks[count].title} fileurl={`https://drive.google.com/uc?id=${tracks[count].mp3}&export=download`} />
           </Box>
         }
 
