@@ -59,6 +59,17 @@ function App() {
     return `${returnMinutes}:${returnSeconds}`;
   }
 
+  const downloadMp3 = () => {
+    const audioUrl = audioPlayer.current.currentSrc;
+    const filename = audioUrl.substring(audioUrl.lastIndexOf("/") + 1);
+    const a = document.createElement("a");
+    a.href = audioUrl;
+    a.target = '_blank'
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
     document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
@@ -69,7 +80,7 @@ function App() {
     <div>
       <Container className='main'>
         <Box>
-          <audio controls onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
+          <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
         </Box>
         {/* Cover Image */}
         <Box sx={{ width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
@@ -146,6 +157,8 @@ function App() {
             </Stack>
           </Box>
         }
+
+        <Button onClick={downloadMp3}>Descargar</Button>
 
       </Container>
     </div>
