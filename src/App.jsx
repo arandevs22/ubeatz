@@ -76,7 +76,7 @@ function App() {
     <div>
       <Container className='main'>
         <Box>
-          <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/music/${tracks[count].title}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/music/${tracks[count].title}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
         {/* Cover Image */}
         <Box sx={{ paddingTop: 5, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
