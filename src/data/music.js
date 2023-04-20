@@ -2430,6 +2430,7 @@ const tracks = [
         id: '172',
         title: 'LOKERA',
         URL: 'https://aranstorage.blob.core.windows.net/music/LOKERA.mp3',
+        mp3: '1LMMNBKX-Kl5ytm4MeENQtMtcUcRoQn7L',
         artists: [
             {
                 name: 'Rauw Alejandro'
@@ -2447,6 +2448,7 @@ const tracks = [
         id: '173',
         title: 'Mas Rica Que Ayer',
         URL: 'https://aranstorage.blob.core.windows.net/music/Mas%20Rica%20Que%20Ayer.mp3',
+        mp3: '1SuqAx7Ym3iuTZvrLPakJR9wg8-W7ID4g',
         artists: [
             {
                 name: 'Anuel AA'
@@ -2464,6 +2466,7 @@ const tracks = [
         id: '174',
         title: 'MI DROGA',
         URL: 'https://aranstorage.blob.core.windows.net/music/MI%20DROGA.mp3',
+        mp3: '1u5OqthIJW1SGT-IU0afTYaWnImtJtoTR',
         artists: [
             {
                 name: 'Mike Towers'
@@ -2475,6 +2478,7 @@ const tracks = [
         id: '175',
         title: 'Mi Gata (Remix)',
         URL: 'https://aranstorage.blob.core.windows.net/music/Mi%20Gata%20(Remix).mp3',
+        mp3: '1kMacJ957CZVXaxFoVOBtMqPRL7ovp9O-',
         artists: [
             {
                 name: 'Standly'
@@ -2492,6 +2496,7 @@ const tracks = [
         id: '176',
         title: 'Mini Mini',
         URL: 'https://aranstorage.blob.core.windows.net/music/Mini%20Mini.mp3',
+        mp3: '1oS5zFtpSAxIzx8g_b3MSjLXaKit7gW4l',
         artists: [
             {
                 name: 'Punto40'
@@ -2506,6 +2511,7 @@ const tracks = [
         id: '177',
         title: 'More',
         URL: 'https://aranstorage.blob.core.windows.net/music/More.mp3',
+        mp3: '1v1ixUYm4wPoksfTkKp3uvyMMCv8RRT6n',
         artists: [
             {
                 name: 'Zion'
@@ -2523,6 +2529,7 @@ const tracks = [
         id: '178',
         title: 'Normal',
         URL: 'https://aranstorage.blob.core.windows.net/music/Normal.mp3',
+        mp3: '1W5fZGZdhI8XuxUIXLuHxocgGDy0p1pEN',
         artists: [
             {
                 name: 'Feid'
@@ -2534,6 +2541,7 @@ const tracks = [
         id: '179',
         title: 'Pa Que Retozen',
         URL: 'https://aranstorage.blob.core.windows.net/music/Pa%20Que%20Retozen.mp3',
+        mp3: '1kBAAlnYHdIQJXMvzEvibncFijmWUaW4I',
         artists: [
             {
                 name: 'Tego Calderón'
@@ -2545,6 +2553,7 @@ const tracks = [
         id: '180',
         title: 'PANTIES Y BRASIERES',
         URL: 'https://aranstorage.blob.core.windows.net/music/PANTIES%20Y%20BRASIERES.mp3',
+        mp3: '1E-unssB3k9kNRpy5cPbTo_BcdcB8mjmx',
         artists: [
             {
                 name: 'Rauw Alejandro'
@@ -2559,6 +2568,7 @@ const tracks = [
         id: '181',
         title: 'PUNTO G',
         URL: 'https://aranstorage.blob.core.windows.net/music/PUNTO%20G.mp3',
+        mp3: '1vYTMCvCjNWsjN9Q9ZfJw8t8kuK-oVolU',
         artists: [
             {
                 name: 'Quevedo'
@@ -2569,7 +2579,8 @@ const tracks = [
     {
         id: '182',
         title: 'REMIX EXCLUSIVO',
-        URL: 'https://aranstorage.blob.core.windows.net/music/REMIX%20EXCLUSIVO.mp3',
+        URL: 'REMIX%20EXCLUSIVO',
+        mp3: '1K_lya5fvUWNBYfnXF-139mOQYMFSoTvo',
         artists: [
             {
                 name: 'Feid'
@@ -2580,7 +2591,8 @@ const tracks = [
     {
         id: '183',
         title: 'SHERATON',
-        URL: 'https://aranstorage.blob.core.windows.net/music/SHERATON.mp3',
+        URL: 'SHERATON',
+        mp3: '1oVT5lUFOhw37dKewwfnDrVMBqPamupjf',
         artists: [
             {
                 name: 'El Jordan 23'
@@ -2591,7 +2603,8 @@ const tracks = [
     {
         id: '184',
         title: 'Tamagotchi',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Tamagotchi.mp3',
+        URL: 'Tamagotchi',
+        mp3: '1SdoQz45nI5uG9PVvt2Tu_un44Crx5f3r',
         artists: [
             {
                 name: 'Guntter'
@@ -2605,7 +2618,8 @@ const tracks = [
     {
         id: '185',
         title: 'VISTA AL MAR',
-        URL: 'https://aranstorage.blob.core.windows.net/music/VISTA%20AL%20MAR.mp3',
+        URL: 'VISTA%20AL%20MAR',
+        mp3: '1Q1lo6O4vmK49KAG5e4BmMZ_UfQ9qjjIj',
         artists: [
             {
                 name: 'Quevedo'
@@ -2616,7 +2630,8 @@ const tracks = [
     {
         id: '186',
         title: 'WANDA',
-        URL: 'https://aranstorage.blob.core.windows.net/music/WANDA.mp3',
+        URL: 'WANDA',
+        mp3: '1MS6ByKSCFaH_DLGTk2kBYvQuNzAACIW_',
         artists: [
             {
                 name: 'Quevedo'
@@ -2627,7 +2642,8 @@ const tracks = [
     {
         id: '187',
         title: 'X 1 BESO',
-        URL: 'https://aranstorage.blob.core.windows.net/music/X%201%20BESO.mp3',
+        URL: 'X%201%20BESO',
+        mp3: '13gY_hG8KNpA9SF-NAn3CZUWmY0bkMe0m',
         artists: [
             {
                 name: 'Ryan Castro'
@@ -2641,7 +2657,8 @@ const tracks = [
     {
         id: '188',
         title: 'X SI VOLVEMOS',
-        URL: 'https://aranstorage.blob.core.windows.net/music/X%20SI%20VOLVEMOS.mp3',
+        URL: 'X%20SI%20VOLVEMOS',
+        mp3: '1-bXroyt9uG3exOVFtVgZAlQXfS8Bxw0l',
         artists: [
             {
                 name: 'Karol G'
@@ -2655,7 +2672,8 @@ const tracks = [
     {
         id: '189',
         title: '1Trago',
-        URL: 'https://aranstorage.blob.core.windows.net/music/1Trago.mp3',
+        URL: '1Trago',
+        mp3: '11SNtlUr6F6j0vqmK7ZXvWfRPOo1O7SLq',
         artists: [
             {
                 name: 'Danna Paola'
@@ -2666,7 +2684,8 @@ const tracks = [
     {
         id: '190',
         title: '911 (En Vivo)',
-        URL: 'https://aranstorage.blob.core.windows.net/music/911%20(En%20Vivo).mp3',
+        URL: '911%20(En%20Vivo)',
+        mp3: '1xLXfz9dxn6yVUwKQRdWWo1yD_mknTU0W',
         artists: [
             {
                 name: 'Fuerza Regida'
@@ -2680,7 +2699,8 @@ const tracks = [
     {
         id: '191',
         title: 'Arcángel: Bzrp Music Sessions, Vol. 54',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Arc%C3%A1ngel_%20Bzrp%20Music%20Sessions,%20Vol.%2054.mp3',
+        URL: 'Arc%C3%A1ngel_%20Bzrp%20Music%20Sessions,%20Vol.%2054',
+        mp3: '1iCBvLqtck6Prbk20z2fsmB_wvACIT69f',
         artists: [
             {
                 name: 'Bizarrap'
@@ -2694,7 +2714,8 @@ const tracks = [
     {
         id: '192',
         title: 'Coco Chanel',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Coco%20Chanel.mp3',
+        URL: 'Coco%20Chanel',
+        mp3: '1br8lf9WFMP7Kkw6kBrwLPncrXtWW8ZkI',
         artists: [
             {
                 name: 'Eladio Carrión'
@@ -2708,7 +2729,8 @@ const tracks = [
     {
         id: '193',
         title: 'Cupido',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Cupido.mp3',
+        URL: 'Cupido',
+        mp3: '10zMGKBjP8Ug1LO5jR_nZKNliUJl6l8Sw',
         artists: [
             {
                 name: 'TINI'
@@ -2719,7 +2741,8 @@ const tracks = [
     {
         id: '194',
         title: 'Die For You (Remix)',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Die%20For%20You%20(Remix).mp3',
+        URL: 'Die%20For%20You%20(Remix)',
+        mp3: '11_HI_Ys85uHkW5WGzDOsX8K8KVglbC1T',
         artists: [
             {
                 name: 'The Weekend'
@@ -2733,7 +2756,8 @@ const tracks = [
     {
         id: '195',
         title: 'El Gordo Trae El Mando',
-        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Gordo%20Trae%20El%20Mando.mp3',
+        URL: 'El%20Gordo%20Trae%20El%20Mando',
+        mp3: '1yTnW1MgCXYdUlaDAnM-DQLSZVHwJ_Ti6',
         artists: [
             {
                 name: 'Chino Pacas'
@@ -2744,7 +2768,8 @@ const tracks = [
     {
         id: '196',
         title: 'EL HECHIZO',
-        URL: 'https://aranstorage.blob.core.windows.net/music/EL%20HECHIZO.mp3',
+        URL: 'EL%20HECHIZO',
+        mp3: '1lMJQX1KN1yEE6jqIJonqwLmhEujnOoHK',
         artists: [
             {
                 name: 'Ovy On The Drums'
@@ -2758,7 +2783,8 @@ const tracks = [
     {
         id: '197',
         title: 'El Merengue',
-        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Merengue.mp3',
+        URL: 'El%20Merengue',
+        mp3: '1RKmlwFBJR5AhGy93OlbADgXtKbLjLb_x',
         artists: [
             {
                 name: 'Marshmello'
@@ -2772,7 +2798,8 @@ const tracks = [
     {
         id: '198',
         title: 'El Tsurito',
-        URL: 'https://aranstorage.blob.core.windows.net/music/El%20Tsurito.mp3',
+        URL: 'El%20Tsurito',
+        mp3: '1D6WJHYzeNg3c6W8E4N6YxBPBa5vDYDfN',
         artists: [
             {
                 name: 'Junior H'
@@ -2786,7 +2813,8 @@ const tracks = [
     {
         id: '199',
         title: 'Frágil',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Fr%C3%A1gil.mp3',
+        URL: 'Fr%C3%A1gil',
+        mp3: '1B-gpTLlWHilRYbUjRwbb0I3ofbSlEfFO',
         artists: [
             {
                 name: 'Yahritza Y Su Esencia'
@@ -2800,7 +2828,8 @@ const tracks = [
     {
         id: '200',
         title: 'Lisa',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Lisa.mp3',
+        URL: 'Lisa',
+        mp3: '1qjhtRX1wwiJcn9mwjOIWoWYYQH2O4uY5',
         artists: [
             {
                 name: 'Young Miko'
@@ -2811,7 +2840,8 @@ const tracks = [
     {
         id: '201',
         title: 'lo que hay x aquí',
-        URL: 'https://aranstorage.blob.core.windows.net/music/lo%20que%20hay%20x%20aqu%C3%AD.mp3',
+        URL: 'lo%20que%20hay%20x%20aqu%C3%AD',
+        mp3: '1GnUzOGGNFdKGHraQf0cbU4E9YVpgp_Ot',
         artists: [
             {
                 name: 'Rels B'
@@ -2822,7 +2852,8 @@ const tracks = [
     {
         id: '202',
         title: 'Los Collares',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Los%20Collares.mp3',
+        URL: 'Los%20Collares',
+        mp3: '1GnUzOGGNFdKGHraQf0cbU4E9YVpgp_Ot',
         artists: [
             {
                 name: 'Óscar Maydon'
@@ -2836,7 +2867,8 @@ const tracks = [
     {
         id: '203',
         title: 'MERCHO (feat. Nico Valdi)',
-        URL: 'https://aranstorage.blob.core.windows.net/music/MERCHO%20(feat.%20Nico%20Valdi).mp3',
+        URL: 'MERCHO%20(feat.%20Nico%20Valdi)',
+        mp3: '16g1xxtcyRNOxyEWZrpPCICAaNvc2hlLf',
         artists: [
             {
                 name: 'Lil Cake'
@@ -2853,7 +2885,8 @@ const tracks = [
     {
         id: '204',
         title: 'MIENTRAS ME CURO DEL CORA',
-        URL: 'https://aranstorage.blob.core.windows.net/music/MIENTRAS%20ME%20CURO%20DEL%20CORA.mp3',
+        URL: 'MIENTRAS%20ME%20CURO%20DEL%20CORA',
+        mp3: '15KodOJF0Uv852CF-7iqb72bffH8T8qOm',
         artists: [
             {
                 name: 'Karol G'
@@ -2864,7 +2897,8 @@ const tracks = [
     {
         id: '205',
         title: 'Rara Vez',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Rara%20Vez.mp3',
+        URL: 'Rara%20Vez',
+        mp3: '1N7xNB2ctCl722IsE4jj4ZxJmjjIf-jnI',
         artists: [
             {
                 name: 'Taui'
@@ -2878,7 +2912,8 @@ const tracks = [
     {
         id: '206',
         title: 'Tormenta (feat. Bad Bunny)',
-        URL: 'https://aranstorage.blob.core.windows.net/music/Tormenta%20(feat.%20Bad%20Bunny).mp3',
+        URL: 'Tormenta%20(feat.%20Bad%20Bunny)',
+        mp3: '1-SlfcMezf_85WMMZ7NCvPCQ6i79C2UYL',
         artists: [
             {
                 name: 'Gorillaz'
@@ -2892,7 +2927,8 @@ const tracks = [
     {
         id: '207',
         title: 'un x100to',
-        URL: 'https://aranstorage.blob.core.windows.net/music/un%20x100to.mp3',
+        URL: 'un%20x100to',
+        mp3: '1EKpusHiCKzZoVUj_kwtvkVWcY1X4ruew',
         artists: [
             {
                 name: 'Grupo Frontera'
