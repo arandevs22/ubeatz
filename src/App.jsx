@@ -59,17 +59,6 @@ function App() {
     return `${returnMinutes}:${returnSeconds}`;
   }
 
-  const downloadMp3 = () => {
-    const audioUrl = audioPlayer.current.currentSrc;
-    const filename = audioUrl.substring(audioUrl.lastIndexOf("/") + 1);
-    const a = document.createElement("a");
-    a.href = audioUrl;
-    a.target = '_blank'
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }
-
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
     document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
@@ -83,7 +72,7 @@ function App() {
           <audio onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={tracks[count].URL} onEnded={randomBtn} loop={isLoop} />
         </Box>
         {/* Cover Image */}
-        <Box sx={{ width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
+        <Box sx={{ paddingTop: 5, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
@@ -119,7 +108,7 @@ function App() {
         {/* Time Progress Bar */}
         {count > 0 &&
           <Box sx={{ margin: 'auto', color: '#fff', width: '90%' }}>
-            <Box>
+            <Box mb={1}>
               <TimeLinearProgress color='inherit' variant='determinate' value={progress} />
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -157,8 +146,6 @@ function App() {
             </Stack>
           </Box>
         }
-
-        <Button onClick={downloadMp3}>Descargar</Button>
 
       </Container>
     </div>
