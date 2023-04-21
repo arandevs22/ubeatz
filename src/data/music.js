@@ -2732,6 +2732,534 @@ const tracks = [
         ],
         primaryColor: '#423022'
     },
+    {
+        id: '208',
+        title: '14_20',
+        mp3: '1B-kYWoxHP7bIyhYvl2t1Qr8AbA_-jaBt',
+        artists: [
+            {
+                name: 'Ryan Castro'
+            },
+            {
+                name: 'Piso 21'
+            }
+        ],
+        primaryColor: '#FC0017'
+    },
+    {
+        id: '209',
+        title: 'Alto Voltaje',
+        mp3: '1jNJrViMazle2mKdrt_pGSE_HmdtcDW0z',
+        artists: [
+            {
+                name: 'Samantha Barrón'
+            }
+        ],
+        primaryColor: '#2B2A26'
+    },
+    {
+        id: '210',
+        title: 'Bandolera',
+        mp3: '1i9gt-7FyOK10Eef7NVzCj_2NIxQRo_yU',
+        artists: [
+            {
+                name: 'Santa Fe Klan'
+            },
+            {
+                name: 'L-Gante'
+            },
+            {
+                name: 'Uzielito Mix'
+            }
+        ],
+        primaryColor: '#E42F2B'
+    },
+    {
+        id: '211',
+        title: 'Blades',
+        mp3: '1tb5YehxvxpKfxC57ZllvJ95JMa4pZza1',
+        artists: [
+            {
+                name: 'Aldo Parks'
+            }
+        ],
+        primaryColor: '#E42F2B'
+    },
+    {
+        id: '212',
+        title: 'Boche',
+        mp3: '1n54Hj8RdKv-XQsxgnZDQFoWgXNFwovDg',
+        artists: [
+            {
+                name: 'Ak4:20'
+            },
+            {
+                name: 'Marcianeke'
+            }
+        ],
+        primaryColor: '#490C48'
+    },
+    {
+        id: '213',
+        title: 'Chills (LA Hills)',
+        mp3: '1DB7r_u4xc8Dbzueoj9jrjUFR3-o5cKkh',
+        artists: [
+            {
+                name: 'Tiësto'
+            },
+            {
+                name: 'A Boogie Wit da Hoodie'
+            }
+        ],
+        primaryColor: '#242426'
+    },
+    {
+        id: '214',
+        title: 'De Party En Party',
+        mp3: '1WK_2_uHYCVB5ufn6I6Z2pow-8gOxWiy3',
+        artists: [
+            {
+                name: 'Lele Pons'
+            },
+            {
+                name: 'Guaynaa'
+            }
+        ],
+        primaryColor: '#BEBCBD'
+    },
+    {
+        id: '215',
+        title: 'El carro Ford',
+        mp3: '1v0VRUGXK-dz2m7A9AXU_F-HSOoppM69w',
+        artists: [
+            {
+                name: 'Carlos Vives'
+            }
+        ],
+        primaryColor: '#425F6F'
+    },
+    {
+        id: '216',
+        title: 'Feliz Breakup',
+        mp3: '10fMOHIHTORzrxNTD4vD1ouWPOBce_pi6',
+        artists: [
+            {
+                name: 'PATY CANTÚ'
+            },
+            {
+                name: 'Ximena Sarinana'
+            },
+            {
+                name: 'zzoilo'
+            }
+        ],
+        primaryColor: '#371318'
+    },
+    {
+        id: '217',
+        title: 'Gasolina (feat. Myke Towers) (Safari Riot Remix)',
+        mp3: '1Y5HVjRUv9E36j0R6bKBKvkEH9E1dBIkN',
+        artists: [
+            {
+                name: 'Daddy Yankee'
+            },
+            {
+                name: 'Myke Towers'
+            }
+        ],
+        primaryColor: '#464646'
+    },
+    {
+        id: '218',
+        title: 'Girasoles',
+        mp3: '1lu0OK0edlSfWzUYlSPg1_095wdMLydYS',
+        artists: [
+            {
+                name: 'Irepelusa'
+            },
+            {
+                name: 'Antabaka'
+            }
+        ],
+        primaryColor: '#9B61A5'
+    },
+    {
+        id: '219',
+        title: 'Golden',
+        mp3: '1x0QJdu4-jzzelapccLOyf03Flj3hHchS',
+        artists: [
+            {
+                name: 'Milky Chance'
+            }
+        ],
+        primaryColor: '#FBD589'
+    },
+    {
+        id: '220',
+        title: 'Groove',
+        mp3: '1NPZ-_IGO6GmXK8NgWEKsSoWxBEL37bgE',
+        artists: [
+            {
+                name: 'La Firma'
+            },
+            {
+                name: 'Nashy Nashai'
+            }
+        ],
+        primaryColor: '#EE7D25'
+    },
+    {
+        id: '221',
+        title: 'Haegeum',
+        mp3: '1-bgPE2ATKhbI8BTCBX8gRCWt_vf3OAQX',
+        artists: [
+            {
+                name: 'Agust D'
+            }
+        ],
+        primaryColor: '#444444'
+    },
+    {
+        id: '222',
+        title: 'Karma',
+        mp3: '1jqL2PZVZu8itBXaQ16FtEIujdCyC5bxE',
+        artists: [
+            {
+                name: 'La Firma'
+            },
+            {
+                name: 'Nashy Nashai'
+            }
+        ],
+        primaryColor: '#EE7D25'
+    },
+    {
+        id: '223',
+        title: 'Kitty',
+        mp3: '1wInUpipyzB6qpPKN-xnzNKgp70nZKIyC',
+        artists: [
+            {
+                name: 'Kim Loaiza'
+            },
+            {
+                name: 'LIT killah'
+            }
+        ],
+        primaryColor: '#9F049D'
+    },
+    {
+        id: '224',
+        title: 'LA FALTA QUE ME HACES',
+        mp3: '1_dCFhgx8DHHejMRBWqxGH590IhuhanLk',
+        artists: [
+            {
+                name: 'NATTI NATASHA'
+            }
+        ],
+        primaryColor: '#28449E'
+    },
+    {
+        id: '225',
+        title: 'Los Placeres',
+        mp3: '1rBZXG5egIWRa4E9oxSbbcn7EtsiVxYVa',
+        artists: [
+            {
+                name: 'Simpson Ahuevo'
+            }
+        ],
+        primaryColor: '#EBD036'
+    },
+    {
+        id: '226',
+        title: 'Me EnRD',
+        mp3: '199ZEps_J2OZQz2KKjMO1faMG2B7Vkaiv',
+        artists: [
+            {
+                name: 'Prince Royce'
+            }
+        ],
+        primaryColor: '#326D68'
+    },
+    {
+        id: '227',
+        title: 'Mejor Así',
+        mp3: '12IzJaPtq9Een4A2Gy-Zg-SGr9pnwLmVq',
+        artists: [
+            {
+                name: 'Mario Bautista'
+            },
+            {
+                name: 'Adriel Favela'
+            }
+        ],
+        primaryColor: '#858585'
+    },
+    {
+        id: '228',
+        title: 'MI EXXX',
+        mp3: '1X45Y0Jn0yW7YqeNXsMh3uLz_wHevSDS_',
+        artists: [
+            {
+                name: 'Wisin'
+            },
+            {
+                name: 'Anuel AA'
+            }
+        ],
+        primaryColor: '#7F0E00'
+    },
+    {
+        id: '229',
+        title: 'Nada Es Para Siempre (feat. Nico Valdi)',
+        mp3: '1CkhIyOeAF6Lp4wBJSm7L44lCa3SOANYk',
+        artists: [
+            {
+                name: 'MC Davo'
+            },
+            {
+                name: 'Migrantes'
+            },
+            {
+                name: 'Nico Valdi'
+            }
+        ],
+        primaryColor: '#7B3580'
+    },
+    {
+        id: '230',
+        title: 'Niña Bonita',
+        mp3: '1MWKF3e7G7RDywIP3ac1NF_Xh3I-bRVUx',
+        artists: [
+            {
+                name: 'Feid'
+            },
+            {
+                name: 'Sean Paul'
+            }
+        ],
+        primaryColor: '#499B1E'
+    },
+    {
+        id: '231',
+        title: 'No Te La Sabes',
+        mp3: '1_a4HbbQRKULZ3t97S4NS4iKViUk_eqqn',
+        artists: [
+            {
+                name: 'Aczino'
+            },
+            {
+                name: 'Millonario'
+            }
+        ],
+        primaryColor: '#716F66'
+    },
+    {
+        id: '232',
+        title: 'odiarte',
+        mp3: '1t5Uipejn7L-uoBTaamF86IBhL5SEyz2H',
+        artists: [
+            {
+                name: 'Ivana'
+            }
+        ],
+        primaryColor: '#8DE3FE'
+    },
+    {
+        id: '233',
+        title: 'Perfecta (Versión 2023)',
+        mp3: '1M5MMQkrilVBWjWmU4YEAS6Sd8g1P5rUP',
+        artists: [
+            {
+                name: 'Miranda!'
+            },
+            {
+                name: 'Maria Becerra'
+            },
+            {
+                name: 'FMK'
+            }
+        ],
+        primaryColor: '#5D6B47'
+    },
+    {
+        id: '234',
+        title: 'Perro',
+        mp3: '1R23DYv1vYigs28Q9MU4_KAOQ61hMj-3W',
+        artists: [
+            {
+                name: 'El Malilla'
+            },
+            {
+                name: 'Sir Speedy'
+            },
+            {
+                name: 'Nando Produce'
+            }
+        ],
+        primaryColor: '#0A1417'
+    },
+    {
+        id: '235',
+        title: 'Polvo de Gigantes',
+        mp3: '1reIIripf794OzfUy-yCW7WkFnzqMnt5v',
+        artists: [
+            {
+                name: 'Kurt'
+            }
+        ],
+        primaryColor: '#C0C0C0'
+    },
+    {
+        id: '236',
+        title: 'qué le pasa conmigo_',
+        mp3: '1-9BdngL47xVZp8j6pB4t7pAUVj0gWe78',
+        artists: [
+            {
+                name: 'Nicki Nicole'
+            },
+            {
+                name: 'Rels B'
+            }
+        ],
+        primaryColor: '#23241F'
+    },
+    {
+        id: '237',
+        title: 'Romance y Bellakera',
+        mp3: '1lyLkjTr3xoyJzk9r7ZlWQ95x2lCgu-YL',
+        artists: [
+            {
+                name: 'Ñengo Flow'
+            },
+            {
+                name: 'Jory Boy'
+            },
+            {
+                name: 'Zion y Lennox'
+            }
+        ],
+        primaryColor: '#E3E3E3'
+    },
+    {
+        id: '238',
+        title: 'Rosa Pastel',
+        mp3: '1oHIZR9o3c16RCC7v_3bfa6PJoijayWb5',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+            {
+                name: 'Jasiel Nuñez'
+            }
+        ],
+        primaryColor: '#A1345D'
+    },
+    {
+        id: '239',
+        title: 'Salida',
+        mp3: '1HS7oJYfvN7xZYhup7q6m14v4Bz8bFkom',
+        artists: [
+            {
+                name: 'Rubytates'
+            }
+        ],
+        primaryColor: '#395EB0'
+    },
+    {
+        id: '240',
+        title: 'Satellite',
+        mp3: '1aOHkJZxue7x2F5mlKT4T6HtIWXq-X3Mm',
+        artists: [
+            {
+                name: 'Bebe Rexha'
+            },
+            {
+                name: 'Snoop Dogg'
+            }
+        ],
+        primaryColor: '#9D7729'
+    },
+    {
+        id: '241',
+        title: 'Secuestro De Amor',
+        mp3: '1GKeKwdH9TWkYX4rjpK8qNh8FfOIyboPJ',
+        artists: [
+            {
+                name: 'Grupo Firme'
+            },
+            {
+                name: 'Los Tucanes de Tijuana'
+            }
+        ],
+        primaryColor: '#662172'
+    },
+    {
+        id: '242',
+        title: 'Todo Fue Por Amor (de la película “Con Esta Luz”)',
+        mp3: '18CVOYR3oCk93n-DujxxRUeUaiVVrsAbO',
+        artists: [
+            {
+                name: 'Carla Morrison'
+            }
+        ],
+        primaryColor: '#735452'
+    },
+    {
+        id: '243',
+        title: 'TONTA',
+        mp3: '1zXTENQqqrFVOe9k2Q9WCFA01CpHGqqow',
+        artists: [
+            {
+                name: 'Nathy Peluso'
+            }
+        ],
+        primaryColor: '#6A4B42'
+    },
+    {
+        id: '244',
+        title: 'Tu Amor',
+        mp3: '18a4zVCmcrrg3MLRBgsBtOf8cUN53ak9t',
+        artists: [
+            {
+                name: 'La Firma'
+            },
+            {
+                name: 'Rmand'
+            }
+        ],
+        primaryColor: '#EE7D25'
+    },
+    {
+        id: '245',
+        title: 'Verano',
+        mp3: '1Ac1HNf918vUJgL30lA-GtvpezDnh5ihc',
+        artists: [
+            {
+                name: 'Blessd'
+            },
+            {
+                name: 'Rvssian'
+            }
+        ],
+        primaryColor: '#2E67D0'
+    },
+    {
+        id: '246',
+        title: 'Whiskey y Coco (Remix)',
+        mp3: '1-8nbEFoh8ZDV6UoiX-ElKcOWXv2amFG5',
+        artists: [
+            {
+                name: 'Justin Quiles'
+            },
+            {
+                name: 'Myke Towers'
+            },
+            {
+                name: 'Ozuna'
+            }
+        ],
+        primaryColor: '#D5403E'
+    },
 ]
 
 export default tracks;
