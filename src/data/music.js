@@ -7,7 +7,7 @@ const tracks = [
                 name: 'Toca Iniciar para reproducir lista'
             }
         ],
-        primaryColor: '#d32f86'
+        primaryColor: '#232323'
     },
     {
         id: 1,
@@ -131,7 +131,7 @@ const tracks = [
     },
     {
         id: '10',
-        title: 'Shakira: Bzrp Music Sessions, Vol. 53',
+        title: 'Shakira Bzrp Music Sessions, Vol. 53',
         mp3: '18s25WSACFkZt58kcuwoAwfOPpiL-ZoMd',
         artists: [
             {
@@ -1124,7 +1124,7 @@ const tracks = [
     },
     {
         id: '85',
-        title: '¿Cómo Se Supera?',
+        title: '¿Cómo Se Supera',
         mp3: '10OG8SS1YGeKZlmGuOSruXHtGV0-yTGNX',
         artists: [
             {
@@ -1748,7 +1748,7 @@ const tracks = [
     },
     {
         id: '133',
-        title: 'sanvalentín:(',
+        title: 'sanvalentín_(',
         mp3: '1VNL_loouJqjXswzWYHhwZAdnDy2OFMHH',
         artists: [
             {
@@ -2508,7 +2508,7 @@ const tracks = [
     },
     {
         id: '191',
-        title: 'Arcángel: Bzrp Music Sessions, Vol. 54',
+        title: 'Arcángel Bzrp Music Sessions, Vol. 54',
         mp3: '1iCBvLqtck6Prbk20z2fsmB_wvACIT69f',
         artists: [
             {
