@@ -79,7 +79,7 @@ function App() {
           <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/music/${tracks[count].title}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
         {/* Cover Image */}
-        <Box sx={{ paddingTop: 4, margin: 'auto', textAlign: 'center' }} mb={3}>
+        <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
@@ -144,15 +144,15 @@ function App() {
               }
             </IconButton>
             <IconButton onClick={toggleLoop}>
-              {isLoop ? <Loop sx={{ fontSize: 40, color: '#fff' }} />
-                : <Loop sx={{ fontSize: 40, color: 'rgba(255, 255, 255, 0.3)' }} />
+              {isLoop ? <Loop sx={{ fontSize: 30, color: '#fff' }} />
+                : <Loop sx={{ fontSize: 30, color: 'rgba(255, 255, 255, 0.3)' }} />
               }
             </IconButton>
             <IconButton onClick={playButton}>
-              {isPlaying ? <PauseCircle sx={{ fontSize: 70, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 70, color: '#fff' }} />}
+              {isPlaying ? <PauseCircle sx={{ fontSize: 80, color: '#fff' }} /> : <PlayCircle sx={{ fontSize: 80, color: '#fff' }} />}
             </IconButton>
             <IconButton onClick={randomBtn}>
-              <SkipNext sx={{ fontSize: 40, color: '#fff' }} />
+              <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
             <DownloadButton filename={tracks[count].title} fileurl={`https://drive.google.com/uc?id=${tracks[count].mp3}&export=download`} />
           </Box>
