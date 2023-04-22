@@ -79,7 +79,7 @@ function App() {
           <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/music/${tracks[count].title}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
         {/* Cover Image */}
-        <Box sx={{ paddingTop: 5, width: '90%', margin: 'auto', textAlign: 'center' }} mb={3}>
+        <Box sx={{ paddingTop: 4, margin: 'auto', textAlign: 'center' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
@@ -114,7 +114,7 @@ function App() {
         }
         {/* Time Progress Bar */}
         {count > 0 &&
-          <Box sx={{ margin: 'auto', color: '#fff', width: '90%' }}>
+          <Box sx={{ margin: 'auto', color: '#fff' }}>
             <Box mb={1}>
               <TimeLinearProgress color='inherit' variant='determinate' value={progress} />
             </Box>
@@ -137,7 +137,7 @@ function App() {
               </Button>
             </Stack>
           </Box> :
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '90%', margin: 'auto' }} mb={2}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: 'auto' }} mb={2}>
             <IconButton onClick={toggleMuted}>
               {isMuted ? <VolumeOff sx={{ fontSize: 30, color: '#fff' }} /> :
                 <VolumeUp sx={{ fontSize: 30, color: '#fff' }} />
