@@ -3258,7 +3258,7 @@ const tracks = [
                 name: 'Ozuna'
             }
         ],
-        primaryColor: '#D5403E'
+        primaryColor: '#92E6C5'
     },
 ]
 
