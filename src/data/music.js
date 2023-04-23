@@ -45,7 +45,7 @@ const tracks = [
     },
     {
         id: 3,
-        title: 'Rumbaton',
+        title: 'RUMBATON',
         mp3: '1BjRNft9ZWDpwSu2Q5zknS8XV44bbkA_E',
         artists: [
             {
