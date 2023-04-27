@@ -13,7 +13,7 @@ const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 function App() {
 
-  const [count, setCount] = useState(1)
+  const [count, setCount] = useState(0)
 
   const [isPlaying, setPlaying] = useState(true)
 
@@ -43,7 +43,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * 207))
+    setCount(Math.ceil(Math.random() * tracks.length))
   }
 
   const toggleLoop = () => {
