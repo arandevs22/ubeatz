@@ -13,7 +13,7 @@ const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 function App() {
 
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
 
   const [isPlaying, setPlaying] = useState(true)
 
@@ -43,7 +43,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * tracks.length))
+    setCount(Math.ceil(Math.random() * 207))
   }
 
   const toggleLoop = () => {
@@ -72,15 +72,16 @@ function App() {
 
   })
 
+
   return (
     <div>
       <Container className='main'>
         <Box>
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/music/${tracks[count].title}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
         {/* Cover Image */}
         <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center' }} mb={3}>
-          <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/images/${count}.jpg`} />
+          <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
         {count === 0 ?
@@ -154,10 +155,9 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
-            <DownloadButton filename={tracks[count].title} fileurl={`https://drive.google.com/uc?id=${tracks[count].mp3}&export=download`} />
+            <DownloadButton filename={tracks[count].title} fileurl={`https://www.mediafire.com/file/${tracks[count].mp3}/${tracks[count].id}.mp3/file`} />
           </Box>
         }
-
       </Container>
     </div>
   )
