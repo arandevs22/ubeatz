@@ -3261,6 +3261,624 @@ const tracks = [
         ],
         primaryColor: '#92E6C5'
     },
+    {
+        id: '2231649957',
+        title: 'Sin Freno',
+        mp3: 'td8vyo0tgyt0ic7',
+        artists: [
+            {
+                name: 'Mitú'
+            },
+            {
+                name: 'Loyal Lobos'
+            }
+        ],
+        primaryColor: '#FDFDFD'
+    },
+    {
+        id: '2222960947',
+        title: 'Tan Natural',
+        mp3: 'ld4rhdpklewnlni',
+        artists: [
+            {
+                name: 'Los Rumberos'
+            },
+            {
+                name: 'Playa Limbo'
+            }
+        ],
+        primaryColor: '#3CA8D6'
+    },
+    {
+        id: '2223544627',
+        title: 'Mi vida en llamas (feat. Buscabulla)',
+        mp3: '7tffzb7kghzveyc',
+        artists: [
+            {
+                name: 'Alex Anwandter'
+            },
+            {
+                name: 'Buscabulla'
+            }
+        ],
+        primaryColor: '#CC5D2D'
+    },
+    {
+        id: '2232114467',
+        title: 'Dame Un Break',
+        mp3: 'gy4hzyq30qa7zmu',
+        artists: [
+            {
+                name: 'Rawayana'
+            }
+        ],
+        primaryColor: '#FCE11B'
+    },
+    {
+        id: '2225321997',
+        title: 'PULPARI',
+        mp3: 'h596un0s9k5q7yi',
+        artists: [
+            {
+                name: 'Absa G.'
+            },
+            {
+                name: 'Kódigo'
+            }
+        ],
+        primaryColor: '#04AEAD'
+    },
+    {
+        id: '2206660597',
+        title: 'LALALAND',
+        mp3: 'an1tvll7j4xqzm8',
+        artists: [
+            {
+                name: 'The Change'
+            }
+        ],
+        primaryColor: '#7896CA'
+    },
+    {
+        id: '2244735607',
+        title: 'Si Es Amor',
+        mp3: 'qefdrdswyclsmiw',
+        artists: [
+            {
+                name: 'OV7'
+            }
+        ],
+        primaryColor: '#B2684B'
+    },
+    {
+        id: '2246954737',
+        title: 'DE ESTE SUEÑO NO ME DESPIERTO',
+        mp3: 'o4c2ihq03jo21xb',
+        artists: [
+            {
+                name: 'Daniel Quién'
+            },
+            {
+                name: 'Yonatan Mazor'
+            }
+        ],
+        primaryColor: '#265A87'
+    },
+    {
+        id: '2231686477',
+        title: 'Jaula de Oro',
+        mp3: 'mirlbd7qk7vwoj1',
+        artists: [
+            {
+                name: 'Leiva'
+            },
+            {
+                name: 'Conociendo Rusia'
+            }
+        ],
+        primaryColor: '#880B0C'
+    },
+    {
+        id: '2226849147',
+        title: 'Prométeme',
+        mp3: 'jnymjhkailq7a9u',
+        artists: [
+            {
+                name: 'Monsieur Perine'
+            }
+        ],
+        primaryColor: '#94341A'
+    },
+    {
+        id: '2246259177',
+        title: 'Glad U Came',
+        mp3: 'xigorvdx8ctjje0',
+        artists: [
+            {
+                name: 'Jason Derulo'
+            }
+        ],
+        primaryColor: '#01F187'
+    },
+    {
+        id: '2248578427',
+        title: 'Charm',
+        mp3: '42yd2axdm5uqfrj',
+        artists: [
+            {
+                name: 'Rema'
+            }
+        ],
+        primaryColor: '#F6F1D1'
+    },
+    {
+        id: '2221221937',
+        title: 'Rock My Body',
+        mp3: 'esd6jggzs9ow1hz',
+        artists: [
+            {
+                name: 'R3HAB'
+            },
+            {
+                name: 'INNA'
+            },
+            {
+                name: 'Sash!'
+            }
+        ],
+        primaryColor: '#C17428'
+    },
+    {
+        id: '2253328717',
+        title: 'Sad in the Summer',
+        mp3: '2e80x9cf9wxunct',
+        artists: [
+            {
+                name: 'Diplo'
+            },
+            {
+                name: 'Lily Rose'
+            }
+        ],
+        primaryColor: '#141E16'
+    },
+    {
+        id: '2185135047',
+        title: 'No Reason',
+        mp3: '1gfvznw2jsxmylj',
+        artists: [
+            {
+                name: 'The Chemical Brothers'
+            }
+        ],
+        primaryColor: '#BD283B'
+    },
+    {
+        id: '2213742237',
+        title: 'Money In The Bank',
+        mp3: 'utddum41t8qtd28',
+        artists: [
+            {
+                name: 'Molotov'
+            },
+            {
+                name: 'Wos'
+            }
+        ],
+        primaryColor: '#D7491B'
+    },
+    {
+        id: '2234230157',
+        title: 'Bajo Los Árboles',
+        mp3: 'jekzjnssab615ph',
+        artists: [
+            {
+                name: 'Los Bunkers'
+            }
+        ],
+        primaryColor: '#E2CC9B'
+    },
+    {
+        id: '2226838737',
+        title: 'Cara Tapada',
+        mp3: 'q30gynndalemdo7',
+        artists: [
+            {
+                name: 'tornillo'
+            },
+            {
+                name: '473 Music'
+            }
+        ],
+        primaryColor: '#959595'
+    },
+    {
+        id: '2237994847',
+        title: 'PARA AMARTE A TI',
+        mp3: '1jju52t3a9lcx96',
+        artists: [
+            {
+                name: 'KHEA'
+            },
+            {
+                name: 'Tiago PZK'
+            }
+        ],
+        primaryColor: '#E5050C'
+    },
+    {
+        id: '2248799527',
+        title: 'Meltdown',
+        mp3: 'avm3rd633lvn5up',
+        artists: [
+            {
+                name: 'Niall Horan'
+            }
+        ],
+        primaryColor: '#D1A07C'
+    },
+    {
+        id: '2255212497',
+        title: 'The Feels',
+        mp3: 'xdezbzh3igs3ml2',
+        artists: [
+            {
+                name: 'Labrinth'
+            }
+        ],
+        primaryColor: '#2B1E0E'
+    },
+    {
+        id: '2253302587',
+        title: 'Eat The Acid',
+        mp3: '87tzgkhseew8yi3',
+        artists: [
+            {
+                name: 'Kesha'
+            }
+        ],
+        primaryColor: '#C0C0BF'
+    },
+    {
+        id: '2226796897',
+        title: 'Seasons',
+        mp3: 'ymz52zq9demvelb',
+        artists: [
+            {
+                name: 'Bebe Rexha'
+            },
+            {
+                name: 'Dolly Parton'
+            }
+        ],
+        primaryColor: '#DA8568'
+    },
+    {
+        id: '2229021757',
+        title: 'The Alcott (feat. Taylor Swift)',
+        mp3: '3lpm6uwqgnghv03',
+        artists: [
+            {
+                name: 'The National'
+            },
+            {
+                name: 'Taylor Swift'
+            }
+        ],
+        primaryColor: '#D9D4CE'
+    },
+    {
+        id: '2247330887',
+        title: 'Super',
+        mp3: '1qjalf20menqeff',
+        artists: [
+            {
+                name: 'SEVENTEEN'
+            }
+        ],
+        primaryColor: '#BBBBBB'
+    },
+    {
+        id: '2253917197',
+        title: 'Shoong!',
+        mp3: 'nuj3vded4xrehkb',
+        artists: [
+            {
+                name: 'TAEYANG'
+            },
+            {
+                name: 'LISA'
+            }
+        ],
+        primaryColor: '#9BB9B7'
+    },
+    {
+        id: '2225912917',
+        title: 'Live Without Love',
+        mp3: 'lfhuh9k05l0z5l1',
+        artists: [
+            {
+                name: 'Shouse'
+            },
+            {
+                name: 'David Guetta'
+            }
+        ],
+        primaryColor: '#000000'
+    },
+    {
+        id: '2222106897',
+        title: 'Corazón',
+        mp3: 'udv32gn3vn91ild',
+        artists: [
+            {
+                name: 'Mike Bahia'
+            }
+        ],
+        primaryColor: '#E3455E'
+    },
+    {
+        id: '2244725357',
+        title: 'Devuélveme a Mi Chica',
+        mp3: 'fed972sfbxv8q5v',
+        artists: [
+            {
+                name: 'Thalia'
+            },
+            {
+                name: 'David Summers'
+            }
+        ],
+        primaryColor: '#B03474'
+    },
+    {
+        id: '2248058537',
+        title: 'Asesina',
+        mp3: 'goq5kgvxnmd27ki',
+        artists: [
+            {
+                name: 'Santa Fe Klan'
+            },
+            {
+                name: 'L-Gante'
+            }
+        ],
+        primaryColor: '#356057'
+    },
+    {
+        id: '2237505107',
+        title: 'Romántica Champeta',
+        mp3: 'mkejt3n100o0kre',
+        artists: [
+            {
+                name: 'Bomba Estéreo'
+            },
+            {
+                name: 'Kevin Florez'
+            }
+        ],
+        primaryColor: '#DB005F'
+    },
+    {
+        id: '2206793617',
+        title: 'Lo Tuyo',
+        mp3: 'cflb9xl93m2t9j2',
+        artists: [
+            {
+                name: 'Jambene'
+            },
+            {
+                name: 'Zion'
+            }
+        ],
+        primaryColor: '#1D9D91'
+    },
+    {
+        id: '2249993477',
+        title: 'Adictivo',
+        mp3: '5x9k5zhg05vujr4',
+        artists: [
+            {
+                name: 'Kai BRL'
+            },
+            {
+                name: 'Cris Mj'
+            },
+            {
+                name: 'ONE PLAY'
+            }
+        ],
+        primaryColor: '#A4060F'
+    },
+    {
+        id: '2255007497',
+        title: 'Ando Bien Agusto',
+        mp3: 'mrhtwo7b2ibqdsl',
+        artists: [
+            {
+                name: 'Matisse'
+            },
+            {
+                name: 'Los Tucanes de Tijuana'
+            }
+        ],
+        primaryColor: '#EDEBD6'
+    },
+    {
+        id: '2243185327',
+        title: 'No Me Beses',
+        mp3: 'ykxl4txi0r3le8u',
+        artists: [
+            {
+                name: 'La Adictiva'
+            },
+            {
+                name: 'Joan Sebastian'
+            }
+        ],
+        primaryColor: '#3599BD'
+    },
+    {
+        id: '2253532557',
+        title: 'Buscando El Olvido',
+        mp3: 'p010zzhg1d7uoby',
+        artists: [
+            {
+                name: 'Adriel Favela'
+            }
+        ],
+        primaryColor: '#003215'
+    },
+    {
+        id: '2256441117',
+        title: 'Quedate Conmigo',
+        mp3: 'o36886d717wrory',
+        artists: [
+            {
+                name: 'Eslabon Armado'
+            },
+            {
+                name: 'Grupo Frontera'
+            }
+        ],
+        primaryColor: '#0B1530'
+    },
+    {
+        id: '2245262037',
+        title: 'Quédate',
+        mp3: 'bk0kgufivllgyp7',
+        artists: [
+            {
+                name: 'Christian Nodal'
+            }
+        ],
+        primaryColor: '#0F7B4B'
+    },
+    {
+        id: '2168082017',
+        title: 'Triste',
+        mp3: 'wcdq2161ql77y6h',
+        artists: [
+            {
+                name: 'Manuel Turizo'
+            }
+        ],
+        primaryColor: '#D0AB7F'
+    },
+    {
+        id: '2045122487',
+        title: 'PLAYA DEL INGLÉS',
+        mp3: 'wbqgd8nh0q38x9j',
+        artists: [
+            {
+                name: 'Quevedo'
+            },
+            {
+                name: 'Myke Towers'
+            }
+        ],
+        primaryColor: '#D9BC90'
+    },
+    {
+        id: '2144511117',
+        title: 'LA HORA Y EL DÍA',
+        mp3: 'hztpo2jfvpn9t0p',
+        artists: [
+            {
+                name: 'Daddy Yankee'
+            },
+            {
+                name: 'Justin Quiles'
+            }
+        ],
+        primaryColor: '#13819E'
+    },
+    {
+        id: '2120686497',
+        title: 'LLYLM',
+        mp3: 'hpnbpc02zodlzms',
+        artists: [
+            {
+                name: 'ROSALÍA'
+            }
+        ],
+        primaryColor: '#BEA591'
+    },
+    {
+        id: '2069303107',
+        title: 'De Qué Manera',
+        mp3: 'wdau10bsy5uxygk',
+        artists: [
+            {
+                name: 'Mike Bahia'
+            }
+        ],
+        primaryColor: '#9C3124'
+    },
+    {
+        id: '2217859727',
+        title: 'Supernova',
+        mp3: 'b5bs7m2x6ypkoq2',
+        artists: [
+            {
+                name: 'Saiko'
+            }
+        ],
+        primaryColor: '#D343D1'
+    },
+    {
+        id: '2216851977',
+        title: 'Esta Vida',
+        mp3: 'qvjn2bbgymijn5c',
+        artists: [
+            {
+                name: 'Marshmello'
+            },
+            {
+                name: 'Farruko'
+            }
+        ],
+        primaryColor: '#2E8DDD'
+    },
+    {
+        id: '2170492547',
+        title: 'Arranca (feat. Omega)',
+        mp3: '7lj41x97zv8kmki',
+        artists: [
+            {
+                name: 'Becky G'
+            },
+            {
+                name: 'Omega'
+            }
+        ],
+        primaryColor: '#91EAFD'
+    },
+    {
+        id: '2204492107',
+        title: 'Los Ángeles',
+        mp3: 'lovo8gbnnh84ezt',
+        artists: [
+            {
+                name: 'Aitana'
+            }
+        ],
+        primaryColor: '#2E2118'
+    },
+    {
+        id: '2248629077',
+        title: 'Mami Chula',
+        mp3: '12qyjvi6ml44rzm',
+        artists: [
+            {
+                name: 'Jhayco'
+            },
+            {
+                name: 'Quevedo'
+            }
+        ],
+        primaryColor: '#15485E'
+    },
 ]
 
 export default tracks;
