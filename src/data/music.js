@@ -1,7 +1,7 @@
 const tracks = [
     {
         id: 'cover',
-        title: 'Welcome to Ubeatz',
+        title: 'Welcome to Ubeatz App',
         artists: [
             {
                 name: 'Toca Iniciar para reproducir lista'
