@@ -4,7 +4,7 @@ const tracks = [
         title: 'Welcome to Ubeatz',
         artists: [
             {
-                name: 'Toca Iniciar para reproducir lista'
+                name: 'Radio'
             }
         ],
         primaryColor: '#232323'
