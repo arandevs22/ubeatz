@@ -1,7 +1,7 @@
-import { Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { AppBar, Avatar, Dialog, List, ListItem, ListItemAvatar, ListItemText, Slide, Toolbar, Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
+import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import tracks from './data/music'
-import { Download, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, } from '@mui/icons-material'
+import { Close, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore } from '@mui/icons-material'
 import { Image } from 'mui-image'
 import DownloadButton from './components/DownloadButton'
 
@@ -10,6 +10,11 @@ const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   borderRadius: 5,
   backgroundColor: 'rgba(255, 255, 255, 0.1)'
 }))
+
+const Transition = forwardRef(function Transition(props, ref) {
+  return <Slide direction='up' ref={ref} {...props} />
+})
+
 
 function App() {
 
@@ -26,6 +31,10 @@ function App() {
   const [isLoop, setIsLoop] = useState(false)
 
   const [isMuted, setIsMuted] = useState(false)
+
+  const [open, setOpen] = useState(false)
+
+  const [selectedIndex, setSelectIndex] = useState(-1)
 
   const audioPlayer = useRef()
 
@@ -54,6 +63,20 @@ function App() {
     setIsMuted(!isMuted)
   }
 
+  const handleClickOpen = () => {
+    setOpen(true)
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+  }
+
+  const handleIndex = (index) => {
+    setSelectIndex(index)
+    setCount(index)
+    setOpen(false)
+  }
+
   useEffect(() => {
     setProgress(duration > 0 ? (currentTime / duration) * 100 : 0)
   }, [currentTime, duration])
@@ -69,8 +92,8 @@ function App() {
   useEffect(() => {
     document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
     document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
-
   })
+
 
 
   return (
@@ -79,8 +102,43 @@ function App() {
         <Box>
           <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         </Box>
+        {/* PlayList */}
+        <Box sx={{ display: 'flex', justifyContent: 'end', paddingTop: 2 }}>
+          <IconButton onClick={handleClickOpen}>
+            <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
+          </IconButton>
+          <Dialog
+            fullScreen
+            open={open}
+            onClose={handleClose}
+            TransitionComponent={Transition}
+          >
+            <AppBar sx={{ position: 'fixed' }}>
+              <Toolbar>
+                <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
+                <Typography sx={{ ml: 2, flex: 1 }} variant='h6' component='div'>
+                  Lista de Reproduccion
+                </Typography>
+                <IconButton
+                  edge='start'
+                  onClick={handleClose}
+                  arial-label='close'
+                >
+                  <ExpandMore sx={{ color: '#fff', fontSize: 30 }} />
+                </IconButton>
+              </Toolbar>
+            </AppBar>
+            <List>
+              {tracks.map((songs, index) => (
+                <ListItem button key={index} onClick={() => handleIndex(index)}>
+                  <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
+                </ListItem>
+              ))}
+            </List>
+          </Dialog>
+        </Box>
         {/* Cover Image */}
-        <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center' }} mb={3}>
+        <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
           <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.jpg`} />
         </Box>
         {/* Title & Artist Text */}
