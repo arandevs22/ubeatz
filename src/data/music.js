@@ -1,15 +1,5 @@
 const tracks = [
     {
-        id: 'cover',
-        title: 'Welcome to Ubeatz',
-        artists: [
-            {
-                name: 'Radio'
-            }
-        ],
-        primaryColor: '#232323'
-    },
-    {
         id: '2074439067',
         title: 'Yandel 150',
         mp3: 'nfjz8w1xjomqo7x',
@@ -536,17 +526,6 @@ const tracks = [
             }
         ],
         primaryColor: '#7c7c7c'
-    },
-    {
-        id: '2960711',
-        title: 'Rakata',
-        mp3: '6do9ei3d0otsjnj',
-        artists: [
-            {
-                name: 'Wisin & Yandel'
-            },
-        ],
-        primaryColor: '#6b1514'
     },
     {
         id: '1066959132',
@@ -1277,17 +1256,6 @@ const tracks = [
         primaryColor: '#be3937'
     },
     {
-        id: '2180660977',
-        title: 'Desvelado',
-        mp3: 'twgfjw765mh03px',
-        artists: [
-            {
-                name: 'Fuerza Regida'
-            }
-        ],
-        primaryColor: '#f2ddb6'
-    },
-    {
         id: '2136421487',
         title: 'Di Que Si',
         mp3: 'l02sbi4hf8dw53x',
@@ -1300,20 +1268,6 @@ const tracks = [
             }
         ],
         primaryColor: '#c6b2a7'
-    },
-    {
-        id: '2186138097',
-        title: 'Dijeron Que No La Iba Lograr',
-        mp3: 'fovxt5uhpp4357o',
-        artists: [
-            {
-                name: 'Chinos Pacas'
-            },
-            {
-                name: 'Fuerza Regida'
-            }
-        ],
-        primaryColor: '#1a393e'
     },
     {
         id: '2165484817',
@@ -1394,7 +1348,7 @@ const tracks = [
                 name: 'La Maquinaria Norteña'
             }
         ],
-        primaryColor: '#f0f8fa'
+        primaryColor: '#1c1a25'
     },
     {
         id: '2011882147',
@@ -2246,17 +2200,6 @@ const tracks = [
         primaryColor: '#6B3945'
     },
     {
-        id: '1496039012',
-        title: 'Lo Que Pasó, Pasó',
-        mp3: 'vh3qmus7cths09a',
-        artists: [
-            {
-                name: 'Daddy Yankee'
-            }
-        ],
-        primaryColor: '#3E3E3E'
-    },
-    {
         id: '1835409857',
         title: 'LOKERA',
         mp3: '0ch0f4bhauqofsp',
@@ -2333,23 +2276,6 @@ const tracks = [
         primaryColor: '#017FC6'
     },
     {
-        id: '134218468',
-        title: 'More',
-        mp3: 'tnbcjyttz9ixx3w',
-        artists: [
-            {
-                name: 'Zion'
-            },
-            {
-                name: 'Jory'
-            },
-            {
-                name: 'Ken-Y'
-            }
-        ],
-        primaryColor: '#9EA9A1'
-    },
-    {
         id: '1809961297',
         title: 'Normal',
         mp3: 'n57zcqfcvw8v8xu',
@@ -2362,9 +2288,9 @@ const tracks = [
     },
     {
         id: '38217121',
-        title: 'Pa Que Retozen',
+        title: 'Pa\' Que Retozen',
         mp3: 'h54482hh1wpquxd',
-        artists: [
+        artists: [  
             {
                 name: 'Tego Calderón'
             }
@@ -2544,7 +2470,7 @@ const tracks = [
                 name: 'TINI'
             }
         ],
-        primaryColor: '#DAC7CB'
+        primaryColor: '#101010'
     },
     {
         id: '2166068717',
@@ -3063,7 +2989,7 @@ const tracks = [
                 name: 'Ivana'
             }
         ],
-        primaryColor: '#8DE3FE'
+        primaryColor: '#12130e'
     },
     {
         id: '2225231007',

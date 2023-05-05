@@ -1,9 +1,10 @@
-import { AppBar, Avatar, Dialog, List, ListItem, ListItemAvatar, ListItemText, Slide, Toolbar, Box, Button, Container, Grid, IconButton, LinearProgress, Stack, Typography, styled } from '@mui/material'
+import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha } from '@mui/material'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
-import tracks from './data/music'
-import { Close, Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore } from '@mui/icons-material'
+import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd } from '@mui/icons-material'
 import { Image } from 'mui-image'
+import { pink } from '@mui/material/colors';
 import DownloadButton from './components/DownloadButton'
+import tracks from './data/music'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -15,10 +16,22 @@ const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction='up' ref={ref} {...props} />
 })
 
+const HdSwitch = styled(Switch)(({ theme }) => ({
+  '& .MuiSwitch-switchBase.Mui-checked': {
+    color: pink[50],
+    '&:hover': {
+      backgroundColor: alpha(pink[50], theme.palette.action.hoverOpacity),
+    },
+  },
+  '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
+    backgroundColor: pink[50],
+  },
+}))
+
 
 function App() {
 
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(-1)
 
   const [isPlaying, setPlaying] = useState(true)
 
@@ -36,6 +49,8 @@ function App() {
 
   const [selectedIndex, setSelectIndex] = useState(-1)
 
+  const [hightQuality, setHightQuality] = useState(false)
+
   const audioPlayer = useRef()
 
   const playButton = () => {
@@ -52,7 +67,7 @@ function App() {
 
   const randomBtn = () => {
     setPlaying(true)
-    setCount(Math.ceil(Math.random() * tracks.length))
+    setCount(Math.floor(Math.random() * tracks.length))
   }
 
   const toggleLoop = () => {
@@ -77,8 +92,12 @@ function App() {
     setOpen(false)
   }
 
+  const handleHd = () => {
+    setHightQuality(!hightQuality)
+  }
+
   useEffect(() => {
-    setProgress(duration > 0 ? (currentTime / duration) * 100 : 0)
+    setProgress(duration > -1 ? (currentTime / duration) * 100 : 0)
   }, [currentTime, duration])
 
   const calculateTime = (secs) => {
@@ -90,8 +109,9 @@ function App() {
   }
 
   useEffect(() => {
-    document.title = `${tracks[count].title} - ${tracks[count].artists[0].name}`
-    document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
+    count === -1 ?
+      document.body.style.backgroundImage = `linear-gradient(to top, #121212, #232323)` :
+      document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
   })
 
 
@@ -99,11 +119,12 @@ function App() {
   return (
     <div>
       <Container className='main'>
-        <Box>
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
-        </Box>
+        {
+          count > -1  &&
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={hightQuality ? `https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.flac` : `https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+        }
         {/* PlayList */}
-        <Box sx={{ display: 'flex', justifyContent: 'end', paddingTop: 2 }}>
+        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center' }}>
           <IconButton onClick={handleClickOpen}>
             <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
           </IconButton>
@@ -136,13 +157,22 @@ function App() {
               ))}
             </List>
           </Dialog>
+          <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Hd sx={{ color: '#fff', fontSize: 30 }} />
+            <HdSwitch onChange={handleHd} />
+          </Box>
         </Box>
         {/* Cover Image */}
-        <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-          <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.jpg`} />
-        </Box>
+        {count === -1 ?
+          <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
+            <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/cover.jpg`} />
+          </Box> :
+          <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
+            <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.jpg`} />
+          </Box>
+        }
         {/* Title & Artist Text */}
-        {count === 0 ?
+        {count === -1 ?
           <Box mt={3}>
             <Typography mb={1} className='title2' variant='h6' color='#fff'>
               Welcome to Ubeatz Radio
@@ -172,7 +202,7 @@ function App() {
           </Box>
         }
         {/* Time Progress Bar */}
-        {count > 0 &&
+        {count > -1 &&
           <Box sx={{ margin: 'auto', color: '#fff' }}>
             <Box mb={1}>
               <TimeLinearProgress color='inherit' variant='determinate' value={progress} />
@@ -188,7 +218,7 @@ function App() {
           </Box>
         }
         {/* Control Buttons */}
-        {count === 0 ?
+        {count === -1 ?
           <Box mt={8} mb={3}>
             <Stack className='artist' direction='row' spacing={3}>
               <Button className='random-btn' color='inherit' variant='contained' size='large' onClick={randomBtn} startIcon={<Shuffle />}>
