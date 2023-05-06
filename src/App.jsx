@@ -28,6 +28,8 @@ const HdSwitch = styled(Switch)(({ theme }) => ({
   },
 }))
 
+const OffSet = styled('div')(({theme}) => theme.mixins.toolbar)
+
 
 function App() {
 
@@ -49,7 +51,7 @@ function App() {
 
   const [selectedIndex, setSelectIndex] = useState(-1)
 
-  const [hightQuality, setHightQuality] = useState(false)
+  const [hightQuality, setHightQuality] = useState(true)
 
   const audioPlayer = useRef()
 
@@ -137,7 +139,7 @@ function App() {
             <AppBar sx={{ position: 'fixed' }}>
               <Toolbar>
                 <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
-                <Typography sx={{ ml: 2, flex: 1 }} variant='h6' component='div'>
+                <Typography sx={{ ml: 2, flexGrow: 1 }} variant='h6' component='div'>
                   Lista de Reproduccion
                 </Typography>
                 <IconButton
@@ -149,17 +151,18 @@ function App() {
                 </IconButton>
               </Toolbar>
             </AppBar>
-            <List>
+            <OffSet />
+            <List sx={{ marginTop: 1 }}>
               {tracks.map((songs, index) => (
                 <ListItem button key={index} onClick={() => handleIndex(index)}>
                   <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
                 </ListItem>
-              ))}
+              )).reverse()}
             </List>
           </Dialog>
           <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <Hd sx={{ color: '#fff', fontSize: 30 }} />
-            <HdSwitch onChange={handleHd} />
+            <HdSwitch onChange={handleHd} defaultChecked/>
           </Box>
         </Box>
         {/* Cover Image */}

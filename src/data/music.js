@@ -3185,7 +3185,7 @@ const tracks = [
                 name: 'Ozuna'
             }
         ],
-        primaryColor: '#92E6C5'
+        primaryColor: '#5bbfd6'
     },
     {
         id: '2231649957',
@@ -3804,6 +3804,513 @@ const tracks = [
             }
         ],
         primaryColor: '#15485E'
+    },
+    {
+        id: '2248629077',
+        title: 'Mami Chula',
+        mp3: '12qyjvi6ml44rzm',
+        artists: [
+            {
+                name: 'Jhayco'
+            },
+            {
+                name: 'Quevedo'
+            }
+        ],
+        primaryColor: '#15485E'
+    },
+    {
+        id: '2253667277',
+        title: 'Pacas De Billetes',
+        mp3: 'vqjvy6tjsqic6fi',
+        artists: [
+            {
+                name: 'Natanael Cano'
+            }
+        ],
+        primaryColor: '#b73729'
+    },
+    {
+        id: '2266961147',
+        title: '77',
+        mp3: 'zxwvnfopr8brk5u',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+            {
+                name: 'Eladio Carrion'
+            }
+        ],
+        primaryColor: '#494949'
+    },
+    {
+        id: '2267836417',
+        title: 'Belico Enamorado',
+        mp3: 'rid8hcw5imx0xn7',
+        artists: [
+            {
+                name: 'Gabito Ballesteros'
+            },
+            {
+                name: 'DannyLux'
+            }
+        ],
+        primaryColor: '#dd0535'
+    },
+    {
+        id: '2255375347',
+        title: 'Un Cigarrillo',
+        mp3: 't3kn5iw147tkyaj',
+        artists: [
+            {
+                name: 'Chencho Corleone'
+            }
+        ],
+        primaryColor: '#323969'
+    },
+    {
+        id: '2263199927',
+        title: 'Pariente',
+        mp3: '1ne4knzt1q4k3pn',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+            {
+                name: 'Myke Towers'
+            }
+        ],
+        primaryColor: '#b16f21'
+    },
+    {
+        id: '2264467877',
+        title: 'aPoLLo13',
+        mp3: '89q5dunme78ozkv',
+        artists: [
+            {
+                name: 'DUKI'
+            }
+        ],
+        primaryColor: '#034a63'
+    },
+    {
+        id: '2255250587',
+        title: 'Mejor Que Yo',
+        mp3: 'zvo89guuodeq61s',
+        artists: [
+            {
+                name: 'Anuel AA'
+            },
+            {
+                name: 'Dj Luian'
+            },
+            {
+                name: 'Mambo Kingz'
+            }
+        ],
+        primaryColor: '#160336'
+    },
+    {
+        id: '2254903577',
+        title: 'Polémica',
+        mp3: 'q3ah95ianlgk3fv',
+        artists: [
+            {
+                name: 'Cris Mj'
+            }
+        ],
+        primaryColor: '#af3529'
+    },
+    {
+        id: '2254937757',
+        title: 'Amiga',
+        mp3: 'ygdzqg1tsp86ino',
+        artists: [
+            {
+                name: 'Dalex'
+            }
+        ],
+        primaryColor: '#c11e10'
+    },
+    {
+        id: '2233804077',
+        title: 'Fool 4 U (feat. Enisa)',
+        mp3: '23v24ttdcrj2lhu',
+        artists: [
+            {
+                name: 'Galantis'
+            },
+            {
+                name: 'Jvke'
+            },
+            {
+                name: 'Enisa'
+            }
+        ],
+        primaryColor: '#000000'
+    },
+    {
+        id: '2250154207',
+        title: 'Hero',
+        mp3: 'utpjrgeir8q7e6c',
+        artists: [
+            {
+                name: 'Alan Walker'
+            },
+            {
+                name: 'Sasha Alex Sloan'
+            }
+        ],
+        primaryColor: '#0c1b20'
+    },
+    {
+        id: '2256073517',
+        title: 'Curtains',
+        mp3: 'ylmou2hocuysl1k',
+        artists: [
+            {
+                name: 'Ed Sheeran'
+            }
+        ],
+        primaryColor: '#c8b411'
+    },
+    {
+        id: '2258042607',
+        title: 'FEARLESS (2023 Ver.)',
+        mp3: '98kt24u42cguexk',
+        artists: [
+            {
+                name: 'LE SSERAFIM'
+            }
+        ],
+        primaryColor: '#850a2b'
+    },
+    {
+        id: '2242042207',
+        title: 'Estrecho / Alvarado (feat. pablopablo)',
+        mp3: '94gcbwdidxbg2k6',
+        artists: [
+            {
+                name: 'C. Tangana'
+            },
+            {
+                name: 'pablopablo'
+            }
+        ],
+        primaryColor: '#35415a'
+    },
+    {
+        id: '2253505417',
+        title: 'Welcome To MY World (feat. nævis)',
+        mp3: 'tbfn46j6y9qjs9t',
+        artists: [
+            {
+                name: 'aespa'
+            },
+            {
+                name: 'nævis'
+            }
+        ],
+        primaryColor: '#638d94'
+    },
+    {
+        id: '2267145747',
+        title: 'Veneno',
+        mp3: '975ikpicsahzreu',
+        artists: [
+            {
+                name: 'Juanes'
+            }
+        ],
+        primaryColor: '#a08258'
+    },
+    {
+        id: '2260145127',
+        title: 'Sabes',
+        mp3: 'pyffoh32e2dfjby',
+        artists: [
+            {
+                name: 'Santa Fe Klan'
+            },
+            {
+                name: 'Karely Ruíz'
+            }
+        ],
+        primaryColor: '#288489'
+    },
+    {
+        id: '2246628067',
+        title: 'No_se_ve.mp3',
+        mp3: 'e177prf0wzloe14',
+        artists: [
+            {
+                name: 'Emilia'
+            },
+            {
+                name: 'LUDMILLA'
+            },
+            {
+                name: 'Zecca'
+            }
+        ],
+        primaryColor: '#9b5b8a'
+    },
+    {
+        id: '2239496697',
+        title: 'Reina de la Selva',
+        mp3: 'h7ykq7u9rfnvv9o',
+        artists: [
+            {
+                name: 'Villano Antillano'
+            },
+            {
+                name: 'Pedro Capó'
+            }
+        ],
+        primaryColor: '#b52815'
+    },
+    {
+        id: '2169022147',
+        title: 'Llámame Si Me Necesitas',
+        mp3: 'xic8enn6s74ia5k',
+        artists: [
+            {
+                name: 'Moenia'
+            }
+        ],
+        primaryColor: '#000000'
+    },
+    {
+        id: '2246450607',
+        title: 'La Última Canción',
+        mp3: 'qku1dpxjxd582ve',
+        artists: [
+            {
+                name: 'CNCO'
+            }
+        ],
+        primaryColor: '#101634'
+    },
+    {
+        id: '2246603827',
+        title: 'Prefiero Tomar',
+        mp3: '0q99rlo333pw8ev',
+        artists: [
+            {
+                name: 'Ana Bárbara'
+            }
+        ],
+        primaryColor: '#7b0a10'
+    },
+    {
+        id: '2259816227',
+        title: 'Fotos',
+        mp3: '0tjrsz0s1piq57g',
+        artists: [
+            {
+                name: 'PATY CANTÚ'
+            }
+        ],
+        primaryColor: '#8c615a'
+    },
+    {
+        id: '2227942127',
+        title: 'Morena 420',
+        mp3: '80r79q2x5v89zew',
+        artists: [
+            {
+                name: 'tornillo'
+            },
+            {
+                name: 'L-Gante'
+            }
+        ],
+        primaryColor: '#fe8b66'
+    },
+    {
+        id: '2248204177',
+        title: 'Querida',
+        mp3: 'ejvcxonkvq99gnp',
+        artists: [
+            {
+                name: 'Gera MX'
+            },
+            {
+                name: 'HERNAN TREJO'
+            }
+        ],
+        primaryColor: '#162b4b'
+    },
+    {
+        id: '2252843047',
+        title: 'ABLOH',
+        mp3: 'qsrd7253ej0mma4',
+        artists: [
+            {
+                name: 'El Alfa'
+            },
+            {
+                name: 'Big League Fendi'
+            }
+        ],
+        primaryColor: '#feca08'
+    },
+    {
+        id: '2237502107',
+        title: '305',
+        mp3: 'tplz6di4hfy6mt3',
+        artists: [
+            {
+                name: 'Alejo'
+            }
+        ],
+        primaryColor: '#032f59'
+    },
+    {
+        id: '2256225737',
+        title: 'Besar',
+        mp3: 'br2a3l4u73nraxw',
+        artists: [
+            {
+                name: 'Vivir Quintana'
+            }
+        ],
+        primaryColor: '#81979c'
+    },
+    {
+        id: '2224173037',
+        title: 'Maldades',
+        mp3: '896s1cm3pyu9jyi',
+        artists: [
+            {
+                name: 'Mendoza'
+            },
+            {
+                name: 'King Savage'
+            }
+        ],
+        primaryColor: '#14c187'
+    },
+    {
+        id: '2232242607',
+        title: 'Pa Quererte',
+        mp3: '6aoh3j2o62p9f4l',
+        artists: [
+            {
+                name: 'Las Villa'
+            },
+            {
+                name: 'Marco Mares'
+            }
+        ],
+        primaryColor: '#271f34'
+    },
+    {
+        id: '2234147757',
+        title: 'Flow Mexicano',
+        mp3: 'fqdxdipocx5snk4',
+        artists: [
+            {
+                name: 'Dan Garcia'
+            }
+        ],
+        primaryColor: '#85332d'
+    },
+    {
+        id: '2256272687',
+        title: 'YOKO',
+        mp3: '2byrka60wzuluax',
+        artists: [
+            {
+                name: 'Alvaro Díaz'
+            }
+        ],
+        primaryColor: '#070707'
+    },
+    {
+        id: '2249458947',
+        title: 'Y Yo Me Le Pego',
+        mp3: 'b51rt8gzig919gx',
+        artists: [
+            {
+                name: 'Bellakath'
+            },
+            {
+                name: 'Profeta Yao Yao'
+            }
+        ],
+        primaryColor: '#037799'
+    },
+    {
+        id: '2258441737',
+        title: 'Las Horas Pasan',
+        mp3: 'pwu9wutbylu7bf3',
+        artists: [
+            {
+                name: 'Zxmyr'
+            },
+            {
+                name: 'Sandro Malandro'
+            }
+        ],
+        primaryColor: '#252525'
+    },
+    {
+        id: '2244004107',
+        title: 'Paz',
+        mp3: 'b4d4rnj0mh2bs9j',
+        artists: [
+            {
+                name: 'Morad'
+            },
+            {
+                name: 'Nicki Nicole'
+            }
+        ],
+        primaryColor: '#1f1817'
+    },
+    {
+        id: '2238331717',
+        title: 'ReSURrección',
+        mp3: 'dj7czt7d8lk93mi',
+        artists: [
+            {
+                name: 'Mare Advertencia Lirika'
+            },
+            {
+                name: 'Tayhana'
+            }
+        ],
+        primaryColor: '#524c8b'
+    },
+    {
+        id: '2256627177',
+        title: 'Skittlez',
+        mp3: 'e8jdefshf0d4h6j',
+        artists: [
+            {
+                name: 'Alan Wittels'
+            },
+            {
+                name: 'Akapellah'
+            }
+        ],
+        primaryColor: '#dc793b'
+    },
+    {
+        id: '2244586087',
+        title: '¿Cuáles Fronteras?',
+        mp3: '1qhzp5v4fofqh40',
+        artists: [
+            {
+                name: 'Banda MS'
+            },
+            {
+                name: 'Ice Cube'
+            }
+        ],
+        primaryColor: '#4e5f64'
     },
 ]
 
