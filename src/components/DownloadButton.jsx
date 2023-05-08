@@ -3,15 +3,15 @@ import { IconButton } from '@mui/material';
 import React from 'react';
 
 function DownloadButton({ filename, fileurl }) {
-    const handleDownload = () => {
+    const handleDownload = async () => {
+        const response = await fetch(fileurl);
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
-        link.href = fileurl;
+        link.href = url;
         link.download = filename;
-        document.body.appendChild(link);
         link.click();
-        link.target = '_blank';
-        document.body.removeChild(link);
-    }
+    };
 
     return (
         <IconButton onClick={handleDownload}>
