@@ -9,6 +9,7 @@ function DownloadButton({ filename, fileurl }) {
         link.download = filename;
         document.body.appendChild(link);
         link.click();
+        link.target = '_blank';
         document.body.removeChild(link);
     }
 
