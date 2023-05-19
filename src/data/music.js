@@ -469,7 +469,7 @@ const tracks = [
                 name: 'Farruko'
             }
         ],
-        primaryColor: '#fce702'
+        primaryColor: '#beac03'
     },
     {
         id: '1360495262',
@@ -637,7 +637,7 @@ const tracks = [
                 name: 'Chencho Corleone'
             }
         ],
-        primaryColor: '#bae9e5'
+        primaryColor: '#16908a'
     },
     {
         id: '1618887382',
@@ -843,9 +843,6 @@ const tracks = [
                 name: 'Luis R Conriquez'
             },
             {
-                name: 'Tony Aguirre'
-            },
-            {
                 name: 'Peso Pluma'
             }
         ],
@@ -888,7 +885,7 @@ const tracks = [
                 name: 'Carin Leon'
             }
         ],
-        primaryColor: '#cdc9b1'
+        primaryColor: '#3e1e24'
     },
     {
         id: '2104699107',
@@ -1484,7 +1481,7 @@ const tracks = [
                 name: 'Kenia Os'
             }
         ],
-        primaryColor: '#9b3d3d'
+        primaryColor: '#7f5464'
     },
     {
         id: '2204618297',
@@ -2819,7 +2816,7 @@ const tracks = [
                 name: 'Milky Chance'
             }
         ],
-        primaryColor: '#FBD589'
+        primaryColor: '#2e1b40'
     },
     {
         id: '2245164837',
@@ -3441,7 +3438,7 @@ const tracks = [
                 name: 'Niall Horan'
             }
         ],
-        primaryColor: '#D1A07C'
+        primaryColor: '#80232a'
     },
     {
         id: '2255212497',
@@ -3463,7 +3460,7 @@ const tracks = [
                 name: 'Kesha'
             }
         ],
-        primaryColor: '#C0C0BF'
+        primaryColor: '#94635d'
     },
     {
         id: '2226796897',
@@ -3778,7 +3775,7 @@ const tracks = [
                 name: 'Omega'
             }
         ],
-        primaryColor: '#91EAFD'
+        primaryColor: '#037b98'
     },
     {
         id: '2204492107',
@@ -4311,6 +4308,17 @@ const tracks = [
             }
         ],
         primaryColor: '#4e5f64'
+    },
+    {
+        id: '2255434967',
+        title: 'La Receta',
+        mp3: 'yr368hhxfu1b8kh',
+        artists: [
+            {
+                name: 'Tego Calderón'
+            }
+        ],
+        primaryColor: '#2b725f'
     },
 ]
 

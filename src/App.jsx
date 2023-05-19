@@ -123,7 +123,7 @@ function App() {
       <Container className='main'>
         {
           count > -1  &&
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={hightQuality ? `https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.flac` : `https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={hightQuality ? `https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3` : `https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
         {/* PlayList */}
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center' }}>
