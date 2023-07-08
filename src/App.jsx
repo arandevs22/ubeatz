@@ -5,6 +5,7 @@ import { Image } from 'mui-image'
 import { pink } from '@mui/material/colors';
 import DownloadButton from './components/DownloadButton'
 import tracks from './data/music'
+import logo from '../public/logo.svg'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -28,7 +29,7 @@ const HdSwitch = styled(Switch)(({ theme }) => ({
   },
 }))
 
-const OffSet = styled('div')(({theme}) => theme.mixins.toolbar)
+const OffSet = styled('div')(({ theme }) => theme.mixins.toolbar)
 
 
 function App() {
@@ -116,62 +117,62 @@ function App() {
       document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
   })
 
+ 
 
 
   return (
     <div>
       <Container className='main'>
         {
-          count > -1  &&
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={hightQuality ? `https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3` : `https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          count > -1 &&
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-88976.appspot.com/o/mp3%2F${tracks[count].id}.mp3?alt=media&token=5fba30b4-2a44-42e9-9ddf-31b3ed9fbffd`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
         {/* PlayList */}
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center' }}>
-          <IconButton onClick={handleClickOpen}>
-            <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
-          </IconButton>
-          <Dialog
-            fullScreen
-            open={open}
-            onClose={handleClose}
-            TransitionComponent={Transition}
-          >
-            <AppBar sx={{ position: 'fixed' }}>
-              <Toolbar>
-                <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
-                <Typography sx={{ ml: 2, flexGrow: 1 }} variant='h6' component='div'>
-                  Lista de Reproduccion
-                </Typography>
-                <IconButton
-                  edge='start'
-                  onClick={handleClose}
-                  arial-label='close'
-                >
-                  <ExpandMore sx={{ color: '#fff', fontSize: 30 }} />
-                </IconButton>
-              </Toolbar>
-            </AppBar>
-            <OffSet />
-            <List sx={{ marginTop: 1 }}>
-              {tracks.map((songs, index) => (
-                <ListItem button key={index} onClick={() => handleIndex(index)}>
-                  <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
-                </ListItem>
-              )).reverse()}
-            </List>
-          </Dialog>
+          <img className='logo' src={logo} alt={logo} />
           <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Hd sx={{ color: '#fff', fontSize: 30 }} />
-            <HdSwitch onChange={handleHd} defaultChecked/>
+            <IconButton onClick={handleClickOpen}>
+              <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
+            </IconButton>
+            <Dialog
+              fullScreen
+              open={open}
+              onClose={handleClose}
+              TransitionComponent={Transition}
+            >
+              <AppBar sx={{ position: 'fixed' }}>
+                <Toolbar>
+                  <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
+                  <Typography sx={{ ml: 2, flexGrow: 1 }} variant='h6' component='div'>
+                    Lista de Reproduccion
+                  </Typography>
+                  <IconButton
+                    edge='start'
+                    onClick={handleClose}
+                    arial-label='close'
+                  >
+                    <ExpandMore sx={{ color: '#fff', fontSize: 30 }} />
+                  </IconButton>
+                </Toolbar>
+              </AppBar>
+              <OffSet />
+              <List sx={{ marginTop: 1 }}>
+                {tracks.map((songs, index) => (
+                  <ListItem button key={index} onClick={() => handleIndex(index)}>
+                    <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
+                  </ListItem>
+                )).reverse()}
+              </List>
+            </Dialog>
           </Box>
         </Box>
         {/* Cover Image */}
         {count === -1 ?
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/cover.jpg`} />
+            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-88976.appspot.com/o/images%2Fcover.jpg?alt=media&token=04950ae0-c41d-4b6e-b19f-7fbea0904561`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://aranstorage.blob.core.windows.net/ubeatz/${tracks[count].id}.jpg`} />
+            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-88976.appspot.com/o/images%2F${tracks[count].id}.jpg?alt=media&token=94890a29-f152-4a5f-8102-05e790ce0afe`} />
           </Box>
         }
         {/* Title & Artist Text */}
