@@ -5122,6 +5122,17 @@ const tracks = [
         ],
         primaryColor: '#743434'
     },
+    {
+        id: '2363329005',
+        title: 'FIGURITA',
+        mp3: 'l25wj5yhlsm2kgh',
+        artists: [
+            {
+                name: 'Vius'
+            },
+        ],
+        primaryColor: '#8E150D'
+    },
 ]
 
 export default tracks;
