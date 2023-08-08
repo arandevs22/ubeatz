@@ -172,7 +172,7 @@ function App() {
             <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-88976.appspot.com/o/images%2Fcover.jpg?alt=media&token=04950ae0-c41d-4b6e-b19f-7fbea0904561`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-88976.appspot.com/o/images%2F${tracks[count].id}.jpg?alt=media&token=94890a29-f152-4a5f-8102-05e790ce0afe`} />
+            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-964ca.appspot.com/o/covers%2F${tracks[count].id}.jpg?alt=media&token=1940f737-2651-4ef1-bf9c-0fe269ba154a`} />
           </Box>
         }
         {/* Title & Artist Text */}
