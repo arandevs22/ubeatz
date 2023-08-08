@@ -5133,6 +5133,127 @@ const tracks = [
         ],
         primaryColor: '#8E150D'
     },
+    {
+        id: '2387395475',
+        title: 'EL AMOR DE SU VIDA',
+        mp3: '1dap1gu8m4ml67q',
+        artists: [
+            {
+                name: 'Grupo Frontera'
+            },
+        ],
+        primaryColor: '#793025'
+    },
+    {
+        id: '2335356785',
+        title: 'SABOR FRESA',
+        mp3: 'e0atpw0m71wm5b4',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+        ],
+        primaryColor: '#921A1A'
+    },
+    {
+        id: '2343546405',
+        title: 'LADY GAGA',
+        mp3: 'b73416af2cmzsll',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#1F2A41'
+    },
+    {
+        id: '2359700725',
+        title: 'La 701',
+        mp3: '3e534znmzy4u8nd',
+        artists: [
+            {
+                name: 'Panter Bélico'
+            },
+        ],
+        primaryColor: '#3E4338'
+    },
+    {
+        id: '2348632825',
+        title: 'Mi Bello Angel',
+        mp3: '1ik4hucs5z06xwb',
+        artists: [
+            {
+                name: 'Natanael Cano'
+            },
+        ],
+        primaryColor: '#136B97'
+    },
+    {
+        id: '2378375145',
+        title: 'Tiki Taka Toco',
+        mp3: '1eh61xshxjtpl5q',
+        artists: [
+            {
+                name: 'Fuerza Regida'
+            },
+        ],
+        primaryColor: '#3A3A3A'
+    },
+    {
+        id: '2343546455',
+        title: 'TULUM',
+        mp3: 'czbihep3x0bsj6m',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#202A41'
+    },
+    {
+        id: '2390593055',
+        title: 'El Patrocinador',
+        mp3: 'hjjnjoop4u58xiw',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+        ],
+        primaryColor: '#322727'
+    },
+    {
+        id: '2348632755',
+        title: 'Mas Altas Que Bajadas',
+        mp3: 'zh4c5q3bd54p9e6',
+        artists: [
+            {
+                name: 'Natanael Cano'
+            },
+        ],
+        primaryColor: '#136892'
+    },
+    {
+        id: '2360009465',
+        title: 'Cuerno Mio',
+        mp3: 'oeww12qz9gywolk',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+        ],
+        primaryColor: '#9359C5'
+    },
+    {
+        id: '2248654867',
+        title: 'Abcdario',
+        mp3: 'ibhglmtfz4ptc4c',
+        artists: [
+            {
+                name: 'Edén Muñoz'
+            },
+        ],
+        primaryColor: '#1E2F29'
+    },
 ]
 
 export default tracks;
