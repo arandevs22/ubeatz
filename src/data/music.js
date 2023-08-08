@@ -4928,7 +4928,7 @@ const tracks = [
     {
         id: '2260390687',
         title: '3/21',
-        mp3: '',
+        mp3: 'mymu9l2m1t4pmgt',
         artists: [
             {
                 name: 'Piso 21'
@@ -4937,12 +4937,12 @@ const tracks = [
                 name: 'Ryan Castro'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#555587'
     },
     {
         id: '2276423177',
         title: 'Toto',
-        mp3: '',
+        mp3: 'qvaj6dw4pmsyh6t',
         artists: [
             {
                 name: 'Peipper'
@@ -4951,16 +4951,13 @@ const tracks = [
                 name: 'Yng Lvcas'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#21729C'
     },
     {
         id: '2107683377',
         title: 'Stars',
-        mp3: '',
+        mp3: 'ekwkvjgx6pw0dg0',
         artists: [
-            {
-                name: 'Pnau'
-            },
             {
                 name: 'Bebe Rexha'
             },
@@ -4968,62 +4965,34 @@ const tracks = [
                 name: 'Ozuna'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#3A5575'
     },
     {
         id: '2269644817',
         title: 'Palabras Sobran',
-        mp3: '',
+        mp3: 'z9it971vb7bkdqz',
         artists: [
             {
                 name: 'Blessd'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2276871937',
-        title: 'Donde CRJ (Remix)',
-        mp3: '',
-        artists: [
-            {
-                name: 'Karbeats'
-            },
-            {
-                name: 'Mora'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#428CA8'
     },
     {
         id: '2277055507',
         title: 'OYE MI VIDA',
-        mp3: '',
+        mp3: 'p2bslq8jhr1gng7',
         artists: [
             {
                 name: 'Ingratax'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2189442167',
-        title: 'Pa/´ lante',
-        mp3: '',
-        artists: [
-            {
-                name: 'Pahua'
-            },
-            {
-                name: 'Acid Coco'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#404040'
     },
     {
         id: '2281019237',
         title: 'Cecilia',
-        mp3: '',
+        mp3: 'wz0h6h17rl0wtcw',
         artists: [
             {
                 name: 'Juanes'
@@ -5032,23 +5001,23 @@ const tracks = [
                 name: 'Juan Luis Guerra'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#B64F03'
     },
     {
         id: '2287413787',
         title: 'No Es Que Me Quiera Ir',
-        mp3: '',
+        mp3: 'nrcay2xnkca4jcd',
         artists: [
             {
                 name: 'Alejandro Fernández'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#3B3B3B'
     },
     {
         id: '2246263447',
         title: 'El Cielo Aún Espera',
-        mp3: '',
+        mp3: 'fif9b1jwosxanjl',
         artists: [
             {
                 name: 'Jesús Adrián Romero'
@@ -5057,48 +5026,34 @@ const tracks = [
                 name: 'Adriel Favela'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2256040537',
-        title: 'Mi Peor Versión',
-        mp3: '',
-        artists: [
-            {
-                name: 'ElArturo'
-            },
-            {
-                name: 'Nabález'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#83888D'
     },
     {
         id: '2265212887',
         title: 'Que Soporten (Y La Queso)',
-        mp3: '',
+        mp3: '77zl9smki8moivb',
         artists: [
             {
                 name: 'Eme MalaFe'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#987E36'
     },
     {
         id: '2269636587',
         title: 'La Puerta',
-        mp3: '',
+        mp3: 'b2mest8trz9tjlf',
         artists: [
             {
                 name: 'YEИDRY'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#979797'
     },
     {
         id: '2257216227',
         title: 'Multiverso (feat. Jay Wheeler)',
-        mp3: '',
+        mp3: '9zfjvqw2cdr579d',
         artists: [
             {
                 name: 'Noreh'
@@ -5107,111 +5062,56 @@ const tracks = [
                 name: 'Jay Wheeler'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2250167717',
-        title: 'EL FINAL',
-        mp3: '',
-        artists: [
-            {
-                name: 'Hello Seahorse!'
-            }
-        ],
-        primaryColor: ''
-    },
-    {
-        id: '2279332097',
-        title: 'Dont Forget About Me',
-        mp3: '',
-        artists: [
-            {
-                name: 'd4vd'
-            }
-        ],
-        primaryColor: ''
-    },
-    {
-        id: '2281206657',
-        title: 'Never Ending Song',
-        mp3: '',
-        artists: [
-            {
-                name: 'Conan Gray'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#3B3B3B'
     },
     {
         id: '2274832397',
         title: 'Padam Padam',
-        mp3: '',
+        mp3: '5i90wmfftbn4cxa',
         artists: [
             {
                 name: 'Kylie Minogue'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#9F0404'
     },
     {
         id: '2289022555',
         title: 'Mourning',
-        mp3: '',
+        mp3: 'ugbjnceboih4mig',
         artists: [
             {
                 name: 'Post Malone'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2285098317',
-        title: 'The Narcissist',
-        mp3: '',
-        artists: [
-            {
-                name: 'Blur'
-            }
-        ],
-        primaryColor: ''
-    },
-    {
-        id: '2285516697',
-        title: 'Under You',
-        mp3: '',
-        artists: [
-            {
-                name: 'Foo Fighters'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#266D80'
     },
     {
         id: '2265136877',
         title: 'Dame Luz',
-        mp3: '',
+        mp3: 'mlal85iw4ngyhvv',
         artists: [
             {
                 name: 'Brytiago'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#85310A'
     },
     {
         id: '2282526417',
         title: 'Te Cura',
-        mp3: '',
+        mp3: '4midvienb547gqj',
         artists: [
             {
                 name: 'Maria Becerra'
             }
         ],
-        primaryColor: ''
+        primaryColor: '#212525'
     },
     {
         id: '2279060547',
         title: 'MAMACITA',
-        mp3: '',
+        mp3: 'mss9lnydw6ulwl7',
         artists: [
             {
                 name: 'Natalia Paris'
@@ -5220,40 +5120,7 @@ const tracks = [
                 name: 'Zion & Lennox'
             }
         ],
-        primaryColor: ''
-    },
-    {
-        id: '2253543057',
-        title: 'Atardeció sin vos',
-        mp3: '',
-        artists: [
-            {
-                name: 'El David'
-            }
-        ],
-        primaryColor: ''
-    },
-    {
-        id: '2254846357',
-        title: 'Como las Aves',
-        mp3: '',
-        artists: [
-            {
-                name: 'Samantha Barrón'
-            }
-        ],
-        primaryColor: ''
-    },
-    {
-        id: '2281113617',
-        title: 'Calle Sin Salida',
-        mp3: '',
-        artists: [
-            {
-                name: 'Daniela Spalla'
-            }
-        ],
-        primaryColor: ''
+        primaryColor: '#743434'
     },
 ]
 
