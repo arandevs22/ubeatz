@@ -5254,6 +5254,259 @@ const tracks = [
         ],
         primaryColor: '#1E2F29'
     },
+    {
+        id: '2386410175',
+        title: 'VENTE CONMIGO',
+        mp3: 'wjq8pn55jhz1lgs',
+        artists: [
+            {
+                name: 'Feid'
+            },
+        ],
+        primaryColor: '#095023'
+    },
+    {
+        id: '2159990627',
+        title: 'LALA',
+        mp3: 'r1m0tvniggiy8bx',
+        artists: [
+            {
+                name: 'Myke Towers'
+            },
+        ],
+        primaryColor: '#5D707E'
+    },
+    {
+        id: '2356322575',
+        title: 'S91',
+        mp3: 'vymmfzc11vgmkum',
+        artists: [
+            {
+                name: 'KAROL G'
+            },
+        ],
+        primaryColor: '#301414'
+    },
+    {
+        id: '2154046577',
+        title: 'AMARGURA',
+        mp3: 'efjhosht6toji9k',
+        artists: [
+            {
+                name: 'KAROL G'
+            },
+        ],
+        primaryColor: '#6D201B'
+    },
+    {
+        id: '2330147445',
+        title: 'MOJABI GHOST',
+        mp3: 'lji64a359mhuv8q',
+        artists: [
+            {
+                name: 'Tainy'
+            },
+        ],
+        primaryColor: '#343434'
+    },
+    {
+        id: '2307653835',
+        title: 'Yankee 150',
+        mp3: 'joxci24u4mg8fa0',
+        artists: [
+            {
+                name: 'Yandel'
+            },
+        ],
+        primaryColor: '#164250'
+    },
+    {
+        id: '2386408705',
+        title: 'Tenemos que hablar',
+        mp3: 'r7k1ia7xlfwqug7',
+        artists: [
+            {
+                name: 'Danna Paola'
+            },
+        ],
+        primaryColor: '#9F4132'
+    },
+    {
+        id: '2371630595',
+        title: 'EL RELOJ',
+        mp3: 'guptwbjguyw9104',
+        artists: [
+            {
+                name: 'Blessd'
+            },
+        ],
+        primaryColor: '#1B647B'
+    },
+    {
+        id: '2304999015',
+        title: 'COCO LOCO',
+        mp3: 'pnb27ssf96ybrui',
+        artists: [
+            {
+                name: 'Maluma'
+            },
+        ],
+        primaryColor: '#232E12'
+    },
+    {
+        id: '2269753247',
+        title: 'VAGABUNDO',
+        mp3: 'lv30cu35ptmwd3p',
+        artists: [
+            {
+                name: 'Sebastian Yatra'
+            },
+        ],
+        primaryColor: '#612D32'
+    },
+    {
+        id: '2326105095',
+        title: 'Copa Vacía',
+        mp3: 'h21vqqb1bdtia0z',
+        artists: [
+            {
+                name: 'Shakira'
+            },
+        ],
+        primaryColor: '#322D2D'
+    },
+    {
+        id: '2282544027',
+        title: 'tqum',
+        mp3: 'h4qw7hzynsx5b51',
+        artists: [
+            {
+                name: 'Sofía Reyes'
+            },
+        ],
+        primaryColor: '#818181'
+    },
+    {
+        id: '2381425315',
+        title: 'Pacto (Remix)',
+        mp3: '76zr5q2c6iwq8sm',
+        artists: [
+            {
+                name: 'Jay Wheeler'
+            },
+        ],
+        primaryColor: '#0D8282'
+    },
+    {
+        id: '2383731235',
+        title: 'Piedritas En Los Dientes',
+        mp3: 'zszf6bcr2eh20qz',
+        artists: [
+            {
+                name: 'Sech'
+            },
+        ],
+        primaryColor: '#850231'
+    },
+    {
+        id: '2375967015',
+        title: 'K-POP',
+        mp3: 'ekjv0nzg95on3y6',
+        artists: [
+            {
+                name: 'Travis Scott'
+            },
+        ],
+        primaryColor: '#888888'
+    },
+    {
+        id: '2381206745',
+        title: 'Holanda',
+        mp3: 'ddh4mow2li14vib',
+        artists: [
+            {
+                name: 'Jhayco'
+            },
+        ],
+        primaryColor: '#182731'
+    },
+    {
+        id: '2361031235',
+        title: 'Baby',
+        mp3: 'rc2sedvlwp20bkr',
+        artists: [
+            {
+                name: 'Anuel AA'
+            },
+        ],
+        primaryColor: '#91190E'
+    },
+    {
+        id: '2365851525',
+        title: 'Cafe Malibú',
+        mp3: 'lyc1e8pbhgbhmza',
+        artists: [
+            {
+                name: 'Sech'
+            },
+        ],
+        primaryColor: '#A43265'
+    },
+    {
+        id: '2379020405',
+        title: '6PM EN MALLORCA',
+        mp3: 'hxozqt51jer1cxr',
+        artists: [
+            {
+                name: 'Eladio Carrion'
+            },
+        ],
+        primaryColor: '#3C4F63'
+    },
+    {
+        id: '2289614985',
+        title: 'Juego',
+        mp3: 'jmcrvos7lpsqssk',
+        artists: [
+            {
+                name: 'Nesty la mente maestra'
+            },
+        ],
+        primaryColor: '#3B3B3B'
+    },
+    {
+        id: '2352899405',
+        title: 'QUEMA',
+        mp3: 'rrv0jh2knvjw0or',
+        artists: [
+            {
+                name: 'Ryan Castro'
+            },
+        ],
+        primaryColor: '#811C0D'
+    },
+    {
+        id: '2337319195',
+        title: 'LA BABY',
+        mp3: 'u3wja3i0zvgpekz',
+        artists: [
+            {
+                name: 'Tainy'
+            },
+        ],
+        primaryColor: '#3A3F3F'
+    },
+    {
+        id: '2371704995',
+        title: 'wiggy',
+        mp3: 'knk0b2r3i846m1f',
+        artists: [
+            {
+                name: 'Young Miko'
+            },
+        ],
+        primaryColor: '#8D3466'
+    },
 ]
 
 export default tracks;
