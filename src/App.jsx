@@ -247,7 +247,7 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
-            <DownloadButton filename={tracks[count].title} fileurl={`https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3/file`} />
+            <DownloadButton filename={tracks[count].title} fileurl={`https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3`} />
           </Box>
         }
       </Container>
