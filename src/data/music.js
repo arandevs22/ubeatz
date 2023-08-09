@@ -1099,20 +1099,6 @@ const tracks = [
         primaryColor: '#a506cd'
     },
     {
-        id: '2164072147',
-        title: '¿Cómo Se Supera?',
-        mp3: 'lvjvtkf6havun3q',
-        artists: [
-            {
-                name: 'Edén Muñoz'
-            },
-            {
-                name: 'MC Davo'
-            }
-        ],
-        primaryColor: '#98620e'
-    },
-    {
         id: '1879411037',
         title: 'A Mí Me Gustas Tú',
         mp3: '8enbdq3jvgcme5r',
@@ -3105,17 +3091,6 @@ const tracks = [
             }
         ],
         primaryColor: '#662172'
-    },
-    {
-        id: '2218630067',
-        title: 'Todo Fue Por Amor (de la película “Con Esta Luz”)',
-        mp3: '18CVOYR3oCk9',
-        artists: [
-            {
-                name: 'Carla Morrison'
-            }
-        ],
-        primaryColor: '#735452'
     },
     {
         id: '2220528227',
