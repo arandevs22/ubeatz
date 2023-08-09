@@ -5507,6 +5507,127 @@ const tracks = [
         ],
         primaryColor: '#8D3466'
     },
+    {
+        id: '2230205197',
+        title: 'Primera Cita',
+        mp3: 'qn1fn619zr1l5j7',
+        artists: [
+            {
+                name: 'Carin Leon'
+            },
+        ],
+        primaryColor: '#662B20'
+    },
+    {
+        id: '1595685441',
+        title: 'Julieta',
+        mp3: 'ywv9mzlyornk9wx',
+        artists: [
+            {
+                name: 'Latin Mafia'
+            },
+        ],
+        primaryColor: '#223B6E'
+    },
+    {
+        id: '2350185445',
+        title: 'Columbia',
+        mp3: 'uact9zxnxo1s54z',
+        artists: [
+            {
+                name: 'Quevedo'
+            },
+        ],
+        primaryColor: '#4D2B25'
+    },
+    {
+        id: '2249925927',
+        title: 'CCC',
+        mp3: 'j0rgtw4ztbxojip',
+        artists: [
+            {
+                name: 'Michelle Maciel'
+            },
+        ],
+        primaryColor: '#112A2A'
+    },
+    {
+        id: '2249458947',
+        title: 'Y Yo Me Le Pego',
+        mp3: 'b51rt8gzig919gx',
+        artists: [
+            {
+                name: 'Bellakath'
+            },
+        ],
+        primaryColor: '#04779B'
+    },
+    {
+        id: '2343546465',
+        title: 'LAGUNAS',
+        mp3: 'o0yk3wzydif961d',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#1A2336'
+    },
+    {
+        id: '2312765735',
+        title: 'DEMBOW BÉLICO',
+        mp3: 'wz6wlumjhz3udmx',
+        artists: [
+            {
+                name: 'Tito Double P'
+            },
+        ],
+        primaryColor: '#9C6582'
+    },
+    {
+        id: '2336600585',
+        title: 'BABY HELLO',
+        mp3: 'kkqmr73evgwv39k',
+        artists: [
+            {
+                name: 'Rauw Alejandro'
+            },
+        ],
+        primaryColor: '#161B64'
+    },
+    {
+        id: '2328294525',
+        title: 'Chulo pt.2',
+        mp3: '5mp5a7egc86c55k',
+        artists: [
+            {
+                name: 'Bad Gyal'
+            },
+        ],
+        primaryColor: '#912626'
+    },
+    {
+        id: '2345465745',
+        title: 'vampire',
+        mp3: 'g635tyxbtay05hx',
+        artists: [
+            {
+                name: 'Olivia Rodrigo'
+            },
+        ],
+        primaryColor: '#303030'
+    },
+    {
+        id: '2299840635',
+        title: 'Dance The Night (From Barbie The Album)',
+        mp3: '817uek1fmouf7f1',
+        artists: [
+            {
+                name: 'Dua Lipa'
+            },
+        ],
+        primaryColor: '#9C134D'
+    },
 ]
 
 export default tracks;
