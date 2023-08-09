@@ -1687,17 +1687,6 @@ const tracks = [
         primaryColor: '#1B5F71'
     },
     {
-        id: '2153864197',
-        title: 'S.H.E.A',
-        mp3: '5jcisotvner30vl',
-        artists: [
-            {
-                name: 'RBD'
-            }
-        ],
-        primaryColor: '#0278B5'
-    },
-    {
         id: '2115478887',
         title: 'sanvalentín:(',
         mp3: 'vgm862p3m1rq5jj',
@@ -3185,20 +3174,6 @@ const tracks = [
         primaryColor: '#5bbfd6'
     },
     {
-        id: '2231649957',
-        title: 'Sin Freno',
-        mp3: 'td8vyo0tgyt0ic7',
-        artists: [
-            {
-                name: 'Mitú'
-            },
-            {
-                name: 'Loyal Lobos'
-            }
-        ],
-        primaryColor: '#FDFDFD'
-    },
-    {
         id: '2222960947',
         title: 'Tan Natural',
         mp3: 'ld4rhdpklewnlni',
@@ -3948,20 +3923,6 @@ const tracks = [
         primaryColor: '#000000'
     },
     {
-        id: '2250154207',
-        title: 'Hero',
-        mp3: 'utpjrgeir8q7e6c',
-        artists: [
-            {
-                name: 'Alan Walker'
-            },
-            {
-                name: 'Sasha Alex Sloan'
-            }
-        ],
-        primaryColor: '#0c1b20'
-    },
-    {
         id: '2256073517',
         title: 'Curtains',
         mp3: 'ylmou2hocuysl1k',
@@ -4282,20 +4243,6 @@ const tracks = [
         primaryColor: '#524c8b'
     },
     {
-        id: '2256627177',
-        title: 'Skittlez',
-        mp3: 'e8jdefshf0d4h6j',
-        artists: [
-            {
-                name: 'Alan Wittels'
-            },
-            {
-                name: 'Akapellah'
-            }
-        ],
-        primaryColor: '#dc793b'
-    },
-    {
         id: '2244586087',
         title: '¿Cuáles Fronteras?',
         mp3: '1qhzp5v4fofqh40',
@@ -4474,17 +4421,6 @@ const tracks = [
             }
         ],
         primaryColor: '#1a8395'
-    },
-    {
-        id: '2123183527',
-        title: 'Purple Tiger',
-        mp3: 'ng4v0c59im2b3f6',
-        artists: [
-            {
-                name: 'Milky Chance'
-            }
-        ],
-        primaryColor: '#804153'
     },
     {
         id: '2264126867',
@@ -4784,17 +4720,6 @@ const tracks = [
         primaryColor: '#9f260f'
     },
     {
-        id: '2239506637',
-        title: 'Niña de Mis Ojos',
-        mp3: '8c8bzwz6ixo9hnv',
-        artists: [
-            {
-                name: 'La Isla Centeno'
-            }
-        ],
-        primaryColor: '#6c6c8f'
-    },
-    {
         id: '2269754047',
         title: 'Prometimos',
         mp3: 'vya15isuh50ntn7',
@@ -4846,17 +4771,6 @@ const tracks = [
             }
         ],
         primaryColor: '#4b1c1c'
-    },
-    {
-        id: '2262479317',
-        title: 'Hare Hare',
-        mp3: '47dss2ox0lbjxed',
-        artists: [
-            {
-                name: 'TWICE'
-            }
-        ],
-        primaryColor: '#1a6e90'
     },
     {
         id: '2218578977',
@@ -5627,6 +5541,127 @@ const tracks = [
             },
         ],
         primaryColor: '#9C134D'
+    },
+    {
+        id: '2331079325',
+        title: 'Cabaña',
+        mp3: '908snz70muyibfk',
+        artists: [
+            {
+                name: 'El Jordan 23'
+            },
+        ],
+        primaryColor: '#502F11'
+    },
+    {
+        id: '60752236',
+        title: 'Escápate Conmigo',
+        mp3: 'a2aykfuzudqr05x',
+        artists: [
+            {
+                name: 'Wolfine'
+            },
+        ],
+        primaryColor: '#353939'
+    },
+    {
+        id: '2352913895',
+        title: 'NO ME LA MOLESTE',
+        mp3: 'syjw7ov3jaw93wt',
+        artists: [
+            {
+                name: 'Rauw Alejandro'
+            },
+        ],
+        primaryColor: '#353A3A'
+    },
+    {
+        id: '2294944375',
+        title: 'El Cielo',
+        mp3: '56k30w5ytic2kc6',
+        artists: [
+            {
+                name: 'Sky Rompiendo'
+            },
+        ],
+        primaryColor: '#4A606E'
+    },
+    {
+        id: '2313435675',
+        title: 'POLARIS (Remix)',
+        mp3: '2ne33uf3v92miou',
+        artists: [
+            {
+                name: 'Saiko'
+            },
+        ],
+        primaryColor: '#148B95'
+    },
+    {
+        id: '2343546345',
+        title: 'RUBICON',
+        mp3: 'hqx26oeqqtq1pqd',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#159DAA'
+    },
+    {
+        id: '2277212137',
+        title: 'Bye',
+        mp3: 'gsb7nlv0eh6ici6',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#159DAA'
+    },
+    {
+        id: '2343546445',
+        title: 'NUEVA VIDA',
+        mp3: 'ija6y08pfb4ar4o',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#159DAA'
+    },
+    {
+        id: '2343546355',
+        title: 'CARNAL',
+        mp3: 'f3cz6g94e24nls1',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#159DAA'
+    },
+    {
+        id: '1647208952',
+        title: 'Extssy Model',
+        mp3: 'zeh4zexwtk7vwl4',
+        artists: [
+            {
+                name: 'Junior H'
+            },
+        ],
+        primaryColor: '#325C6A'
+    },
+    {
+        id: '2343546385',
+        title: 'VVS',
+        mp3: 'sklp6mk9o5br16v',
+        artists: [
+            {
+                name: 'Peso Pluma'
+            },
+        ],
+        primaryColor: '#159DAA'
     },
 ]
 
