@@ -1,6 +1,6 @@
-import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha } from '@mui/material'
+import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha, Icon } from '@mui/material'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
-import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd } from '@mui/icons-material'
+import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd, HighQuality } from '@mui/icons-material'
 import { Image } from 'mui-image'
 import { pink } from '@mui/material/colors';
 import DownloadButton from './components/DownloadButton'
@@ -125,14 +125,15 @@ function App() {
       <Container className='main'>
         {
           count > -1 &&
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://hooplay.b-cdn.net/ubeatz/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
         {/* PlayList */}
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center' }}>
           <img className='logo' src={logo} alt={logo} />
-          <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+          <HighQuality sx={{ color: '#fff', fontSize: 40}} />
+          {/* <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <IconButton onClick={handleClickOpen}>
-              <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
+              <HighQuality sx={{ color: '#fff', fontSize: 40 }} />
             </IconButton>
             <Dialog
               fullScreen
@@ -164,22 +165,22 @@ function App() {
                 )).reverse()}
               </List>
             </Dialog>
-          </Box>
+          </Box> */}
         </Box>
         {/* Cover Image */}
         {count === -1 ?
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-964ca.appspot.com/o/covers%2Fcover.png?alt=media&token=1940f737-2651-4ef1-bf9c-0fe269ba154a`} />
+            <Image className='cover' fit='contain' src={`https://hooplay.b-cdn.net/ubeatz/covers/cover.png`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://firebasestorage.googleapis.com/v0/b/ubeatz-964ca.appspot.com/o/covers%2F${tracks[count].id}.jpg?alt=media&token=1940f737-2651-4ef1-bf9c-0fe269ba154a`} />
+            <Image className='cover' fit='contain' src={`https://hooplay.b-cdn.net/ubeatz/covers/${tracks[count].id}.jpg`} />
           </Box>
         }
         {/* Title & Artist Text */}
         {count === -1 ?
           <Box mt={3}>
             <Typography mb={1} className='title2' variant='h6' color='#fff'>
-              Welcome to Ubeatz Radio
+              Bienvenidos a Ubeatz
             </Typography>
             <Typography variant='subtitle1' color={'rgba(255, 255, 255, 0.5)'}>
               Toca Iniciar
@@ -247,7 +248,7 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
-            <DownloadButton filename={tracks[count].title} fileurl={`https://www.mediafire.com/file_premium/${tracks[count].mp3}/${tracks[count].id}.mp3`} />
+            <DownloadButton filename={tracks[count].title} fileurl={`https://hooplay.b-cdn.net/ubeatz/${tracks[count].id}.flac`} />
           </Box>
         }
       </Container>
