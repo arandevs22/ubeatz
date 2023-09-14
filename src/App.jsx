@@ -5,7 +5,7 @@ import { Image } from 'mui-image'
 import { pink } from '@mui/material/colors';
 import DownloadButton from './components/DownloadButton'
 import tracks from './data/music'
-import logo from '../public/logo.svg'
+import logo from './assets/logo.svg'
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -128,7 +128,7 @@ function App() {
           <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://hooplay.b-cdn.net/ubeatz/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
         {/* PlayList */}
-        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center', mb: 4 }}>
           <img className='logo' src={logo} alt={logo} />
           <HighQuality sx={{ color: '#fff', fontSize: 40}} />
           {/* <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
