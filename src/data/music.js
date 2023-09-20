@@ -565,7 +565,7 @@ const tracks = [
     },
     {
         id: '2114119347',
-        title: 'PRC',   
+        title: 'PRC',
         artists: [
             {
                 name: 'Peso Pluma'
@@ -624,7 +624,7 @@ const tracks = [
     },
     {
         id: '1877735087',
-        title: 'Solita (En Vivo)',  
+        title: 'Solita (En Vivo)',
         artists: [
             {
                 name: 'Lenin Ramírez'
@@ -2843,6 +2843,264 @@ const tracks = [
             }
         ],
         primaryColor: '#ADADAD'
+    },
+    {
+        id: '2433263965',
+        title: 'OTRA VEZ',
+        artists: [
+            {
+                name: 'KEVIN ROLDAN'
+            }
+        ],
+        primaryColor: '#6F0404'
+    },
+    {
+        id: '2433069255',
+        title: 'Problema Cabrón',
+        artists: [
+            {
+                name: 'Residente'
+            },
+            {
+                name: 'Wos'
+            }
+        ],
+        primaryColor: '#535359'
+    },
+    {
+        id: '2414691895',
+        title: 'Trajecito XS',
+        artists: [
+            {
+                name: 'Alejo'
+            },
+            {
+                name: 'Yandel'
+            }
+        ],
+        primaryColor: '#1D7082'
+    },
+    {
+        id: '2438027535',
+        title: 'Como Antes',
+        artists: [
+            {
+                name: 'Nio Garcia'
+            }
+        ],
+        primaryColor: '#262C2C'
+    },
+    {
+        id: '2429718625',
+        title: 'Recapacité',
+        artists: [
+            {
+                name: 'Galante "El Emperador'
+            },
+            {
+                name: 'Kristian Beer'
+            }
+        ],
+        primaryColor: '#285A5A'
+    },
+    {
+        id: '2450668235',
+        title: 'Visita',
+        artists: [
+            {
+                name: 'Almighty'
+            }
+        ],
+        primaryColor: '#4F240B'
+    },
+    {
+        id: '2439774615',
+        title: 'YO SOY TU MAESTRO (Remix)',
+        artists: [
+            {
+                name: 'Roman El Original'
+            },
+            {
+                name: 'L-Gante'
+            }
+        ],
+        primaryColor: '#04795C'
+    },
+    {
+        id: '2444296875',
+        title: 'Good Times',
+        artists: [
+            {
+                name: 'Chencho Corleone'
+            }
+        ],
+        primaryColor: '#A74C0B'
+    },
+    {
+        id: '2448372925',
+        title: 'SI TE LLAMO',
+        artists: [
+            {
+                name: 'Gims'
+            },
+            {
+                name: 'Maluma'
+            }
+        ],
+        primaryColor: '#C5803B'
+    },
+    {
+        id: '2413441625',
+        title: 'La Verde',
+        artists: [
+            {
+                name: 'Justin Quiles'
+            }
+        ],
+        primaryColor: '#16B816'
+    },
+    {
+        id: '2444383865',
+        title: 'QUERIDO ABUELO',
+        artists: [
+            {
+                name: 'Becky G'
+            }
+        ],
+        primaryColor: '#414141'
+    },
+    {
+        id: '2416633545',
+        title: 'Pa Casa',
+        artists: [
+            {
+                name: 'ICON'
+            },
+            {
+                name: 'Ryan castro'
+            },
+            {
+                name: 'Saiko'
+            }
+        ],
+        primaryColor: '#3E6C7D'
+    },
+    {
+        id: '2444719715',
+        title: 'Te Menti',
+        artists: [
+            {
+                name: 'Ozuna'
+            },
+            {
+                name: 'Saiko'
+            },
+            {
+                name: 'Ovy'
+            }
+        ],
+        primaryColor: '#711E04'
+    },
+    {
+        id: '2450243445',
+        title: 'EN ALTAVOZ',
+        artists: [
+            {
+                name: 'Grupo Frontera'
+            },
+            {
+                name: 'Junior H'
+            }
+        ],
+        primaryColor: '#2475BA'
+    },
+    {
+        id: '2448961695',
+        title: 'Narcotics (with Bryant Myers)',
+        artists: [
+            {
+                name: 'Dei V'
+            },
+            {
+                name: 'Bryant Myers'
+            }
+        ],
+        primaryColor: '#64729B'
+    },
+    {
+        id: '2286066287',
+        title: '8 AM',
+        artists: [
+            {
+                name: 'Nicki Nicole'
+            },
+            {
+                name: 'Young Miko'
+            }
+        ],
+        primaryColor: '#5F240B'
+    },
+    {
+        id: '2432863185',
+        title: 'ELLA TIENE',
+        artists: [
+            {
+                name: 'Nathy Peluso'
+            },
+            {
+                name: 'Tiago PZK'
+            }
+        ],
+        primaryColor: '#3B3434'
+    },
+    {
+        id: '2444474075',
+        title: 'Energía Bacana',
+        artists: [
+            {
+                name: 'Sebastián Yatra'
+            }
+        ],
+        primaryColor: '#4F3030'
+    },
+    {
+        id: '2444473715',
+        title: 'Dientes',
+        artists: [
+            {
+                name: 'J Balvin'
+            },
+            {
+                name: 'Usher'
+            },
+            {
+                name: 'DJ Khaled'
+            }
+        ],
+        primaryColor: '#0477B0'
+    },
+    {
+        id: '2099745687',
+        title: 'Riri',
+        artists: [
+            {
+                name: 'Young Miko'
+            }
+        ],
+        primaryColor: '#4A2150'
+    },
+    {
+        id: '2412826435',
+        title: 'Cuerpo a Cuerpo',
+        artists: [
+            {
+                name: 'Wisin'
+            },
+            {
+                name: 'Omar Courtz'
+            }
+        ],
+        primaryColor: '#12CCCC'
     },
 ]
 
