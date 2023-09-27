@@ -130,22 +130,6 @@ const tracks = [
         primaryColor: '#1b212f'
     },
     {
-        id: '1112702042',
-        title: 'Tú Me Dejaste De Querer',
-        artists: [
-            {
-                name: 'C. Tangana'
-            },
-            {
-                name: 'Niño de Elche'
-            },
-            {
-                name: 'La Hungara'
-            }
-        ],
-        primaryColor: '#3d2222'
-    },
-    {
         id: '2381974745',
         title: 'Una Noche en Medellín',
         artists: [
@@ -154,32 +138,6 @@ const tracks = [
             }
         ],
         primaryColor: '#003b3d'
-    },
-    {
-        id: '2070349777',
-        title: 'Bebe Dame',
-        artists: [
-            {
-                name: 'Fuerza Regida'
-            },
-            {
-                name: 'Grupo Frontera'
-            }
-        ],
-        primaryColor: '#debb95'
-    },
-    {
-        id: '1834884417',
-        title: 'Billete Grande',
-        artists: [
-            {
-                name: 'Fuerza Regida'
-            },
-            {
-                name: 'Edgardo Nuñez'
-            }
-        ],
-        primaryColor: '#ed6c4b'
     },
     {
         id: '2139393487',
@@ -193,19 +151,6 @@ const tracks = [
             }
         ],
         primaryColor: '#0a1f5d'
-    },
-    {
-        id: '2042561707',
-        title: 'Ch y la Pizza',
-        artists: [
-            {
-                name: 'Fuerza Regida'
-            },
-            {
-                name: 'Natanael Cano'
-            }
-        ],
-        primaryColor: '#e73135'
     },
     {
         id: '2021546527',
@@ -231,19 +176,6 @@ const tracks = [
         primaryColor: '#df1707'
     },
     {
-        id: '1955330657',
-        title: 'El Gavilán',
-        artists: [
-            {
-                name: 'Luis R Conriquez'
-            },
-            {
-                name: 'Peso Pluma'
-            }
-        ],
-        primaryColor: '#39336f'
-    },
-    {
         id: '1751346197',
         title: 'El Hijo Mayor',
         artists: [
@@ -252,55 +184,6 @@ const tracks = [
             }
         ],
         primaryColor: '#9f1714'
-    },
-    {
-        id: '1815039577',
-        title: 'El Rescate',
-        artists: [
-            {
-                name: 'Grupo Marca Registrada'
-            },
-            {
-                name: 'Junior H'
-            }
-        ],
-        primaryColor: '#d32814'
-    },
-    {
-        id: '1113341932',
-        title: 'El Tóxico',
-        artists: [
-            {
-                name: 'Grupo Firme'
-            },
-            {
-                name: 'Carin Leon'
-            }
-        ],
-        primaryColor: '#3e1e24'
-    },
-    {
-        id: '2104699107',
-        title: 'Fin de Semana',
-        artists: [
-            {
-                name: 'Óscar Maydon'
-            },
-            {
-                name: 'Junior H'
-            }
-        ],
-        primaryColor: '#057c3e'
-    },
-    {
-        id: '2105158337',
-        title: 'Flowers',
-        artists: [
-            {
-                name: 'Miley Cyrus'
-            }
-        ],
-        primaryColor: '#005b84'
     },
     {
         id: '2042243747',
@@ -314,94 +197,6 @@ const tracks = [
             }
         ],
         primaryColor: '#c2c3bb'
-    },
-    {
-        id: '1647208912',
-        title: 'Los Botones Azules',
-        artists: [
-            {
-                name: 'Junior H'
-            },
-            {
-                name: 'Luis R Conriquez'
-            }
-        ],
-        primaryColor: '#568496'
-    },
-    {
-        id: '1768273097',
-        title: 'Ojos Marrones',
-        artists: [
-            {
-                name: 'Lasso'
-            }
-        ],
-        primaryColor: '#d1c4aa'
-    },
-    {
-        id: '1935473207',
-        title: 'Qué Agonía',
-        artists: [
-            {
-                name: 'Yuridia'
-            },
-            {
-                name: 'Angela Aguilar'
-            }
-        ],
-        primaryColor: '#934921'
-    },
-    {
-        id: '2057175987',
-        title: 'Que Vuelvas',
-        artists: [
-            {
-                name: 'Carin Leon'
-            },
-            {
-                name: 'Grupo Frontera'
-            }
-        ],
-        primaryColor: '#846944'
-    },
-    {
-        id: '1755821337',
-        title: 'Si Fuera Fácil',
-        artists: [
-            {
-                name: 'Grupo Marca Registrada'
-            }
-        ],
-        primaryColor: '#1e2341'
-    },
-    {
-        id: '2010569767',
-        title: 'Siempre Pendientes',
-        artists: [
-            {
-                name: 'Peso Pluma'
-            },
-            {
-                name: 'Luis R Conriquez'
-            }
-        ],
-        primaryColor: '#3d0b0a'
-    },
-    {
-        id: '2011058657',
-        title: 'Ando Enfocado',
-        artists: [
-            {
-                name: 'Jaziel Aviléz'
-            },
-            {
-                name: 'codiciado'
-            },
-            {
-                name: 'Oscar Iván Treviño'
-            }
-        ],
-        primaryColor: '#222222'
     },
     {
         id: '1811053857',
@@ -440,32 +235,6 @@ const tracks = [
         primaryColor: '#4d5c46'
     },
     {
-        id: '2193422517',
-        title: 'Dame Un Chance (La Cumbia Bélica)',
-        artists: [
-            {
-                name: 'Luis R Conriquez'
-            },
-            {
-                name: 'Grupo Frontera'
-            }
-        ],
-        primaryColor: '#be3937'
-    },
-    {
-        id: '2136421487',
-        title: 'Di Que Si',
-        artists: [
-            {
-                name: 'Grupo Marca Registrada'
-            },
-            {
-                name: 'Grupo Frontera'
-            }
-        ],
-        primaryColor: '#c6b2a7'
-    },
-    {
         id: '2193681047',
         title: 'Ella Baila Sola',
         artists: [
@@ -477,19 +246,6 @@ const tracks = [
             }
         ],
         primaryColor: '#0b0b14'
-    },
-    {
-        id: '2072408307',
-        title: 'En Paris',
-        artists: [
-            {
-                name: 'El Chachito'
-            },
-            {
-                name: 'Junior H'
-            }
-        ],
-        primaryColor: '#262621'
     },
     {
         id: '2164743217',
@@ -505,52 +261,6 @@ const tracks = [
         primaryColor: '#bebfb7'
     },
     {
-        id: '1932461477',
-        title: 'Malas Decisiones',
-        artists: [
-            {
-                name: 'Kenia Os'
-            }
-        ],
-        primaryColor: '#7f5464'
-    },
-    {
-        id: '2264295437',
-        title: 'No Es Por Acá',
-        artists: [
-            {
-                name: 'Carin Leon'
-            }
-        ],
-        primaryColor: '#B19155'
-    },
-    {
-        id: '2136042617',
-        title: 'Pedazo De Tonto',
-        artists: [
-            {
-                name: 'Carin Leon'
-            },
-            {
-                name: 'Luis Mexia'
-            }
-        ],
-        primaryColor: '#DDB84B'
-    },
-    {
-        id: '2117893047',
-        title: 'Por el Resto de Tu Vida',
-        artists: [
-            {
-                name: 'Christian Nodal'
-            },
-            {
-                name: 'TINI'
-            }
-        ],
-        primaryColor: '#999589'
-    },
-    {
         id: '2165868887',
         title: 'Por las Noches (Remix)',
         artists: [
@@ -564,32 +274,6 @@ const tracks = [
         primaryColor: '#0B5367'
     },
     {
-        id: '2114119347',
-        title: 'PRC',
-        artists: [
-            {
-                name: 'Peso Pluma'
-            },
-            {
-                name: 'Natanael Cano'
-            }
-        ],
-        primaryColor: '#8C5B0E'
-    },
-    {
-        id: '1946012447',
-        title: 'Puro Campeón',
-        artists: [
-            {
-                name: 'Grupo Marca Registrada'
-            },
-            {
-                name: 'Luis R Conriquez'
-            }
-        ],
-        primaryColor: '#B28870'
-    },
-    {
         id: '2142748117',
         title: 'Qué Onda Perdida',
         artists: [
@@ -598,62 +282,6 @@ const tracks = [
             }
         ],
         primaryColor: '#1B5F71'
-    },
-    {
-        id: '2083167437',
-        title: 'Se Me Soltó El Hocico',
-        artists: [
-            {
-                name: 'Los Dos Carnales'
-            }
-        ],
-        primaryColor: '#643858'
-    },
-    {
-        id: '2175401847',
-        title: 'Sin Rencores',
-        artists: [
-            {
-                name: 'Marca MP'
-            },
-            {
-                name: 'Marca Registrada'
-            }
-        ],
-        primaryColor: '#FA1D1E'
-    },
-    {
-        id: '1877735087',
-        title: 'Solita (En Vivo)',
-        artists: [
-            {
-                name: 'Lenin Ramírez'
-            },
-            {
-                name: 'Luis R Conriquez'
-            }
-        ],
-        primaryColor: '#334C32'
-    },
-    {
-        id: '1981719117',
-        title: 'Te Amo',
-        artists: [
-            {
-                name: 'Edgardo Nunez'
-            }
-        ],
-        primaryColor: '#677784'
-    },
-    {
-        id: '2156535097',
-        title: 'Te Invito a Ser Feliz',
-        artists: [
-            {
-                name: 'Edén Muñoz'
-            }
-        ],
-        primaryColor: '#F7ECAC'
     },
     {
         id: '2185109087',
@@ -667,19 +295,6 @@ const tracks = [
             }
         ],
         primaryColor: '#DD9331'
-    },
-    {
-        id: '2155548517',
-        title: 'Un Amor Como Este',
-        artists: [
-            {
-                name: 'Grupo Firme'
-            },
-            {
-                name: 'Luis R Conriquez'
-            }
-        ],
-        primaryColor: '#7A6D5C'
     },
     {
         id: '2149734217',
@@ -938,19 +553,6 @@ const tracks = [
             }
         ],
         primaryColor: '#021821'
-    },
-    {
-        id: '2041834357',
-        title: '911 (En Vivo)',
-        artists: [
-            {
-                name: 'Fuerza Regida'
-            },
-            {
-                name: 'Grupo Frontera'
-            }
-        ],
-        primaryColor: '#854039'
     },
     {
         id: '2203675167',
@@ -3102,6 +2704,211 @@ const tracks = [
         ],
         primaryColor: '#12CCCC'
     },
+    {
+        id: '7G0vBgcC5p2tBpeHiQzGFf',
+        title: 'Borracho y Loco',
+        artists: [
+            {
+                name: 'Yandel'
+            },
+            {
+                name: 'Myke Towers'
+            },
+        ],
+        primaryColor: '#182B2F'
+    },
+    {
+        id: '4sDpxaulErbJ9NBaJDC7cJ',
+        title: 'Buenas',
+        artists: [
+            {
+                name: 'Quevedo'
+            },
+            {
+                name: 'Saiko'
+            }
+        ],
+        primaryColor: '#45300D'
+    },
+    {
+        id: '36FTXlmbiV2diZdZukzLDm',
+        title: 'BUBALU',
+        artists: [
+            {
+                name: 'Feid'
+            },
+            {
+                name: 'Rema'
+            }
+        ],
+        primaryColor: '#0D1D13'
+    },
+    {
+        id: '1fRVcAo1TNDqdzV55vn3ep',
+        title: 'Gafas pal sol',
+        artists: [
+            {
+                name: 'Sech'
+            },
+            {
+                name: 'Eladio Carrion'
+            }
+        ],
+        primaryColor: '#4B4B4B'
+    },
+    {
+        id: '7Kzn6nzJQiUEj79IgxeD7F',
+        title: 'Santorini (Remix)',
+        artists: [
+            {
+                name: 'Beeele'
+            },
+            {
+                name: 'Farruko'
+            },
+            {
+                name: 'Jason Derulo'
+            }
+        ],
+        primaryColor: '#243D8A'
+    },
+    {
+        id: '1tgWvt78QUQrghdsbiteyZ',
+        title: 'LuXxX',
+        artists: [
+            {
+                name: 'LIT Killah'
+            },
+            {
+                name: 'Tiago PZK'
+            },
+            {
+                name: 'Big One'
+            }
+        ],
+        primaryColor: '#725A9B'
+    },
+    {
+        id: '1CEdDExqYCaf9UB3nwsBZs',
+        title: 'TROYA',
+        artists: [
+            {
+                name: 'Duki'
+            }
+        ],
+        primaryColor: '#413A28'
+    },
+    {
+        id: '#3E3E3E',
+        title: 'Nalgas Rojas',
+        artists: [
+            {
+                name: 'Cris Mj'
+            },
+            {
+                name: 'Magicenelbeat'
+            }
+        ],
+        primaryColor: '#484848'
+    },
+    {
+        id: '5wjsJIUf6pdrwauPDae43o',
+        title: 'El Jefe',
+        artists: [
+            {
+                name: 'Shakira'
+            },
+            {
+                name: 'Fuerza Regida'
+            }
+        ],
+        primaryColor: '#9C588B'
+    },
+    {
+        id: '7xkMZiXypSSqi7EIIYLDHF',
+        title: 'En mi piel',
+        artists: [
+            {
+                name: 'Piso 21'
+            },
+            {
+                name: 'Fainal & Shako'
+            }
+        ],
+        primaryColor: '#484848'
+    },
+    {
+        id: '4i7y0dm58PDFNgiXtASg6J',
+        title: 'YAYA',
+        artists: [
+            {
+                name: 'DÍMELO CORI'
+            },
+            {
+                name: 'Yng Lvcas'
+            }
+        ],
+        primaryColor: '#474747'
+    },
+    {
+        id: '2O1lgvslX1y8KNuzBoOoSN',
+        title: '5 Pal peso',
+        artists: [
+            {
+                name: 'FMK'
+            }
+        ],
+        primaryColor: '#BB6903'
+    },
+    {
+        id: '260rBjdoUcXRK8AeAqeg5X',
+        title: 'Dararí',
+        artists: [
+            {
+                name: 'Aitana'
+            }
+        ],
+        primaryColor: '#3F3F3F'
+    },
+    {
+        id: '2krRK5mPFejIewRSmkTKpb',
+        title: 'DEFINITIVA',
+        artists: [
+            {
+                name: 'LiL Cake'
+            },
+            {
+                name: 'MC Caverinha'
+            }
+        ],
+        primaryColor: '#5B8C28'
+    },
+    {
+        id: '34Iw1vdwNttY3t9pbFA8iQ',
+        title: 'Contigo Hasta el Final',
+        artists: [
+            {
+                name: 'Gian Marco'
+            },
+            {
+                name: 'Mike Bahia'
+            }
+        ],
+        primaryColor: '#B8B3A6'
+    },
+    {
+        id: '5whquDzWNIFu4d7ERTVdao',
+        title: 'PATÁN',
+        artists: [
+            {
+                name: 'Kim Loaiza'
+            },
+            {
+                name: 'Pailita'
+            }
+        ],
+        primaryColor: '#0B2D28'
+    }
 ]
 
 export default tracks;

@@ -1,4 +1,4 @@
-import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha, Icon } from '@mui/material'
+import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha, Icon, ListItemButton, SwipeableDrawer } from '@mui/material'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd, HighQuality } from '@mui/icons-material'
 import { Image } from 'mui-image'
@@ -117,7 +117,7 @@ function App() {
       document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
   })
 
- 
+
 
 
   return (
@@ -125,21 +125,19 @@ function App() {
       <Container className='main'>
         {
           count > -1 &&
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://hooplay.b-cdn.net/ubeatz/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
         {/* PlayList */}
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center', mb: 3 }}>
           <img className='logo' src={logo} alt={logo} />
-          <HighQuality sx={{ color: '#fff', fontSize: 40}} />
-          {/* <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <IconButton onClick={handleClickOpen}>
               <HighQuality sx={{ color: '#fff', fontSize: 40 }} />
             </IconButton>
-            <Dialog
-              fullScreen
+            <SwipeableDrawer
               open={open}
               onClose={handleClose}
-              TransitionComponent={Transition}
+              anchor='bottom'
             >
               <AppBar sx={{ position: 'fixed' }}>
                 <Toolbar>
@@ -159,21 +157,23 @@ function App() {
               <OffSet />
               <List sx={{ marginTop: 1 }}>
                 {tracks.map((songs, index) => (
-                  <ListItem button key={index} onClick={() => handleIndex(index)}>
-                    <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
+                  <ListItem key={index}>
+                    <ListItemButton onClick={() => handleIndex(index)}>
+                      <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
+                    </ListItemButton>
                   </ListItem>
                 )).reverse()}
               </List>
-            </Dialog>
-          </Box> */}
+            </SwipeableDrawer>
+          </Box>
         </Box>
         {/* Cover Image */}
         {count === -1 ?
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://hooplay.b-cdn.net/ubeatz/covers/cover.png`} />
+            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/cover.png`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://hooplay.b-cdn.net/ubeatz/covers/${tracks[count].id}.jpg`} />
+            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/${tracks[count].id}.jpg`} />
           </Box>
         }
         {/* Title & Artist Text */}
@@ -248,7 +248,7 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
-            <DownloadButton filename={tracks[count].title} fileurl={`https://hooplay.b-cdn.net/ubeatz/${tracks[count].id}.flac`} />
+            <DownloadButton filename={tracks[count].title} fileurl={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/${tracks[count].id}.flac`} />
           </Box>
         }
       </Container>
