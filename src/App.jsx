@@ -1,4 +1,26 @@
-import { AppBar, Dialog, List, ListItem, ListItemText, Slide, Toolbar, Box, Button, Container, IconButton, LinearProgress, Stack, Typography, styled, Switch, alpha, Icon, ListItemButton, SwipeableDrawer } from '@mui/material'
+import {
+  AppBar,
+  Dialog,
+  List,
+  ListItem,
+  ListItemText,
+  Slide,
+  Toolbar,
+  Box,
+  Button,
+  Container,
+  IconButton,
+  LinearProgress,
+  Stack,
+  Typography,
+  styled,
+  Switch,
+  alpha,
+  Icon,
+  ListItemButton,
+  SwipeableDrawer,
+  ListItemAvatar, Avatar
+} from '@mui/material'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
 import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd, HighQuality } from '@mui/icons-material'
 import { Image } from 'mui-image'
@@ -95,10 +117,6 @@ function App() {
     setOpen(false)
   }
 
-  const handleHd = () => {
-    setHightQuality(!hightQuality)
-  }
-
   useEffect(() => {
     setProgress(duration > -1 ? (currentTime / duration) * 100 : 0)
   }, [currentTime, duration])
@@ -132,7 +150,7 @@ function App() {
           <img className='logo' src={logo} alt={logo} />
           <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <IconButton onClick={handleClickOpen}>
-              <HighQuality sx={{ color: '#fff', fontSize: 40 }} />
+              <QueueMusic sx={{ color: '#fff', fontSize: 40 }} />
             </IconButton>
             <SwipeableDrawer
               open={open}
@@ -159,6 +177,11 @@ function App() {
                 {tracks.map((songs, index) => (
                   <ListItem key={index}>
                     <ListItemButton onClick={() => handleIndex(index)}>
+                      <ListItemAvatar>
+                        <Avatar
+                            src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/${songs.id}.jpg`}
+                        />
+                      </ListItemAvatar>
                       <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
                     </ListItemButton>
                   </ListItem>
@@ -170,7 +193,7 @@ function App() {
         {/* Cover Image */}
         {count === -1 ?
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/cover.png`} />
+            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/cover.jpg`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
             <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/${tracks[count].id}.jpg`} />

@@ -107,3 +107,8 @@ body {
 .cover {
   border-radius: 16px;
 }
+
+.MuiPaper-root.MuiDrawer-paper {
+  background-color: #121212;
+  color: #ffffff;
+}
