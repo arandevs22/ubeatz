@@ -1,11 +1,5 @@
 import {
-  AppBar,
-  Dialog,
-  List,
-  ListItem,
-  ListItemText,
   Slide,
-  Toolbar,
   Box,
   Button,
   Container,
@@ -16,18 +10,15 @@ import {
   styled,
   Switch,
   alpha,
-  Icon,
-  ListItemButton,
-  SwipeableDrawer,
-  ListItemAvatar, Avatar
 } from '@mui/material'
 import { Fragment, useEffect, useRef, useState, forwardRef } from 'react'
-import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, QueueMusic, ExpandMore, Hd, HighQuality } from '@mui/icons-material'
+import { Loop, PauseCircle, PlayCircle, Shuffle, SkipNext, VolumeOff, VolumeUp, HighQuality } from '@mui/icons-material'
 import { Image } from 'mui-image'
 import { pink } from '@mui/material/colors';
 import DownloadButton from './components/DownloadButton'
-import tracks from './data/music'
 import logo from './assets/logo.svg'
+import { collection, doc, getDocs } from 'firebase/firestore';
+import { db } from './firebase';
 
 const TimeLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -56,6 +47,9 @@ const OffSet = styled('div')(({ theme }) => theme.mixins.toolbar)
 
 function App() {
 
+
+  const [tracks, setTracks] = useState([]);
+
   const [count, setCount] = useState(-1)
 
   const [isPlaying, setPlaying] = useState(true)
@@ -71,10 +65,6 @@ function App() {
   const [isMuted, setIsMuted] = useState(false)
 
   const [open, setOpen] = useState(false)
-
-  const [selectedIndex, setSelectIndex] = useState(-1)
-
-  const [hightQuality, setHightQuality] = useState(true)
 
   const audioPlayer = useRef()
 
@@ -107,15 +97,21 @@ function App() {
     setOpen(true)
   }
 
-  const handleClose = () => {
-    setOpen(false)
-  }
-
-  const handleIndex = (index) => {
-    setSelectIndex(index)
-    setCount(index)
-    setOpen(false)
-  }
+  useEffect(() => {
+    const getTracks = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, 'tracks'));
+        const docs = [];
+        querySnapshot.forEach((doc) => {
+          docs.push({ ...doc.data(), id: doc.id })
+        });
+        setTracks(docs);
+      } catch (error) {
+        console.log(error);
+      };
+    }
+    getTracks();
+  }, []);
 
   useEffect(() => {
     setProgress(duration > -1 ? (currentTime / duration) * 100 : 0)
@@ -132,71 +128,33 @@ function App() {
   useEffect(() => {
     count === -1 ?
       document.body.style.backgroundImage = `linear-gradient(to top, #121212, #232323)` :
-      document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].primaryColor})`
+      document.body.style.backgroundImage = `linear-gradient(to top, #121212, ${tracks[count].color})`
   })
-
-
-
 
   return (
     <div>
       <Container className='main'>
+        {/* Audio */}
         {
           count > -1 &&
-          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
+          <audio preload='true' typeof='audio/mpeg' onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)} onLoadedMetadata={(e) => setDuration(e.target.duration)} ref={audioPlayer} className='audio-player' autoPlay={true} src={`https://f005.backblazeb2.com/file/ubeatz/tracks/${tracks[count].id}.flac`} onEnded={randomBtn} loop={isLoop} muted={isMuted} />
         }
-        {/* PlayList */}
+        {/* Navbar */}
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: 2, alignItems: 'center', mb: 3 }}>
           <img className='logo' src={logo} alt={logo} />
           <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <IconButton onClick={handleClickOpen}>
-              <QueueMusic sx={{ color: '#fff', fontSize: 40 }} />
+              <HighQuality sx={{ color: '#fff', fontSize: 40 }} />
             </IconButton>
-            <SwipeableDrawer
-              open={open}
-              onClose={handleClose}
-              anchor='bottom'
-            >
-              <AppBar sx={{ position: 'fixed' }}>
-                <Toolbar>
-                  <QueueMusic sx={{ color: '#fff', fontSize: 30 }} />
-                  <Typography sx={{ ml: 2, flexGrow: 1 }} variant='h6' component='div'>
-                    Lista de Reproduccion
-                  </Typography>
-                  <IconButton
-                    edge='start'
-                    onClick={handleClose}
-                    arial-label='close'
-                  >
-                    <ExpandMore sx={{ color: '#fff', fontSize: 30 }} />
-                  </IconButton>
-                </Toolbar>
-              </AppBar>
-              <OffSet />
-              <List sx={{ marginTop: 1 }}>
-                {tracks.map((songs, index) => (
-                  <ListItem key={index}>
-                    <ListItemButton onClick={() => handleIndex(index)}>
-                      <ListItemAvatar>
-                        <Avatar
-                            src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/${songs.id}.jpg`}
-                        />
-                      </ListItemAvatar>
-                      <ListItemText primary={songs.title} secondary={songs.artists[0].name} />
-                    </ListItemButton>
-                  </ListItem>
-                )).reverse()}
-              </List>
-            </SwipeableDrawer>
           </Box>
         </Box>
         {/* Cover Image */}
         {count === -1 ?
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/cover.jpg`} />
+            <Image className='cover' fit='contain' src={`https://f005.backblazeb2.com/file/ubeatz/covers/2729119091.jpg`} />
           </Box> :
           <Box sx={{ paddingTop: 2, margin: 'auto', textAlign: 'center', width: '90%' }} mb={3}>
-            <Image className='cover' fit='contain' src={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/covers/${tracks[count].id}.jpg`} />
+            <Image className='cover' fit='contain' src={`https://f005.backblazeb2.com/file/ubeatz/covers/${tracks[count].id}.jpg`} />
           </Box>
         }
         {/* Title & Artist Text */}
@@ -215,9 +173,9 @@ function App() {
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
               {tracks[count].artists.map((artist, index) => (
-                <Fragment key={artist.name}>
+                <Fragment key={artist}>
                   <Typography className='artist' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
-                    {artist.name}
+                    {artist}
                   </Typography>
                   {index !== tracks[count].artists.length - 1 && (
                     <Typography className='comma' variant='subtitle1' color='rgba(255, 255, 255, 0.5)'>
@@ -271,7 +229,7 @@ function App() {
             <IconButton onClick={randomBtn}>
               <SkipNext sx={{ fontSize: 30, color: '#fff' }} />
             </IconButton>
-            <DownloadButton filename={tracks[count].title} fileurl={`https://d1t5dqk3odxorh.cloudfront.net/ubeatz/${tracks[count].id}.flac`} />
+            <DownloadButton filename={tracks[count].title} fileurl={`https://f005.backblazeb2.com/file/ubeatz/tracks/${tracks[count].id}.flac`} />
           </Box>
         }
       </Container>
